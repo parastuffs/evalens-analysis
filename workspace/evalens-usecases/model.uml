@@ -261,11 +261,11 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_4EpmsyVNEeW1VIG_-Vg0vQ" name="gestion du groupe « commission facultaire »" type="_4FIH0CVNEeW1VIG_-Vg0vQ" association="_4EpmsCVNEeW1VIG_-Vg0vQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_4EpmtCVNEeW1VIG_-Vg0vQ" name="administrateur" type="_4FKkECVNEeW1VIG_-Vg0vQ" association="_4EpmsCVNEeW1VIG_-Vg0vQ"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_4EyJkCVNEeW1VIG_-Vg0vQ" name="Gestionnaire pédagogique facultaire"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_4EyJkCVNEeW1VIG_-Vg0vQ" name="Commission pédagogique"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_4EzXsCVNEeW1VIG_-Vg0vQ" name="Gestion. support">
     <generalization xmi:type="uml:Generalization" xmi:id="_4EzXsSVNEeW1VIG_-Vg0vQ" general="_4FKkECVNEeW1VIG_-Vg0vQ"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_4E0l0CVNEeW1VIG_-Vg0vQ" name="Commission pédagogique">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_4E0l0CVNEeW1VIG_-Vg0vQ" name="Gestionnaire pédagogique facultaire">
     <generalization xmi:type="uml:Generalization" xmi:id="_4E0l0SVNEeW1VIG_-Vg0vQ" general="_4EyJkCVNEeW1VIG_-Vg0vQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_4E4QMCVNEeW1VIG_-Vg0vQ" memberEnd="_4E4QMyVNEeW1VIG_-Vg0vQ _4E4QNCVNEeW1VIG_-Vg0vQ">
@@ -346,10 +346,10 @@
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_mSBnsCVPEeW1VIG_-Vg0vQ" name="Prise d'avis"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_nt8MECVPEeW1VIG_-Vg0vQ" name="Traitement des résultats"/>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_uReKgCVPEeW1VIG_-Vg0vQ" name="Gestionnaire pédagogique facultaire">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_uReKgCVPEeW1VIG_-Vg0vQ" name="Commission pédagogique">
     <generalization xmi:type="uml:Generalization" xmi:id="_5K-qsCVPEeW1VIG_-Vg0vQ" general="_uRexkCVPEeW1VIG_-Vg0vQ"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_uRexkCVPEeW1VIG_-Vg0vQ" name="Commission pédagogique">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_uRexkCVPEeW1VIG_-Vg0vQ" name="Gestionnaire pédagogique facultaire">
     <generalization xmi:type="uml:Generalization" xmi:id="_uRexkSVPEeW1VIG_-Vg0vQ" general="_uReKgCVPEeW1VIG_-Vg0vQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_uRf_sCVPEeW1VIG_-Vg0vQ" name="Étudiant"/>

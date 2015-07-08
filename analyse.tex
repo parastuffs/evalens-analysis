@@ -39,6 +39,10 @@ Entité pouvant être composée de plusieurs personnes.
 \subsubsection{Membre}
 \subsubsection{Président}
 
+\subsection{Conseil des commissions pédagogiques (CoCoPe}
+
+% \subsection{CoA}
+
 \subsection{Étudiant}
 
 \subsection{Enseignant}
@@ -56,18 +60,29 @@ Intervalle de temps ayant une date et une heure de début et de fin.
 
 \subsection{Département de support aux activités académiques (DSAA)}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \chapter{Cas d'utilisation}
+
+\section{Administration}
+
 \begin{figure}[ht]
-\includegraphics[width=\linewidth]{UseCase_Diagram.PNG}
-\caption{Diagramme des cas d'utilisation}
-\label{fig:usecase-diag}
+\includegraphics[width=\linewidth]{workspace/evalens-usecases/administration.png}
+\caption{Diagramme des cas d'utilisation du système administratif.}
+\label{fig:usecase-admin}
 \end{figure}
-
-\section{Évaluation des enseignements}
-
-
-
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -168,9 +183,155 @@ Gestionnaire de communication & Gestion de la communication & Communique les inf
 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%      CONFIGURATION DE L'APPLICATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Configuration de l'application}
+L'architecture de l'application offre la possibilité au superviseur de modifier la configuration de certains paramètres.
+
+\noindent Ces paramètres font partie de la liste suivante~:
+\begin{itemize}
+	\item quorum~;
+	\item etc.
+\end{itemize}
 
 
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%      GESTION DE LA TRADUCTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Gestion de la traduction}
+La gestion de la traduction permet de traduire les données de présentation relatives à l'évaluation des enseignements dans une autre langue que le français.
+Le superviseur se charge de récupérer l'ensemble des données devant être traduites avant de les confier au DSAA, comme stipulé dans l'annexe~\ref{an:regl-cadre}.
+Les données à traduire sont les suivantes~:
+\begin{itemize}
+	\item Questionnaires
+	\item Interfaces utilisateur~:
+	\begin{itemize}
+		\item L'interface à destination des étudiants doit être traduite, en accord avec le règlement cadre (cf. annexe~\ref{an:regl-cadre}).
+		\item Les interfaces à destination des enseignants et des commissions peuvent être traduites.
+	\end{itemize}
+\end{itemize}
+
+% \begin{landscape}
+\subsubsection{Processus}
+\paragraph{Élément déclencheur}~\newline{}
+Requête de la part du superviseur.
+
+\paragraph{Planification}~\newline{}
+
+\begin{tabularx}{\linewidth}{|X|X|X|} \hline
+Fréquence du processus & Début & Fin \\ \hline
+Une fois & N/A & Avant la période de prise d'avis \\ \hline
+\end{tabularx}
+
+\paragraph{Data}~\newline{}
+
+\begin{tabularx}{\linewidth}{|X|X|} \hline
+Data In & Data Out \\ \hline
+Questionnaires et textes de l'interface en français & Questionnaires et textes traduits\\ \hline
+\end{tabularx}
+
+\paragraph{Data In du processus}~\newline{}
+
+\begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
+Data & Type & Source & Destiné à l'acteur \\ \hline
+Questionnaires et textes en français & Base de données & Application ? & DSAA\\ \hline
+\end{tabularx}
+
+\paragraph{Data Out du processus}~\newline{}
+
+\begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
+Data & Type & État & Destination \\ \hline
+Questionnaires et textes traduits & Base de données & En cours & Superviseur \\ \hline
+\end{tabularx}
+
+\paragraph{Acteurs}~\newline{}
+
+\begin{tabularx}{\linewidth}{|X|X|X|X|X|} \hline
+Nom & Rôle & Actions & Data In & Data Out \\ \hline 
+Superviseur & Gestionnaire de la traduction & Supervise et confie la traduction des questionnaires et des textes de l'interface au DSAA, en accord avec le règlement cadre~(cf. annexe~\ref{an:regl-cadre}) & Questionnaires et textes en français & Questionnaires et textes traduits \\ 
+DSAA & Traduction & Traduit les données qui lui sont communiquées depuis le français & Questionnaires et textes en français & Questionnaires et textes traduits \\ \hline
+\end{tabularx}
+
+% \end{landscape}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%      GESTION DES ÉTUDIANTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Gestion des étudiants}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%      GESTION DES ENSEIGNANTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Gestion des enseignants}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%      GESTION DES UNITÉS D'ENSEIGNEMENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Gestion des unités d'enseignement}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%      GESTION DES QUESTIONNAIRES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Gestion des questionnaires}
+Lors de chaque campagne, un questionnaire est associé à chaque unité d'enseignement.
+Ce questionnaire peut changer d'une campagne à l'autre, mais il doit être possible de retrouver celui correspondant à une campagne donnée.
+
+Cf. règlement cadre Article 5
+
+Au moins un mois avant le début de la période de prise d'avis, le recteur ou le vice-recteur désigné par lui sollicite les enseignants pour vérifier l'exactitude des données liées à leurs unités d'enseignement.
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%      STATISTIQUES D'ÉVALUATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Statistiques d'évaluation}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+\section{Gestion de campagne d'évaluation}
+
+\begin{figure}[ht]
+\includegraphics[width=\linewidth]{workspace/evalens-usecases/gestion_campagne.png}
+\caption{Diagramme des cas d'utilisation de la gestion de campagne d'évaluation.}
+\label{fig:usecase-campagne}
+\end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -264,101 +425,11 @@ Superviseur & Gestionnaire de calendrier & Établissement des dates & N/A & Cale
 % \begin{chronology}[1]{2016}{2017}{3em}{\linewidth}%
 % \event{\decimaldate{15}{02}{2016}}{three}
 % \end{chronology}
-
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%      CONFIGURATION DE L'APPLICATION
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Configuration de l'application}
-L'architecture de l'application offre la possibilité au superviseur de modifier la configuration de certains paramètres.
-
-\noindent Ces paramètres font partie de la liste suivante~:
-\begin{itemize}
-	\item quorum~;
-	\item etc.
-\end{itemize}
-
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%      GESTION DE LA TRADUCTION
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Gestion de la traduction}
-La gestion de la traduction permet de traduire les données de présentation relatives à l'évaluation des enseignements dans une autre langue que le français.
-Le superviseur se charge de récupérer l'ensemble des données devant être traduites avant de les confier au DSAA, comme stipulé dans l'annexe~\ref{an:regl-cadre}.
-Les données à traduire sont les suivantes~:
-\begin{itemize}
-	\item Questionnaires
-	\item Interfaces utilisateur~:
-	\begin{itemize}
-		\item L'interface à destination des étudiants doit être traduite, en accord avec le règlement cadre (cf. annexe~\ref{an:regl-cadre}).
-		\item Les interfaces à destination des enseignants et des commissions peuvent être traduites.
-	\end{itemize}
-\end{itemize}
-
-% \begin{landscape}
-\subsubsection{Processus}
-\paragraph{Élément déclencheur}~\newline{}
-Requête de la part du superviseur.
-
-\paragraph{Planification}~\newline{}
-
-\begin{tabularx}{\linewidth}{|X|X|X|} \hline
-Fréquence du processus & Début & Fin \\ \hline
-Une fois & N/A & Avant la période de prise d'avis \\ \hline
-\end{tabularx}
-
-\paragraph{Data}~\newline{}
-
-\begin{tabularx}{\linewidth}{|X|X|} \hline
-Data In & Data Out \\ \hline
-Questionnaires et textes de l'interface en français & Questionnaires et textes traduits\\ \hline
-\end{tabularx}
-
-\paragraph{Data In du processus}~\newline{}
-
-\begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
-Data & Type & Source & Destiné à l'acteur \\ \hline
-Questionnaires et textes en français & Base de données & Application ? & DSAA\\ \hline
-\end{tabularx}
-
-\paragraph{Data Out du processus}~\newline{}
-
-\begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
-Data & Type & État & Destination \\ \hline
-Questionnaires et textes traduits & Base de données & En cours & Superviseur \\ \hline
-\end{tabularx}
-
-\paragraph{Acteurs}~\newline{}
-
-\begin{tabularx}{\linewidth}{|X|X|X|X|X|} \hline
-Nom & Rôle & Actions & Data In & Data Out \\ \hline 
-Superviseur & Gestionnaire de la traduction & Supervise et confie la traduction des questionnaires et des textes de l'interface au DSAA, en accord avec le règlement cadre~(cf. annexe~\ref{an:regl-cadre}) & Questionnaires et textes en français & Questionnaires et textes traduits \\ 
-DSAA & Traduction & Traduit les données qui lui sont communiquées depuis le français & Questionnaires et textes en français & Questionnaires et textes traduits \\ \hline
-\end{tabularx}
-
-% \end{landscape}
-
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%      GESTION DES QUESTIONNAIRES
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Gestion des questionnaires}
-Lors de chaque campagne, un questionnaire est associé à chaque unité d'enseignement.
-Ce questionnaire peut changer d'une campagne à l'autre, mais il doit être possible de retrouver celui correspondant à une campagne donnée.
-
-Cf. règlement cadre Article 5
-
-Au moins un mois avant le début de la période de prise d'avis, le recteur ou le vice-recteur désigné par lui sollicite les enseignants pour vérifier l'exactitude des données liées à leurs unités d'enseignement.
-
+\begin{figure}[ht]
+\includegraphics[width=\linewidth]{timeline_exemple.png}
+\caption{Exemple de calendrier de campagne d'évaluation.}
+\label{fig:calendrier-exemple}
+\end{figure}
 
 
 
@@ -368,12 +439,12 @@ Au moins un mois avant le début de la période de prise d'avis, le recteur ou l
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %      EXPORTATION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Exportation}
-Les différentes données accessibles à l'utilisateur doivent pouvoir être exportées en différents formats~:
-\begin{itemize}
-	\item CSV
-	\item PDF
-\end{itemize}
+% \subsection{Exportation}
+% Les différentes données accessibles à l'utilisateur doivent pouvoir être exportées en différents formats~:
+% \begin{itemize}
+% 	\item CSV
+% 	\item PDF
+% \end{itemize}
 
 
 
@@ -383,7 +454,7 @@ Les différentes données accessibles à l'utilisateur doivent pouvoir être exp
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %      CONSULTATION DES RÉSULTATS PAR GRILLES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Consultation des résultats par grilles}
+\subsection{Consultation des résultats par grille}
 
 
 
@@ -408,23 +479,67 @@ Les titulaires des unités d'enseignement peuvent consulter
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%      TRAITEMENT DES RÉSULTATS
+%      STATISTIQUES DE CAMPAGNE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Traitement des résultats}
+\subsection{Statistiques de campagne}
 
 
 
 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%      SUPPORT UTILISATEURS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Support aux utilisateurs}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+\section{Gestion de campagne d'évaluation}
+
+\begin{figure}[ht]
+\includegraphics[width=\linewidth]{workspace/evalens-usecases/prise_avis.png}
+\caption{Diagramme des cas d'utilisation de la prive d'avis.}
+\label{fig:usecase-avis}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %      PRISE DES AVIS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Prise des avis}
-La prise d'avis est essentielle au processus d'évaluation des enseignements~; elle requiert des étudiants qu'ils remplissent les questionnaires d'évaluation concernant les unités d'enseignement qu'ils ont suivies lors de la période couverte par la campagne d'évaluation. % Les étudiants ont donc /l'obligation/ de remplir ces questionnaires.
-La prise d'avis est possible uniquement durant une période définie dans le calendrier de campagne.
+La prise des avis est le processus dans lequel les étudiants donnent leur avis sur les unités d'enseignement et les enseignants grâce aux questionnaires préalablement approuvés par la CoCoPe et implémentés par le processus de gestion des questionnaires.
+%La prise d'avis est essentielle au processus d'évaluation des enseignements~; elle requiert des étudiants qu'ils remplissent les questionnaires d'évaluation concernant les unités d'enseignement qu'ils ont suivies lors de la période couverte par la campagne d'évaluation. % Les étudiants ont donc /l'obligation/ de remplir ces questionnaires.
 
-Les étudiants ont la possibilité de remplir les questionnaires d'évaluation à distance et sont invités à le faire par courriel.
+La prise d'avis est possible uniquement durant la période définie à cet effet dans le calendrier de campagne.
+Les étudiants, les unités d'enseignement et les enseignants concernés par la prise d'avis sont ceux déterminés respectivement par le processus de gestion des étudiants, de gestion des unités d'enseignement et des enseignants.
+
+%Les étudiants ont la possibilité de remplir les questionnaires d'évaluation à distance et sont invités à le faire par courriel.
+L'étudiant est invité par courriel à participer à la prise d'avis.
+Il est alors dirigé vers l'application lui proposant sont programme individuel de cours (PIC) où sont repris les unité d'enseignement faisant partie ou non de la campagne d'évaluation.
+Après avoir sélectionné une unité d'enseignement soumise à évaluation, l'étudiant peut choisir les enseignants pour lesquels il donnera sont avis à l'écran suivant qui est constitué du questionnaire d'évaluation.
+Une fois le questionnaire rempli, l'étudiant peut le sauvegarder et est redirigé vers son PIC.
 
 Si la prise d'avis est obligatoire, elle est néanmoins anonyme. Le système d'évaluation est capable de déterminer quels étudiants ont rempli les questionnaires, mais pas leurs réponses.
 
@@ -473,10 +588,61 @@ Nom & Rôle & Actions & Data In & Data Out \\ \hline
 
 
 
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%      CONSULTATION/EXPORTATION DES STATISTIQUES
+%      TRAITEMENT DES RÉSULTATS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Consultation/exportation des statistiques}
+\subsection{Traitement des résultats}
+La gestion du traitement des résultats concerne l'émission d'une évaluation des unités d'enseignement et des enseignants sur base des résultats de la prise d'avis.
+Il permet à la commission pédagogique d'émettre un avis pour chaque unité d'enseignement et chaque enseignant soumis à la campagne d'évaluation.
+
+La période de traitement des résultats est définie dans le calendrier de campagne et débute après la fin de la période de prise d'avis.
+
+En cas d'avis potentiellement défavorable, il se passe des choses spéciales (article 9).
+
+Peut être à la base de l'émission d'un avis de circonstance.
+
+
+\subsubsection{Processus}
+\paragraph{Élément déclencheur}~\newline{}
+
+\paragraph{Planification}~\newline{}
+
+\begin{tabularx}{\linewidth}{|X|X|X|} \hline
+Fréquence du processus & Début & Fin \\ \hline
+
+\end{tabularx}
+
+\paragraph{Data}~\newline{}
+
+\begin{tabularx}{\linewidth}{|X|X|} \hline
+Data In & Data Out \\ \hline
+ & \\ \hline
+\end{tabularx}
+
+\paragraph{Data In du processus}~\newline{}
+
+\begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
+Data & Type & Source & Destiné à l'acteur \\ \hline
+\end{tabularx}
+
+\paragraph{Data Out du processus}~\newline{}
+
+\begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
+Data & Type & État & Destination \\ \hline
+ &  &  &  \\ \hline
+\end{tabularx}
+
+\paragraph{Acteurs}~\newline{}
+
+\begin{tabularx}{\linewidth}{|X|X|X|X|X|} \hline
+Nom & Rôle & Actions & Data In & Data Out \\ \hline 
+& &  &  &  \\ \hline
+\end{tabularx}
+
+
+
 
 
 \appendix

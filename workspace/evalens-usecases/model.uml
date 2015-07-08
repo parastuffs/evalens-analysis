@@ -23,9 +23,7 @@
   <packagedElement xmi:type="uml:UseCase" xmi:id="_cNyygCO2EeW1VIG_-Vg0vQ" name="Cours">
     <generalization xmi:type="uml:Generalization" xmi:id="_mKBMcCP1EeW1VIG_-Vg0vQ" general="__S7AACP0EeW1VIG_-Vg0vQ"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_3h410CO2EeW1VIG_-Vg0vQ" name="Gestion questionnaires">
-    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_7H89kCO2EeW1VIG_-Vg0vQ" name="Sélection pour chaque UE"/>
-  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_3h410CO2EeW1VIG_-Vg0vQ" name="Gestion questionnaires"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_F49pECO3EeW1VIG_-Vg0vQ" name="Prise des avis"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_LcfjECO3EeW1VIG_-Vg0vQ" memberEnd="_Lch_UCO3EeW1VIG_-Vg0vQ _LcimYCO3EeW1VIG_-Vg0vQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LcgxMCO3EeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
@@ -58,28 +56,13 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_6yQBECO7EeW1VIG_-Vg0vQ" name="gestionnaire campagne" type="_NbQdMCO0EeW1VIG_-Vg0vQ" association="_6yMWsCO7EeW1VIG_-Vg0vQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_9QTX4CO7EeW1VIG_-Vg0vQ" name="Gestion publication &amp; communication"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_MNfv8CO8EeW1VIG_-Vg0vQ" name="Consultation/exportation statistiques"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_MNfv8CO8EeW1VIG_-Vg0vQ" name="Statistiques évaluations"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_TyDGgCO8EeW1VIG_-Vg0vQ" memberEnd="_TyHX8CO8EeW1VIG_-Vg0vQ _TyH_ACO8EeW1VIG_-Vg0vQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TyGJ0CO8EeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TyGw4CO8EeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_TyHX8CO8EeW1VIG_-Vg0vQ" name="consultation/exportation statistiques" type="_MNfv8CO8EeW1VIG_-Vg0vQ" association="_TyDGgCO8EeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_TyHX8CO8EeW1VIG_-Vg0vQ" name="consultation/exportation statistiques" type="_g7hQgCVkEeW1VIG_-Vg0vQ" association="_TyDGgCO8EeW1VIG_-Vg0vQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_TyH_ACO8EeW1VIG_-Vg0vQ" name="gestionnaire campagne" type="_NbQdMCO0EeW1VIG_-Vg0vQ" association="_TyDGgCO8EeW1VIG_-Vg0vQ"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_Ys_WgCO8EeW1VIG_-Vg0vQ" name="Exportation"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_oR7EACO8EeW1VIG_-Vg0vQ" memberEnd="_oR9gQCO8EeW1VIG_-Vg0vQ _oR-HUCO8EeW1VIG_-Vg0vQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oR8SICO8EeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oR85MCO8EeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_oR9gQCO8EeW1VIG_-Vg0vQ" name="exportation" type="_Ys_WgCO8EeW1VIG_-Vg0vQ" association="_oR7EACO8EeW1VIG_-Vg0vQ"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_oR-HUCO8EeW1VIG_-Vg0vQ" name="membre" type="_UUDhACO0EeW1VIG_-Vg0vQ" association="_oR7EACO8EeW1VIG_-Vg0vQ"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_sMzlMCO8EeW1VIG_-Vg0vQ" memberEnd="_sM3PkCO8EeW1VIG_-Vg0vQ _sM32oCO8EeW1VIG_-Vg0vQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sM2BcCO8EeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sM2ogCO8EeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_sM3PkCO8EeW1VIG_-Vg0vQ" name="exportation" type="_Ys_WgCO8EeW1VIG_-Vg0vQ" association="_sMzlMCO8EeW1VIG_-Vg0vQ"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_sM32oCO8EeW1VIG_-Vg0vQ" name="gestionnaire campagne" type="_NbQdMCO0EeW1VIG_-Vg0vQ" association="_sMzlMCO8EeW1VIG_-Vg0vQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_1YstACO8EeW1VIG_-Vg0vQ" name="Gestion de la traduction"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_T4N0YCPGEeW1VIG_-Vg0vQ" memberEnd="_T4QQoCPGEeW1VIG_-Vg0vQ _T4Q3sCPGEeW1VIG_-Vg0vQ">
@@ -157,5 +140,287 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_PPCmwCSrEeW1VIG_-Vg0vQ" name="gestion de la traduction" type="_1YstACO8EeW1VIG_-Vg0vQ" association="_PPAKgCSrEeW1VIG_-Vg0vQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_PPDN0CSrEeW1VIG_-Vg0vQ" name="dsaa" type="_N3kdgCSrEeW1VIG_-Vg0vQ" association="_PPAKgCSrEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JXvxECVMEeW1VIG_-Vg0vQ" memberEnd="_JXvxEyVMEeW1VIG_-Vg0vQ _JXvxFCVMEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JXvxESVMEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JXvxEiVMEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JXvxEyVMEeW1VIG_-Vg0vQ" name="gestion calendrier" type="_JY3ycCVMEeW1VIG_-Vg0vQ" association="_JXvxECVMEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JXvxFCVMEeW1VIG_-Vg0vQ" name="gestionnaire campagne" type="_JYqXECVMEeW1VIG_-Vg0vQ" association="_JXvxECVMEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JXyNUCVMEeW1VIG_-Vg0vQ" memberEnd="_JXyNUyVMEeW1VIG_-Vg0vQ _JXyNVCVMEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JXyNUSVMEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JXyNUiVMEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JXyNUyVMEeW1VIG_-Vg0vQ" name="gestion de la traduction" type="_JYQucCVMEeW1VIG_-Vg0vQ" association="_JXyNUCVMEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JXyNVCVMEeW1VIG_-Vg0vQ" name="dsaa" type="_JYYqQCVMEeW1VIG_-Vg0vQ" association="_JXyNUCVMEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_JX1QoCVMEeW1VIG_-Vg0vQ" name="Gestionnaire de la communication">
+    <generalization xmi:type="uml:Generalization" xmi:id="_JX1QoSVMEeW1VIG_-Vg0vQ" general="_JYqXECVMEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_JX9McCVMEeW1VIG_-Vg0vQ" name="Gestion questionnaires"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_JYFvUCVMEeW1VIG_-Vg0vQ" name="Commission pédagogique">
+    <generalization xmi:type="uml:Generalization" xmi:id="_JYFvUSVMEeW1VIG_-Vg0vQ" general="_JYJZsCVMEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_JYJZsCVMEeW1VIG_-Vg0vQ" name="Gestionnaire pédagogique facultaire"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_JYNrICVMEeW1VIG_-Vg0vQ" name="Gestion des tâches"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JYOSMCVMEeW1VIG_-Vg0vQ" memberEnd="_JYOSMyVMEeW1VIG_-Vg0vQ _JYOSNCVMEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JYOSMSVMEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JYOSMiVMEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JYOSMyVMEeW1VIG_-Vg0vQ" name="gestion de la traduction" type="_JY3ycCVMEeW1VIG_-Vg0vQ" association="_JYOSMCVMEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JYOSNCVMEeW1VIG_-Vg0vQ" name="gestionnaire campagne" type="_JYqXECVMEeW1VIG_-Vg0vQ" association="_JYOSMCVMEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_JYQucCVMEeW1VIG_-Vg0vQ" name="Gestion de la traduction"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_JYXcICVMEeW1VIG_-Vg0vQ" name="Gestion publication &amp; communication"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_JYYqQCVMEeW1VIG_-Vg0vQ" name="DSAA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JYZRUCVMEeW1VIG_-Vg0vQ" memberEnd="_JYZRUyVMEeW1VIG_-Vg0vQ _JYZRVCVMEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JYZRUSVMEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JYZRUiVMEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JYZRUyVMEeW1VIG_-Vg0vQ" name="configuration de l'application" type="_JY3ycCVMEeW1VIG_-Vg0vQ" association="_JYZRUCVMEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JYZRVCVMEeW1VIG_-Vg0vQ" name="gestionnaire campagne" type="_JYqXECVMEeW1VIG_-Vg0vQ" association="_JYZRUCVMEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JYmFoCVMEeW1VIG_-Vg0vQ" memberEnd="_JYmssCVMEeW1VIG_-Vg0vQ _JYmssSVMEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JYmFoSVMEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JYmFoiVMEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JYmssCVMEeW1VIG_-Vg0vQ" name="gestion du groupe « commission facultaire »" type="_JY3ycCVMEeW1VIG_-Vg0vQ" association="_JYmFoCVMEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JYmssSVMEeW1VIG_-Vg0vQ" name="administrateur" type="_JYqXECVMEeW1VIG_-Vg0vQ" association="_JYmFoCVMEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_JYoh4CVMEeW1VIG_-Vg0vQ" name="Gestion. support">
+    <generalization xmi:type="uml:Generalization" xmi:id="_JYoh4SVMEeW1VIG_-Vg0vQ" general="_JYqXECVMEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_JYpwACVMEeW1VIG_-Vg0vQ" name="Gestion des rôles et droits d'accès"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_JYqXECVMEeW1VIG_-Vg0vQ" name="Gestionnaires campagne"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JYy58CVMEeW1VIG_-Vg0vQ" memberEnd="_JYy58yVMEeW1VIG_-Vg0vQ _JYy59CVMEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JYy58SVMEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JYy58iVMEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JYy58yVMEeW1VIG_-Vg0vQ" name="gestion des tâches" type="_JY3ycCVMEeW1VIG_-Vg0vQ" association="_JYy58CVMEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JYy59CVMEeW1VIG_-Vg0vQ" name="gestionnaire campagne" type="_JYqXECVMEeW1VIG_-Vg0vQ" association="_JYy58CVMEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_JY0vICVMEeW1VIG_-Vg0vQ" name="Configuration de l'application"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JY19QCVMEeW1VIG_-Vg0vQ" memberEnd="_JY19QyVMEeW1VIG_-Vg0vQ _JY19RCVMEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JY19QSVMEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JY19QiVMEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JY19QyVMEeW1VIG_-Vg0vQ" name="gestion publication &amp; communication" type="_JYXcICVMEeW1VIG_-Vg0vQ" association="_JY19QCVMEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JY19RCVMEeW1VIG_-Vg0vQ" name="gestionnaire de la communication" type="_JX1QoCVMEeW1VIG_-Vg0vQ" association="_JY19QCVMEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_JY3ycCVMEeW1VIG_-Vg0vQ" name="Superviseur">
+    <generalization xmi:type="uml:Generalization" xmi:id="_JY3ycSVMEeW1VIG_-Vg0vQ" general="_JYqXECVMEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_jz0nQCVMEeW1VIG_-Vg0vQ" name="CoCoPe">
+    <generalization xmi:type="uml:Generalization" xmi:id="_m0eU0CVMEeW1VIG_-Vg0vQ" general="_JYJZsCVMEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_BqTHwCVNEeW1VIG_-Vg0vQ" memberEnd="_BqVkASVNEeW1VIG_-Vg0vQ _BqWyICVNEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BqUV4CVNEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BqVkACVNEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BqVkASVNEeW1VIG_-Vg0vQ" name="copyof_gestion questionnaires_1" type="_JX9McCVMEeW1VIG_-Vg0vQ" association="_BqTHwCVNEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BqWyICVNEeW1VIG_-Vg0vQ" name="gestionnaire pédagogique facultaire" type="_JYJZsCVMEeW1VIG_-Vg0vQ" association="_BqTHwCVNEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4EZIACVNEeW1VIG_-Vg0vQ" memberEnd="_4EZIAyVNEeW1VIG_-Vg0vQ _4EZIBCVNEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4EZIASVNEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4EZIAiVNEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4EZIAyVNEeW1VIG_-Vg0vQ" name="gestion de la traduction" type="_4FIH0CVNEeW1VIG_-Vg0vQ" association="_4EZIACVNEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4EZIBCVNEeW1VIG_-Vg0vQ" name="gestionnaire campagne" type="_4FKkECVNEeW1VIG_-Vg0vQ" association="_4EZIACVNEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4EcLUCVNEeW1VIG_-Vg0vQ" name="Consultation par cours/enseignant"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4EdZcCVNEeW1VIG_-Vg0vQ" memberEnd="_4EdZcyVNEeW1VIG_-Vg0vQ _4EdZdCVNEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4EdZcSVNEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4EdZciVNEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4EdZcyVNEeW1VIG_-Vg0vQ" name="configuration de l'application" type="_4FIH0CVNEeW1VIG_-Vg0vQ" association="_4EdZcCVNEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4EdZdCVNEeW1VIG_-Vg0vQ" name="gestionnaire campagne" type="_4FKkECVNEeW1VIG_-Vg0vQ" association="_4EdZcCVNEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4EfOoCVNEeW1VIG_-Vg0vQ" memberEnd="_4EfOoyVNEeW1VIG_-Vg0vQ _4EfOpCVNEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4EfOoSVNEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4EfOoiVNEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4EfOoyVNEeW1VIG_-Vg0vQ" name="membre com. péd." type="_4EyJkCVNEeW1VIG_-Vg0vQ" association="_4EfOoCVNEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4EfOpCVNEeW1VIG_-Vg0vQ" name="consultation par grille" type="_4FFrkCVNEeW1VIG_-Vg0vQ" association="_4EfOoCVNEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4EgcwCVNEeW1VIG_-Vg0vQ" name="Support aux utilisateurs"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4EkHICVNEeW1VIG_-Vg0vQ" name="Unité d'enseignement">
+    <generalization xmi:type="uml:Generalization" xmi:id="_4EkHISVNEeW1VIG_-Vg0vQ" general="_4FFrkCVNEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4ElVQCVNEeW1VIG_-Vg0vQ" memberEnd="_4ElVQyVNEeW1VIG_-Vg0vQ _4ElVRCVNEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4ElVQSVNEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4ElVQiVNEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4ElVQyVNEeW1VIG_-Vg0vQ" name="gestion calendrier" type="_4FIH0CVNEeW1VIG_-Vg0vQ" association="_4ElVQCVNEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4ElVRCVNEeW1VIG_-Vg0vQ" name="gestionnaire campagne" type="_4FKkECVNEeW1VIG_-Vg0vQ" association="_4ElVQCVNEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4EpmsCVNEeW1VIG_-Vg0vQ" memberEnd="_4EpmsyVNEeW1VIG_-Vg0vQ _4EpmtCVNEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4EpmsSVNEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4EpmsiVNEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4EpmsyVNEeW1VIG_-Vg0vQ" name="gestion du groupe « commission facultaire »" type="_4FIH0CVNEeW1VIG_-Vg0vQ" association="_4EpmsCVNEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4EpmtCVNEeW1VIG_-Vg0vQ" name="administrateur" type="_4FKkECVNEeW1VIG_-Vg0vQ" association="_4EpmsCVNEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_4EyJkCVNEeW1VIG_-Vg0vQ" name="Gestionnaire pédagogique facultaire"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_4EzXsCVNEeW1VIG_-Vg0vQ" name="Gestion. support">
+    <generalization xmi:type="uml:Generalization" xmi:id="_4EzXsSVNEeW1VIG_-Vg0vQ" general="_4FKkECVNEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_4E0l0CVNEeW1VIG_-Vg0vQ" name="Commission pédagogique">
+    <generalization xmi:type="uml:Generalization" xmi:id="_4E0l0SVNEeW1VIG_-Vg0vQ" general="_4EyJkCVNEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4E4QMCVNEeW1VIG_-Vg0vQ" memberEnd="_4E4QMyVNEeW1VIG_-Vg0vQ _4E4QNCVNEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4E4QMSVNEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4E4QMiVNEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4E4QMyVNEeW1VIG_-Vg0vQ" name="gestion questionnaires" type="_4E0l0CVNEeW1VIG_-Vg0vQ" association="_4E4QMCVNEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4E4QNCVNEeW1VIG_-Vg0vQ" name="administrateur" type="_4FKkECVNEeW1VIG_-Vg0vQ" association="_4E4QMCVNEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4E5eUCVNEeW1VIG_-Vg0vQ" name="Enseignants">
+    <generalization xmi:type="uml:Generalization" xmi:id="_4E5eUSVNEeW1VIG_-Vg0vQ" general="_4FFrkCVNEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4E7TgCVNEeW1VIG_-Vg0vQ" memberEnd="_4E7TgyVNEeW1VIG_-Vg0vQ _4E7ThCVNEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4E7TgSVNEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4E7TgiVNEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4E7TgyVNEeW1VIG_-Vg0vQ" name="consultation par cours/enseignant" type="_4EcLUCVNEeW1VIG_-Vg0vQ" association="_4E7TgCVNEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4E7ThCVNEeW1VIG_-Vg0vQ" name="enseignant" type="_4FLyMCVNEeW1VIG_-Vg0vQ" association="_4E7TgCVNEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4E-W0CVNEeW1VIG_-Vg0vQ" memberEnd="_4E-W0yVNEeW1VIG_-Vg0vQ _4E-W1CVNEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4E-W0SVNEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4E-W0iVNEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4E-W0yVNEeW1VIG_-Vg0vQ" name="support aux utilisateurs" type="_4EgcwCVNEeW1VIG_-Vg0vQ" association="_4E-W0CVNEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4E-W1CVNEeW1VIG_-Vg0vQ" name="gestion. support" type="_4EzXsCVNEeW1VIG_-Vg0vQ" association="_4E-W0CVNEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4FAMACVNEeW1VIG_-Vg0vQ" memberEnd="_4FAMAyVNEeW1VIG_-Vg0vQ _4FAMBCVNEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4FAMASVNEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4FAMAiVNEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4FAMAyVNEeW1VIG_-Vg0vQ" name="consultation par cours/enseignant" type="_4EcLUCVNEeW1VIG_-Vg0vQ" association="_4FAMACVNEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4FAMBCVNEeW1VIG_-Vg0vQ" name="membre com. péd." type="_4EyJkCVNEeW1VIG_-Vg0vQ" association="_4FAMACVNEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4FCBMCVNEeW1VIG_-Vg0vQ" memberEnd="_4FCBMyVNEeW1VIG_-Vg0vQ _4FCBNCVNEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4FCBMSVNEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4FCBMiVNEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4FCBMyVNEeW1VIG_-Vg0vQ" name="gestion des tâches" type="_4FIH0CVNEeW1VIG_-Vg0vQ" association="_4FCBMCVNEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4FCBNCVNEeW1VIG_-Vg0vQ" name="gestionnaire campagne" type="_4FKkECVNEeW1VIG_-Vg0vQ" association="_4FCBMCVNEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4FFrkCVNEeW1VIG_-Vg0vQ" name="Consultation par grille"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4FHgwCVNEeW1VIG_-Vg0vQ" name="Gestion calendrier"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_4FIH0CVNEeW1VIG_-Vg0vQ" name="Superviseur">
+    <generalization xmi:type="uml:Generalization" xmi:id="_4FIH0SVNEeW1VIG_-Vg0vQ" general="_4FKkECVNEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_4FKkECVNEeW1VIG_-Vg0vQ" name="Gestionnaires campagne"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_4FLyMCVNEeW1VIG_-Vg0vQ" name="Enseignant"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4FNAUCVNEeW1VIG_-Vg0vQ" memberEnd="_4FNAUyVNEeW1VIG_-Vg0vQ _4FNAVCVNEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4FNAUSVNEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4FNAUiVNEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4FNAUyVNEeW1VIG_-Vg0vQ" name="traitement des résultats" type="_4E0l0CVNEeW1VIG_-Vg0vQ" association="_4FNAUCVNEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4FNAVCVNEeW1VIG_-Vg0vQ" name="membre" type="_4EyJkCVNEeW1VIG_-Vg0vQ" association="_4FNAUCVNEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_wTdF0CVOEeW1VIG_-Vg0vQ" name="Gestion des étudiants"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_yTYWMCVOEeW1VIG_-Vg0vQ" name="Gestion des enseignants"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_0T9t4CVOEeW1VIG_-Vg0vQ" name="Gestion des unités d'enseignements"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3JDrsCVOEeW1VIG_-Vg0vQ" memberEnd="_3JFg4CVOEeW1VIG_-Vg0vQ _3JGH8CVOEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3JESwCVOEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3JE50CVOEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3JFg4CVOEeW1VIG_-Vg0vQ" name="gestion des étudiants" type="_wTdF0CVOEeW1VIG_-Vg0vQ" association="_3JDrsCVOEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3JGH8CVOEeW1VIG_-Vg0vQ" name="superviseur" type="_JY3ycCVMEeW1VIG_-Vg0vQ" association="_3JDrsCVOEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5B6DsCVOEeW1VIG_-Vg0vQ" memberEnd="_5B8f8CVOEeW1VIG_-Vg0vQ _5B9HACVOEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5B7R0CVOEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5B744CVOEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5B8f8CVOEeW1VIG_-Vg0vQ" name="gestion des enseignants" type="_yTYWMCVOEeW1VIG_-Vg0vQ" association="_5B6DsCVOEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5B9HACVOEeW1VIG_-Vg0vQ" name="superviseur" type="_JY3ycCVMEeW1VIG_-Vg0vQ" association="_5B6DsCVOEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_56B-gCVOEeW1VIG_-Vg0vQ" memberEnd="_56DzsCVOEeW1VIG_-Vg0vQ _56EawCVOEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_56ClkCVOEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_56DMoCVOEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_56DzsCVOEeW1VIG_-Vg0vQ" name="gestion des unités d'enseignements" type="_0T9t4CVOEeW1VIG_-Vg0vQ" association="_56B-gCVOEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_56EawCVOEeW1VIG_-Vg0vQ" name="superviseur" type="_JY3ycCVMEeW1VIG_-Vg0vQ" association="_56B-gCVOEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_mSBnsCVPEeW1VIG_-Vg0vQ" name="Prise d'avis"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_nt8MECVPEeW1VIG_-Vg0vQ" name="Traitement des résultats"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_uReKgCVPEeW1VIG_-Vg0vQ" name="Gestionnaire pédagogique facultaire">
+    <generalization xmi:type="uml:Generalization" xmi:id="_5K-qsCVPEeW1VIG_-Vg0vQ" general="_uRexkCVPEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_uRexkCVPEeW1VIG_-Vg0vQ" name="Commission pédagogique">
+    <generalization xmi:type="uml:Generalization" xmi:id="_uRexkSVPEeW1VIG_-Vg0vQ" general="_uReKgCVPEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_uRf_sCVPEeW1VIG_-Vg0vQ" name="Étudiant"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6PpzwCVPEeW1VIG_-Vg0vQ" memberEnd="_6Ps3ECVPEeW1VIG_-Vg0vQ _6PteICVPEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6PrB4CVPEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6PsQACVPEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6Ps3ECVPEeW1VIG_-Vg0vQ" name="traitement des résultats" type="_nt8MECVPEeW1VIG_-Vg0vQ" association="_6PpzwCVPEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6PteICVPEeW1VIG_-Vg0vQ" name="gestionnaire pédagogique facultaire" type="_uReKgCVPEeW1VIG_-Vg0vQ" association="_6PpzwCVPEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7q5pwCVPEeW1VIG_-Vg0vQ" memberEnd="_7q8tECVPEeW1VIG_-Vg0vQ _7q97MCVPEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7q7e8CVPEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7q8GACVPEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7q8tECVPEeW1VIG_-Vg0vQ" name="prise d'avis" type="_mSBnsCVPEeW1VIG_-Vg0vQ" association="_7q5pwCVPEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7q97MCVPEeW1VIG_-Vg0vQ" name="étudiant" type="_uRf_sCVPEeW1VIG_-Vg0vQ" association="_7q5pwCVPEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_E2F8ECVSEeW1VIG_-Vg0vQ" name="Statistiques évaluations"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JBdJQCVSEeW1VIG_-Vg0vQ" memberEnd="_JBe-cSVSEeW1VIG_-Vg0vQ _JBflgCVSEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JBeXYCVSEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JBe-cCVSEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JBe-cSVSEeW1VIG_-Vg0vQ" name="statistiques évaluations" type="_E2F8ECVSEeW1VIG_-Vg0vQ" association="_JBdJQCVSEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JBflgCVSEeW1VIG_-Vg0vQ" name="superviseur" type="_JY3ycCVMEeW1VIG_-Vg0vQ" association="_JBdJQCVSEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_V4DoQCVSEeW1VIG_-Vg0vQ" name="Statistiques campagne"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_a7fF4CVSEeW1VIG_-Vg0vQ" memberEnd="_a7g7ESVSEeW1VIG_-Vg0vQ _a7iJMCVSEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a7gUACVSEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a7g7ECVSEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_a7g7ESVSEeW1VIG_-Vg0vQ" name="statistiques campagne" type="_4FIH0CVNEeW1VIG_-Vg0vQ" association="_a7fF4CVSEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_a7iJMCVSEeW1VIG_-Vg0vQ" type="_4ElVQCVNEeW1VIG_-Vg0vQ" association="_a7fF4CVSEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_PVYVsCVjEeW1VIG_-Vg0vQ" name="Statistiques évaluations"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_RGo38CVjEeW1VIG_-Vg0vQ" memberEnd="_RGrUMCVjEeW1VIG_-Vg0vQ _RGsiUCVjEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RGqGECVjEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RGqtICVjEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RGrUMCVjEeW1VIG_-Vg0vQ" name="statistiques évaluations" type="_ZATekCSBEeW1VIG_-Vg0vQ" association="_RGo38CVjEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RGsiUCVjEeW1VIG_-Vg0vQ" type="_T4N0YCPGEeW1VIG_-Vg0vQ" association="_RGo38CVjEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VdgxkCVjEeW1VIG_-Vg0vQ" name="Gestion étudiants"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ZGY8wCVjEeW1VIG_-Vg0vQ" name="Gestion enseignants"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_cxriwCVjEeW1VIG_-Vg0vQ" name="Gestion unités d'enseignement"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EHzNgCVkEeW1VIG_-Vg0vQ" memberEnd="_EH2Q0CVkEeW1VIG_-Vg0vQ _EH3e8CVkEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EH1CsCVkEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EH1pwCVkEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EH2Q0CVkEeW1VIG_-Vg0vQ" name="superviseur" type="_ZATekCSBEeW1VIG_-Vg0vQ" association="_EHzNgCVkEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EH3e8CVkEeW1VIG_-Vg0vQ" name="gestion unités d'enseignement" type="_cxriwCVjEeW1VIG_-Vg0vQ" association="_EHzNgCVkEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HF4IMCVkEeW1VIG_-Vg0vQ" memberEnd="_HF59YCVkEeW1VIG_-Vg0vQ _HF6kcCVkEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HF4vQCVkEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HF5WUCVkEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HF59YCVkEeW1VIG_-Vg0vQ" name="superviseur" type="_ZATekCSBEeW1VIG_-Vg0vQ" association="_HF4IMCVkEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HF6kcCVkEeW1VIG_-Vg0vQ" name="gestion enseignants" type="_ZGY8wCVjEeW1VIG_-Vg0vQ" association="_HF4IMCVkEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Xi9lsCVkEeW1VIG_-Vg0vQ" name="Statistiques campagne"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_g7hQgCVkEeW1VIG_-Vg0vQ" memberEnd="_g7kT0CVkEeW1VIG_-Vg0vQ _g7lh8CVkEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_g7ieoCVkEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_g7jswCVkEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_g7kT0CVkEeW1VIG_-Vg0vQ" name="superviseur" type="_ZATekCSBEeW1VIG_-Vg0vQ" association="_g7hQgCVkEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_g7lh8CVkEeW1VIG_-Vg0vQ" name="gestion étudiants" type="_VdgxkCVjEeW1VIG_-Vg0vQ" association="_g7hQgCVkEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_iVxoACVkEeW1VIG_-Vg0vQ" memberEnd="_iVzdMCVkEeW1VIG_-Vg0vQ _iV0EQCVkEeW1VIG_-Vg0vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iVyPECVkEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iVy2ICVkEeW1VIG_-Vg0vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iVzdMCVkEeW1VIG_-Vg0vQ" name="superviseur" type="_ZATekCSBEeW1VIG_-Vg0vQ" association="_iVxoACVkEeW1VIG_-Vg0vQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iV0EQCVkEeW1VIG_-Vg0vQ" name="statistiques campagne" type="_Xi9lsCVkEeW1VIG_-Vg0vQ" association="_iVxoACVkEeW1VIG_-Vg0vQ"/>
   </packagedElement>
 </uml:Model>

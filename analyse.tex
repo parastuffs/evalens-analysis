@@ -102,6 +102,7 @@ Gestionnaire des questionnaires & \\ \hline
 DAF & \\ \hline
 Président de la com péd & \\ \hline
 Gestionnaire de calendrier & \\ \hline
+Traitement des résultats & \\ \hline
 
 \end{tabularx}
 \caption{Rôle et droits d'accès des différents utilisateurs du système. «~com. péd.~» est l'abbréviation de «~commission pédagogique~».}
@@ -120,7 +121,7 @@ Certains rôles et droits d'accès peuvent être amenés à évoluer, et d'autre
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Gestion des publications et de la communication}
 La gestion des publications et de la campagne a pour objectif de maintenir au courant la communauté universitaire du statut de la campagne d'évaluation.
-Cette communication est assurée par un gestion de la communication.
+Cette communication est assurée par un gestionnaire de la communication.
 Le corps de la communication se base sur un modèle pouvant être modifié selon les besoins.
 
 \noindent Les informations suivantes doivent être communiquées~:
@@ -372,7 +373,7 @@ La constitution du calendrier est régie par les règles et contraintes suivante
 
 Planification du superviseur pour respecter les décisions du règlement cadre (annexe~\ref{an:regl-cadre}\footnote{Règlement cadre du 02 février 2015 (version 1.1).}).
 
-\paragraph{Planification}~\newline{}
+\paragraph{Planification}\label{sec:calendrier-processus-plan}~\newline{}
 
 \begin{tabularx}{\linewidth}{|X|X|X|} \hline
 Fréquence du processus & Début & Fin \\ \hline
@@ -445,33 +446,6 @@ Superviseur & Gestionnaire de calendrier & Établissement des dates & N/A & Cale
 % 	\item CSV
 % 	\item PDF
 % \end{itemize}
-
-
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%      CONSULTATION DES RÉSULTATS PAR GRILLES
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Consultation des résultats par grille}
-
-
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%      CONSULTATION PAR COURS/ENSEIGNANT
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Consultation par cours/enseignant}
-Les enseignants ont la possibilité de consulter leurs résultats de deux façons différentes~:
-\begin{itemize}
-	\item en vue globale rassemblant toutes leurs unités d'enseignement~;
-	\item une unité d'enseignement à la fois.
-\end{itemize}
-
-Les titulaires des unités d'enseignement peuvent consulter
 
 
 
@@ -599,6 +573,8 @@ Il permet à la commission pédagogique d'émettre un avis pour chaque unité d'
 
 La période de traitement des résultats est définie dans le calendrier de campagne et débute après la fin de la période de prise d'avis.
 
+Les évaluations émises à l'issue du traitement des résultats sont mises à disposition des gestionnaires pédagogiques facultaires, aux enseignants ainsi qu'aux gestionnaires de campagne.
+
 En cas d'avis potentiellement défavorable, il se passe des choses spéciales (article 9).
 
 Peut être à la base de l'émission d'un avis de circonstance.
@@ -607,39 +583,79 @@ Peut être à la base de l'émission d'un avis de circonstance.
 \subsubsection{Processus}
 \paragraph{Élément déclencheur}~\newline{}
 
+Le traitement des résultats débute à la date définie dans le calendrier de campagne.
+
 \paragraph{Planification}~\newline{}
 
-\begin{tabularx}{\linewidth}{|X|X|X|} \hline
-Fréquence du processus & Début & Fin \\ \hline
-
-\end{tabularx}
+Le traitement des résultats a lieu à chacune des campagnes d'évaluation.
+Ces dernières sont programmées deux fois par an (cf. section~\ref{sec:calendrier-processus-plan}).
 
 \paragraph{Data}~\newline{}
 
 \begin{tabularx}{\linewidth}{|X|X|} \hline
 Data In & Data Out \\ \hline
- & \\ \hline
+Résultats des prises d'avis & Évaluations des enseignants et des unités d'enseignement\\ \hline
 \end{tabularx}
 
 \paragraph{Data In du processus}~\newline{}
 
 \begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
 Data & Type & Source & Destiné à l'acteur \\ \hline
+Résultats des prises d'avis & Base de données & Prise d'avis des étudiants & Commission pédagogique \\ \hline
 \end{tabularx}
 
 \paragraph{Data Out du processus}~\newline{}
 
 \begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
 Data & Type & État & Destination \\ \hline
- &  &  &  \\ \hline
+Évaluations des enseignants et des unités d'enseignement & ?? & ?? & 
+\begin{itemize}
+	\item Enseignants
+	\item Gestionnaires de campagne
+	\item Gestionnaires pédagogiques faculaires
+\end{itemize}
+\\ \hline
 \end{tabularx}
 
 \paragraph{Acteurs}~\newline{}
 
 \begin{tabularx}{\linewidth}{|X|X|X|X|X|} \hline
 Nom & Rôle & Actions & Data In & Data Out \\ \hline 
-& &  &  &  \\ \hline
+Commission pédagogique & Traitement des résultats & Sur base des prises d'avis, décide d'une évaluation pour l'enseignant et l'unité d'enseignement concernés & Prises d'avis & Évaluations \\ \hline
 \end{tabularx}
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%      CONSULTATION DES RÉSULTATS PAR GRILLES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Consultation des résultats par grille}
+
+La consultation des résultats par grille reprend toutes les unités d'enseignement ainsi que les enseignants associés d'une campagne.
+Cette consultation est accessible aux gestionnaires pédagogiques faculaires dès l'ouverture de la période de traitement des résultats.
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%      CONSULTATION PAR COURS/ENSEIGNANT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Consultation par cours/enseignant}
+
+La consultation de résultats par unité d'enseignement ou par enseignant reprend respectivement les résultats d'une seule unité d'enseignement et des enseignants associés ou les résultats d'un enseignant et des unités d'enseignement dans lesquelles il est impliqué.
+
+
+Les enseignants ont la possibilité de consulter leurs résultats de deux façons différentes~:
+\begin{itemize}
+	\item en vue globale rassemblant toutes leurs unités d'enseignement~;
+	\item une unité d'enseignement à la fois.
+\end{itemize}
+
+Les titulaires des unités d'enseignement peuvent consulter
 
 
 

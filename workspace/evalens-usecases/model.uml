@@ -187,7 +187,7 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_JYOSNCVMEeW1VIG_-Vg0vQ" name="gestionnaire campagne" type="_JYqXECVMEeW1VIG_-Vg0vQ" association="_JYOSMCVMEeW1VIG_-Vg0vQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_JYQucCVMEeW1VIG_-Vg0vQ" name="Gestion de la traduction"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_JYXcICVMEeW1VIG_-Vg0vQ" name="Gestion publication &amp; communication"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_JYXcICVMEeW1VIG_-Vg0vQ" name="Gestion communication"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_JYYqQCVMEeW1VIG_-Vg0vQ" name="DSAA"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_JYZRUCVMEeW1VIG_-Vg0vQ" memberEnd="_JYZRUyVMEeW1VIG_-Vg0vQ _JYZRVCVMEeW1VIG_-Vg0vQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JYZRUSVMEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
@@ -432,5 +432,27 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_Ht6SYCWBEeW1VIG_-Vg0vQ" name="traitement des résultats" type="_nt8MECVPEeW1VIG_-Vg0vQ" association="_Ht3PECWBEeW1VIG_-Vg0vQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_Ht65cCWBEeW1VIG_-Vg0vQ" name="commission pédagogique" type="_uUuckCWAEeW1VIG_-Vg0vQ" association="_Ht3PECWBEeW1VIG_-Vg0vQ"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_OrnrYCWBEeW1VIG_-Vg0vQ" name="Prise d'avis"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OrnrYCWBEeW1VIG_-Vg0vQ" name="Enquête"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_DaUNcCYJEeWjCvkpqFZBCg" name="Gestion publication"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_GqdIgCYJEeWjCvkpqFZBCg" name="Chargé de com. fac."/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_NDZAgCYJEeWjCvkpqFZBCg" name="DAF">
+    <generalization xmi:type="uml:Generalization" xmi:id="_PQl34CYJEeWjCvkpqFZBCg" general="_JYJZsCVMEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_YOveoCYJEeWjCvkpqFZBCg" name="DAF">
+    <generalization xmi:type="uml:Generalization" xmi:id="_ZliScCYJEeWjCvkpqFZBCg" general="_uUyG8CWAEeW1VIG_-Vg0vQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_a0jDQCYJEeWjCvkpqFZBCg" memberEnd="_a0tbUCYJEeWjCvkpqFZBCg _a0upcCYJEeWjCvkpqFZBCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a0oi0CYJEeWjCvkpqFZBCg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a0pw8CYJEeWjCvkpqFZBCg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_a0tbUCYJEeWjCvkpqFZBCg" name="gestion publication" type="_DaUNcCYJEeWjCvkpqFZBCg" association="_a0jDQCYJEeWjCvkpqFZBCg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_a0upcCYJEeWjCvkpqFZBCg" name="chargé de com. fac." type="_GqdIgCYJEeWjCvkpqFZBCg" association="_a0jDQCYJEeWjCvkpqFZBCg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fiqYMCYJEeWjCvkpqFZBCg" memberEnd="_fis0cCYJEeWjCvkpqFZBCg _fitbgCYJEeWjCvkpqFZBCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_firmUCYJEeWjCvkpqFZBCg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fisNYCYJEeWjCvkpqFZBCg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fis0cCYJEeWjCvkpqFZBCg" name="gestion publication" type="_DaUNcCYJEeWjCvkpqFZBCg" association="_fiqYMCYJEeWjCvkpqFZBCg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fitbgCYJEeWjCvkpqFZBCg" name="gestionnaire de la communication" type="_JX1QoCVMEeW1VIG_-Vg0vQ" association="_fiqYMCYJEeWjCvkpqFZBCg"/>
+  </packagedElement>
 </uml:Model>

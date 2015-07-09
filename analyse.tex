@@ -18,6 +18,7 @@
 \def\endchronology{\endCHRONOLOGY\shorthandon{;}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{fullpage}
+\usepackage{hyperref}
 
 \setcounter{secnumdepth}{3}
 
@@ -136,6 +137,7 @@ Président de la com péd & \\ \hline
 Gestionnaire de calendrier & \\ \hline
 Traitement des résultats & \\ \hline
 DAF & \\ \hline
+Consultation des résultats par grille & \\ \hline
 
 \end{tabularx}
 \caption{Rôle et droits d'accès des différents utilisateurs du système. «~com. péd.~» est l'abbréviation de «~commission pédagogique~».}
@@ -191,7 +193,8 @@ Les communications peuvent prendre la forme d'un simple courriel ou d'un fichier
 \paragraph{Élément déclencheur}~\newline{}
 
 La gestion de la communication est un processus continu.
-Cependant, chaque communication a son propre élément déclencheur.
+Cependant, chaque communication a son propre élément déclencheur.\newline{}
+
 \begin{tabularx}{\linewidth}{|l|X|} \hline
 Communication & Élément déclencheur \\ \hline
 Invitation à la prise d'avis & Début de la période de prise d'avis telle que définie dans le calendrier de campagne. \\
@@ -212,7 +215,7 @@ Data In & Data Out \\ \hline
  & 
 \begin{itemize}
 	\item Invitation à la prise d'avis
-	\item Rappel à la prise d'avis
+	\item Rappel à la prise d'avis\newline{}
 \end{itemize}
 \\ \hline
 \end{tabularx}
@@ -296,7 +299,7 @@ Requête de la part du superviseur.
 Fréquence du processus & Début & Fin \\ \hline
 Une fois & N/A & Avant la période de prise d'avis \\ \hline
 \end{tabularx}
-
+		
 \paragraph{Data}~\newline{}
 
 \begin{tabularx}{\linewidth}{|X|X|} \hline
@@ -725,9 +728,73 @@ Commission pédagogique & Traitement des résultats & Sur base des prises d'avis
 %      CONSULTATION DES RÉSULTATS PAR GRILLES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Consultation des résultats par grille}
-
-La consultation des résultats par grille reprend toutes les unités d'enseignement ainsi que les enseignants associés d'une campagne.
+La consultation des résultats par grille reprend toutes les unités d'enseignement  d'une campagne ainsi que les enseignants associés.\footnote{Lorsqu'un gestionnaire pédagogique effectute une consultation par grille, voit-il toutes les UE de la campagne d'évaluation, ou uniquement celle rattachée à sa faculté~?}\footnote{Le superviseur a aussi accès à cette consultation, et lui voit tout le monde. Ne devrait-on pas l'ajouter comme acteur~?}
 Cette consultation est accessible aux gestionnaires pédagogiques faculaires dès l'ouverture de la période de traitement des résultats.
+
+Lors de l'affichage des résultats, les informations reprises sont les suivantes~:
+\begin{itemize}
+	\item Unité d'enseignement
+	\item Titulaire
+	\item Nombre d'étudiants inscrits
+	\item Quorum
+	\item Indicateur d'évaluation ou l'évaluation émis par la commission pédagogique si elle l'a déjà encodée
+	\item ...
+\end{itemize}
+~\\
+
+Les résultats peuvent aussi être filtré suivant les paramètres suivants~:
+\begin{itemize}
+	\item Enseignant
+	\item Unité d'enseignement
+	\item Faculté d'appartenance de l'unité d'enseignement
+	\item Statut de l'évaluation~: émise ou non
+	\item Évaluation~: au-dessus ou en dessous d'un certain seuil
+	\item ...
+\end{itemize}
+
+\subsubsection{Processus}
+\paragraph{Élément déclencheur}~\newline{}
+
+Ouverture de la période de traitement des résultats à la date définie dans le calendrier de campagne.
+
+\paragraph{Planification}~\newline{}
+
+L'ouverture de la consultation des résultats a lieu une fois par campagne d'évaluation.
+Cette consultation n'a ensuite pas de date de cloture.
+
+\paragraph{Data}~\newline{}
+
+\begin{tabularx}{\linewidth}{|X|X|} \hline
+Data In & Data Out \\ \hline
+\begin{itemize}
+	\item Résultats de la prise d'avis
+	\item Évaluations des enseignements émises par la commission pédagogique \newline{}
+\end{itemize}
+& N/A \\ \hline
+\end{tabularx}
+
+\paragraph{Data In du processus}~\newline{}
+
+\begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
+Data & Type & Source & Destiné à l'acteur \\ \hline
+Résultats de la prise d'avis & Base de données & Prise d'avis & Gestionnaire pédagogique facultaire \\
+Évaluations des enseignements & Base de données & Commission pédagogique & Gestionnaire pédagogique facultaire \\ \hline
+\end{tabularx}
+
+% \paragraph{Data Out du processus}~\newline{}
+
+% \begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
+% Data & Type & État & Destination \\ \hline
+%  &  &  &  \\ \hline
+% \end{tabularx}
+
+\paragraph{Acteurs}~\newline{}
+
+\begin{tabularx}{\linewidth}{|X|X|X|X|X|} \hline
+Nom & Rôle & Actions & Data In & Data Out \\ \hline 
+Gestionnaire pédagogique facultaire & Consultation des résultats par grille & Consulte les résultats des prises d'avis et les évaluations sous forme de grille. Peut filtrer les résultats.\footnote{Bof, pas vraiment une action, ce n'est qu'une manipulation de la vue.} & Résultats et évaluations & N/A \\ \hline
+\end{tabularx}
+
 
 
 

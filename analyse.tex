@@ -48,6 +48,7 @@ Communique différentes informations relatives aux campagnes d'évaluations à l
 Toute personne ayant une responsabilité au niveau faculaire dans le traitement des résultats de campagne, la consultation de ces résultats et la gestion des questionnaires de campagne.
 
 \subsection{Commision pédagogique facultaire}
+cd. règlement cadre.
 \subsubsection{Membre}
 \subsubsection{Président}
 Le président siège au conseil des commissions pédagogiques.
@@ -60,6 +61,8 @@ Le CoCoPe a le pouvoir de modifier le règlement cadre et a pour tâche de mettr
 
 % \subsection{CoA}
 
+\subsection{Unité d'enseignement}
+
 \subsection{Étudiant}
 Personne inscrite régulièrement à l'Université Libre de Bruxelles et suivant un certain nombre d'unités d'enseignement.
 
@@ -67,11 +70,13 @@ Personne inscrite régulièrement à l'Université Libre de Bruxelles et suivant
 Personne dispensant une unité d'enseignement à un ensemble d'étudiants.
 Il peut s'agir d'un professeur ou d'un assitant, titulaire ou non de chacune des unités d'enseignement auxquelles il participe.
 
-\subsection{Unité d'enseignement}
+\subsection{Titulaire}
+Un enseignant est titulaire d'une unité d'enseignement s'il en est l'enseignant principal.
+Ce statut lui donne accès aux évaluations des enseignants non-titulaires pour les unités d'enseignement qu'ils ont en commun.
 
 \subsection{Cellule de communication universitaire}
 
-\subsection{Campagne}
+\subsection{Campagne d'évaluation}
 
 
 \subsection{Enquête}
@@ -119,7 +124,7 @@ Cette gestion consiste à assigner un ensemble de droits d'accès à différente
 Ces rôles sont gérés par le superviseur.
 
 \begin{table}[ht]
-\begin{tabularx}{\textwidth}{|X|l|} \hline
+\begin{tabularx}{\textwidth}{|l|X|} \hline
 Rôle & Droits d'accès \\ \hline
 Gestionnaire des rôles et droits d'accès & \\ \hline
 Gestionnaire des publications et de la communication & \\ \hline
@@ -145,20 +150,38 @@ Certains rôles et droits d'accès peuvent être amenés à évoluer, et d'autre
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%      GESTION DES PUBLICATIONS ET DE LA COMMUNICATION
+%      GESTION DES PUBLICATIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Gestion des publications et de la communication}
-La gestion des publications et de la campagne a pour objectif de maintenir au courant la communauté universitaire du statut de la campagne d'évaluation.
+\subsection{Gestion des publications}
+
+Publie les statistiques sur les différentes plate-formes de communication~: valves, mail, site web, etc.
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%      GESTION DE LA COMMUNICATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Gestion de la communication}
+
+Envoi d'information aux chargés de communication facultaires.
+Responsabilité des messages envoyés à la communauté universitaire~: courriels de rappel, invitations, etc.
+
+La gestion de la communication a pour objectif de maintenir au courant la communauté universitaire du statut de la campagne d'évaluation.
 Cette communication est assurée par un gestionnaire de la communication.
 Le corps de la communication se base sur un modèle pouvant être modifié selon les besoins.
 
-\noindent Les informations suivantes doivent être communiquées~:
+En sus de communiquer directement avec les étudiants, le gestionnaire de commuication met un ensemble de ressources à disposition des chargés de communication faculaires.
+Ces derniers peuvent alors utiliser leurs propres canaux de communication pour transférer les informations relatives à la campagne d'évaluation (page web, réseaux sociaux, newsletter facultaire, etc.).
+Les chargés de communication faculaires ont la possibilité de communiquer des informations complémentaires aux ressources transférées par le gestionnaire de la communication à leur propre initiative.
+
+\noindent Les informations suivantes sont communiquées par le gestionnaire de communication~:
 \begin{itemize}
-	\item le calendrier d'ouverture de la campagne d'évaluation
-	\item les rapports statistiques (à la commission pédagogique)
-	\item invitation\footnote{Est-ce lui qui s'occupe du contenu des invitation à la prise d'avis, ainsi que du contenu des rappels~?} ?
-	\item rappel ?
-	\item Disponibilité des résultats ?
+	\item le calendrier d'ouverture de la campagne d'évaluation~;
+	% \item les rapports statistiques (à la commission pédagogique)
+	\item l'invitation à la prise d'avis~;
+	\item le(s) rappel(s) à la prise d'avis~;
+	\item disponibilité des résultats ?
 \end{itemize}
 
 Les communications peuvent prendre la forme d'un simple courriel ou d'un fichier \texttt{pdf} devant être mis à disposition des systèmes et/ou personnes concernés.
@@ -166,6 +189,14 @@ Les communications peuvent prendre la forme d'un simple courriel ou d'un fichier
 
 \subsubsection{Processus}
 \paragraph{Élément déclencheur}~\newline{}
+
+La gestion de la communication est un processus continu.
+Cependant, chaque communication a son propre élément déclencheur.
+\begin{tabularx}{\linewidth}{|l|X|} \hline
+Communication & Élément déclencheur \\ \hline
+Invitation à la prise d'avis & Début de la période de prise d'avis telle que définie dans le calendrier de campagne. \\
+Rappel à la prise d'avis & Programmé à une date et heure définie dans le calendrier de campagne. \\ \hline
+\end{tabularx}
 
 % \paragraph{Planification}~\newline{}
 
@@ -178,14 +209,18 @@ Les communications peuvent prendre la forme d'un simple courriel ou d'un fichier
 
 \begin{tabularx}{\linewidth}{|X|X|} \hline
 Data In & Data Out \\ \hline
- & \\ \hline
+ & 
+\begin{itemize}
+	\item Invitation à la prise d'avis
+	\item Rappel à la prise d'avis
+\end{itemize}
+\\ \hline
 \end{tabularx}
 
 \paragraph{Data In du processus}~\newline{}
 
 \begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
 Data & Type & Source & Destiné à l'acteur \\ \hline
-
 \end{tabularx}
 
 \paragraph{Data Out du processus}~\newline{}
@@ -193,7 +228,11 @@ Data & Type & Source & Destiné à l'acteur \\ \hline
 \begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
 Data & Type & État & Destination \\ \hline
 Calendrier d'ouverture de campagne & Document électronique & Complet & Communauté universitaire\footnote{À véfifier, car « calendrier ouverture application evalens » est indiqué comme « interne ».} \\
-Rapport statistique & Document électronique & Complet & Commission pédagogique facultaire \\ \hline
+Rapport statistique & Document électronique & Complet & Commission pédagogique facultaire \\
+& & & \\
+Invitation à la prise d'avis & Courriel & Complet & Étudiant \\
+& & & \\
+Rappel à la prise d'avis & Courriel & Complet & Étudiant \\ \hline
 \end{tabularx}
 
 \paragraph{Acteurs}~\newline{}
@@ -216,6 +255,8 @@ Gestionnaire de communication & Gestion de la communication & Communique les inf
 %      CONFIGURATION DE L'APPLICATION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Configuration de l'application}
+La configuration de l'application consiste en l'ajustement de paramètres de fonctionnement.
+
 L'architecture de l'application offre la possibilité au superviseur de modifier la configuration de certains paramètres.
 
 \noindent Ces paramètres font partie de la liste suivante~:
@@ -379,6 +420,7 @@ Cette gestion permet de déclarer une période de suspension pour toute période
 	\item Prise d'avis~: période durant laquelle les étudiants ont accès aux questionnaires et peuvent les remplir.
 	\item Traitement des résultats~: période durant laquelle la commission pédagogique a accès au traitement des résultats. La commission a aussi l'opportunité de consulter les résultats à partir du début de cette période, dès lors que le traitement est terminé.
 	\item Consultation des résultats par les enseignants~: date à partir de laquelle les enseignants ont accès aux résultats de la campagne.
+	Les enseignants sont notifiés par courriel de cette date par le doyen et le président de commission pédagogique.
 	\item Consultation des résultats par grille~: date à partir de laquelle les résultats par grille sont accessibles par un ensemble de rôle.
 \end{itemize}
 ~\newline{}
@@ -519,7 +561,7 @@ Superviseur & Gestionnaire de calendrier & Établissement des dates & N/A & Cale
 
 
 \newpage
-\section{Gestion de campagne d'évaluation}
+\section{Enquête}
 
 \begin{figure}[ht]
 \includegraphics[width=\linewidth]{workspace/evalens-usecases/prise_avis.png}
@@ -562,14 +604,23 @@ La planification de la prise d'avis est asujettie à l'établissement du calendr
 
 \begin{tabularx}{\linewidth}{|X|X|} \hline
 Data In & Data Out \\ \hline
-Questionnaires d'évaluation & Réponses aux questionnaires d'évaluation\\ \hline
+\begin{itemize}
+	\item Questionnaires d'évaluation 
+	\item Invitation à la prise d'avis
+	\item Rappel à la prise d'avis
+\end{itemize}
+& Réponses aux questionnaires d'évaluation\\ \hline
 \end{tabularx}
 
 \paragraph{Data In du processus}~\newline{}
 
 \begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
 Data & Type & Source & Destiné à l'acteur \\ \hline
-Questionnaires d'évaluation & Base de données & Commission pédagogique facultaire & Étudiant \\ \hline
+Questionnaires d'évaluation & Base de données & Commission pédagogique facultaire & Étudiant \\ 
+& & & \\
+Invitation à la prise d'avis & Courriel & Gestionnaire de communication & Étudiant \\
+& & & \\
+Rappel à la prise d'avis & Courriel & Gestionnaire de communication & Étudiant \\ \hline
 \end{tabularx}
 
 \paragraph{Data Out du processus}~\newline{}
@@ -600,6 +651,8 @@ La gestion du traitement des résultats concerne l'émission d'une évaluation d
 Il permet à la commission pédagogique d'émettre un avis pour chaque unité d'enseignement et chaque enseignant soumis à la campagne d'évaluation.
 
 La période de traitement des résultats est définie dans le calendrier de campagne et débute après la fin de la période de prise d'avis.
+À l'issue de la période de prise d'avis, une série de statistiques et d'indicateurs sont mis à disposition de la commission pédagogique afin de les aider à traiter les résultats.
+Les indicateurs d'évaluation
 
 Les évaluations émises à l'issue du traitement des résultats sont mises à disposition des gestionnaires pédagogiques facultaires, aux enseignants ainsi qu'aux gestionnaires de campagne.
 
@@ -622,27 +675,38 @@ Ces dernières sont programmées deux fois par an (cf. section~\ref{sec:calendri
 
 \begin{tabularx}{\linewidth}{|X|X|} \hline
 Data In & Data Out \\ \hline
-Résultats des prises d'avis & Évaluations des enseignants et des unités d'enseignement\\ \hline
+\begin{itemize}
+	\item Résultats des prises d'avis
+	\item Indicateurs d'évaluation\newline{}
+\end{itemize}
+ & 
+\begin{itemize}
+	\item Évaluations des enseignants et des unités d'enseignement
+	\item Notification de disponibilité des résultats\footnote{Sans doute à supprimer de cette liste. La notification ne fait partie à proprement parler du processus de traitement des résultats, mais il y fait directement suite. Ne serait-il pas intéressant de le faire apparaître dans le diagramme d'acitivité~?}\newline{}
+\end{itemize}
+\\ \hline
 \end{tabularx}
 
 \paragraph{Data In du processus}~\newline{}
 
 \begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
 Data & Type & Source & Destiné à l'acteur \\ \hline
-Résultats des prises d'avis & Base de données & Prise d'avis des étudiants & Commission pédagogique \\ \hline
+Résultats des prises d'avis & Base de données & Prise d'avis des étudiants & Commission pédagogique \\
+Indicateurs d'évaluation & Base de données & Calculs statistiques & Commission pédagogique \\ \hline
 \end{tabularx}
 
 \paragraph{Data Out du processus}~\newline{}
 
 \begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
 Data & Type & État & Destination \\ \hline
-Évaluations des enseignants et des unités d'enseignement & ?? & ?? & 
+Évaluations des enseignants et des unités d'enseignement & ??\footnote{On donne accès à un pan de l'application. À quel type cela correspond-il ?} & ?? & 
 \begin{itemize}
 	\item Enseignants
 	\item Gestionnaires de campagne
-	\item Gestionnaires pédagogiques faculaires
+	\item Gestionnaires pédagogiques faculaires\newline{}
 \end{itemize}
-\\ \hline
+\\
+Notification de disponibilité des résultats & Courriel & Complet & Enseignants \\ \hline
 \end{tabularx}
 
 \paragraph{Acteurs}~\newline{}
@@ -672,19 +736,70 @@ Cette consultation est accessible aux gestionnaires pédagogiques faculaires dè
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %      CONSULTATION PAR COURS/ENSEIGNANT
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Consultation par cours/enseignant}
+\subsection{Consultation par unité d'enseignement/enseignant}
 
-La consultation de résultats par unité d'enseignement ou par enseignant reprend respectivement les résultats d'une seule unité d'enseignement et des enseignants associés ou les résultats d'un enseignant et des unités d'enseignement dans lesquelles il est impliqué.
+La consultation de résultats par unité d'enseignement ou par enseignant reprend respectivement les évaluations d'une seule unité d'enseignement et des enseignants associés ou les résultats d'un enseignant et des unités d'enseignement dans lesquelles il est impliqué.
 
+Ces évaluations sont émises par la commission pédagogique durant la période de traitement des résultats et les enseignants sont notifiés de leur disponibilité par le doyen et le président de la commission pédagogique.
 
-Les enseignants ont la possibilité de consulter leurs résultats de deux façons différentes~:
+Les évaluations sont consultables par les enseignants concernés ainsi que par les gestionnaires pédagogiques faculaires.
+
+Les enseignants ont la possibilité de consulter leurs évaluations de deux façons différentes~:
 \begin{itemize}
 	\item en vue globale rassemblant toutes leurs unités d'enseignement~;
 	\item une unité d'enseignement à la fois.
 \end{itemize}
 
-Les titulaires des unités d'enseignement peuvent consulter
+Si l'enseignant est titulaire de l'unité d'enseignement, il a accès aux évaluations des enseignants non-titulaires associés en plus des siennes.
 
+% Les titulaires des unités d'enseignement peuvent consulter
+Dès lors que les résultats d'évaluation sont consultables, ils le restent indéfiniment.
+
+\subsubsection{Processus}
+\paragraph{Élément déclencheur}~\newline{}
+
+Annonce de la disponibilité des résultats par le doyen et le président de la commission pédagogique.
+
+\paragraph{Planification}~\newline{}
+
+Programmée à chaque campagne d'évaluation, après la période de traitement des données, à une date définie dans le calendrier de campagne.
+
+\paragraph{Data}~\newline{}
+
+\begin{tabularx}{\linewidth}{|X|X|} \hline
+Data In & Data Out \\ \hline
+Évaluation des enseignements & N/A \\ \hline
+\end{tabularx}
+
+\paragraph{Data In du processus}~\newline{}
+
+\begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
+Data & Type & Source & Destiné à l'acteur \\ \hline
+Évaluation des enseignements & Base de données & Commission pédagogique &
+\begin{itemize}
+	\item Enseignants
+	\item Gestionnaires pédagogiques facultaires\newline{}
+\end{itemize}
+\\ \hline
+\end{tabularx}
+
+% \paragraph{Data Out du processus}~\newline{}
+
+% \begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
+% Data & Type & État & Destination \\ \hline
+%  &  &  &  \\ \hline
+% \end{tabularx}
+
+\paragraph{Acteurs}~\newline{}
+
+\begin{tabularx}{\linewidth}{|X|X|X|X|X|} \hline
+Nom & Rôle & Actions & Data In & Data Out \\ \hline 
+\begin{itemize}
+	\item Enseignant
+	\item Gestionnaire pédagogique facultaire
+\end{itemize}
+& Consultation des évaluations & Consulte les évaluations émises par la commission pédagogique, un enseignant ou une unité d'enseignement à la fois. & Évaluations & N/A \\ \hline
+\end{tabularx}
 
 
 

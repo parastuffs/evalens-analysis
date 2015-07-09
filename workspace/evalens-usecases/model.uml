@@ -455,4 +455,11 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_fis0cCYJEeWjCvkpqFZBCg" name="gestion publication" type="_DaUNcCYJEeWjCvkpqFZBCg" association="_fiqYMCYJEeWjCvkpqFZBCg"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_fitbgCYJEeWjCvkpqFZBCg" name="gestionnaire de la communication" type="_JX1QoCVMEeW1VIG_-Vg0vQ" association="_fiqYMCYJEeWjCvkpqFZBCg"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tPm0ECYvEeWjCvkpqFZBCg" memberEnd="_tPrFgSYvEeWjCvkpqFZBCg _tPsToCYvEeWjCvkpqFZBCg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tPqecCYvEeWjCvkpqFZBCg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tPrFgCYvEeWjCvkpqFZBCg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tPrFgSYvEeWjCvkpqFZBCg" name="gestion communication" type="_JYXcICVMEeW1VIG_-Vg0vQ" association="_tPm0ECYvEeWjCvkpqFZBCg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tPsToCYvEeWjCvkpqFZBCg" name="chargé de com. fac." type="_GqdIgCYJEeWjCvkpqFZBCg" association="_tPm0ECYvEeWjCvkpqFZBCg"/>
+  </packagedElement>
 </uml:Model>

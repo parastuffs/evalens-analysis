@@ -1340,6 +1340,19 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fsHPICYJEeWjCvkpqFZBCg" id="(1.0,0.66)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fsH2MCYJEeWjCvkpqFZBCg" id="(0.0,0.45)"/>
     </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_tQWa8CYvEeWjCvkpqFZBCg" type="4011" source="_GqoHoCYJEeWjCvkpqFZBCg" target="_JZ2C0CVMEeW1VIG_-Vg0vQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_tQXpECYvEeWjCvkpqFZBCg" type="6008">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_tQYQICYvEeWjCvkpqFZBCg" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_tQY3MCYvEeWjCvkpqFZBCg" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_tQZeQCYvEeWjCvkpqFZBCg" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_tQWa8SYvEeWjCvkpqFZBCg"/>
+      <element xmi:type="uml:Association" href="model.uml#_tPm0ECYvEeWjCvkpqFZBCg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tQWa8iYvEeWjCvkpqFZBCg" points="[-15, -11, 97, 69]$[-101, -87, 11, -7]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tbBZ4CYvEeWjCvkpqFZBCg" id="(0.0,0.28)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tbBZ4SYvEeWjCvkpqFZBCg" id="(1.0,0.7333333333333333)"/>
+    </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_0mYwECVNEeW1VIG_-Vg0vQ" type="UseCase" name="Gestion de campagne" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_4FdfACVNEeW1VIG_-Vg0vQ" type="2013">

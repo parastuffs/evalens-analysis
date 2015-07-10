@@ -594,25 +594,25 @@ Superviseur & Gestionnaire de calendrier & Établissement des dates & N/A & Cale
 %      PRISE DES AVIS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Répondre à l'enquête}
-Répondre à l'enquête permet aux étudiants de donner leur avis sur les unités d'enseignement et les enseignants grâce aux questionnaires préalablement approuvés par le CoCoPe et implémentés lors du processus « constituer les questionnaires »..
+Répondre à l'enquête est le processus qui permet aux étudiants de donner leur avis sur les unités d'enseignement et les enseignants grâce aux questionnaires préalablement approuvés par le CoCoPe et implémentés lors du processus « constituer les questionnaires ».
 
-Répondre à l'enquête est possible uniquement durant la période définie à cet effet dans le calendrier de la campagne, en l'occurence la période «~prise d'avis~».
+Ce processus est accessible uniquement durant la période définie à cet effet dans le calendrier de la campagne, en l'occurence la période «~prise d'avis~».
 Les étudiants ayant accès à l'enquête sont déterminés lors du processus «~gérer les étudiants~».
 Les unités d'enseignement et les enseignants faisant l'objet de l'enquête sont respectivement déterminés lors des processus «~gérer les unités d'enseignement~» et «~gérer les enseignants~».
 
-L'étudiant est invité par courriel à répondre à l'enquête.
+L'étudiant est invité entre autres par courriel à répondre à l'enquête.
 Il est dirigé vers l'application lui proposant sont programme individuel de cours (PIC) après identification.
-Dans ce dernier sont identifiées les unités d'enseignement faisant partie de la campagne d'évaluation ainsi que celles pour lesquelles il a déjà rempli le questionnaire d'évaluation.
+Dans ce dernier sont identifiées les unités d'enseignement faisant partie de la campagne d'évaluation ainsi que celles pour lesquelles l'étudiant a déjà rempli le questionnaire d'évaluation.
 Après avoir choisi une unité d'enseignement soumise à évaluation, l'étudiant sélectionne les enseignants avec qui il a suivi l'enseignement.
 Après validation de sa sélection, il passe à l'étape du questionnaire d'évaluation.
 L'étudiant remplit le questionnaire et a le choix de valider et sauvegarder ses réponses ou de les annuler.
 Dans les deux cas, il est redirigé vers son PIC.
 
-En cas de sauvegarde des réponses, devant garantir l'anonymat, parallèlement à ses réponses, on enregistre son passage afin d'éviter des réponses multiples au même questionnaire.
+En cas de sauvegarde des réponses, devant garantir l'anonymat, on enregistre son passage parallèlement à ses réponses afin d'éviter des réponses multiples au même questionnaire.
 
 L'anonymat empêche toute modification des réponses par leur dépositaire une fois qu'elles sont sauvegardées.
 
-Le processus se termine à l'issue des réponses aux questionnaires ou peut être interrompu à tout moment.
+Ce processus se termine à l'issue des réponses aux questionnaires ou peut être interrompu à tout moment.
 Dans les deux cas, l'étudiant est amené à donner facultativement son avis sur le processus des évaluations.
 Une notification lui sera transmise par courriel reprenant le résumé de sa participation à l'enquête.
 
@@ -620,11 +620,11 @@ Une notification lui sera transmise par courriel reprenant le résumé de sa par
 \subsubsection{Processus}
 \paragraph{Élément déclencheur}~\newline{}
 
-Réception de l'invitation à la prise d'avis.
+Souhait de répondre aux questionnaires d'évaluation des enseignements.
 
 \paragraph{Planification}~\newline{}
 
-La planification de la prise d'avis est asujettie à l'établissement du calendrier de campagne, lui-même définissant une période de prise d'avis au sein de la période de la campagne d'évaluation.
+Durée déterminée par la période de prise d'avis du calendrier de la campagne.
 
 \paragraph{Data}~\newline{}
 
@@ -637,7 +637,7 @@ Data In & Data Out \\ \hline
 	\item Unités d'enseignement de la campagne
 	\item Enseignants de la campagne
 	\item Registre des réponses
-	\item Calendrier de la campagne
+	\item Calendrier de la campagne%Nécessaire pour savoir si la période est ouverte
 \end{itemize}
 &
 \begin{itemize}
@@ -655,8 +655,8 @@ Data In & Data Out \\ \hline
 \begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
 Data & Type & Source & Destiné à l'acteur \\ \hline
 Questionnaires d'évaluation & Base de données & Évaluation des enseignements & Étudiant \\ 
-PIC & Base de données & CIA & Étudiant \\
-Données de l'étudiant & Base de données & CIA & Étudiant \\
+PIC & Base de données & Smiley & Étudiant \\
+Données de l'étudiant & Base de données & Smiley & \\
 Unités d'enseignement & Base de données & Évaluation des enseignements & Étudiants \\
 Enseignants & Base de données & Évaluation des enseignements & Étudiants \\
 Registre des réponses & Base de données & Évaluation des enseignements & Étudiants \\
@@ -676,7 +676,7 @@ Registre des activités & Base de données & Complet & \\
 \hline
 \end{tabularx}
 
-\paragraph{Acteurs}~\newline{}
+\paragraph{Acteurs}~\newline{}%TODO Peut-être à supprimer
 
 \begin{tabularx}{\linewidth}{|l|X|X|X|X|} \hline
 Nom & Rôle & Actions & Data In & Data Out \\ \hline 
@@ -685,6 +685,7 @@ Nom & Rôle & Actions & Data In & Data Out \\ \hline
 	\item Questionnaires d'évaluation 
 	\item Enseignants
 	\item Unités d'enseignement
+	\item PIC
 \end{itemize}
 & Réponses aux questionnaires d'évaluation \\
  & & & & \\ \hline

@@ -467,7 +467,7 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_-gxkkCcZEeWjCvkpqFZBCg" name="établir avis de circonstance" type="_b4hzoCcYEeWjCvkpqFZBCg" association="_-gvvYCcZEeWjCvkpqFZBCg"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_-gyysCcZEeWjCvkpqFZBCg" name="gestionnaire pédagogique facultaire" type="_b4ewUCcYEeWjCvkpqFZBCg" association="_-gvvYCcZEeWjCvkpqFZBCg"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_Jmm0ECcbEeWjCvkpqFZBCg" name="Actor1"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Jmm0ECcbEeWjCvkpqFZBCg" name="Enseignant/Gestionnaire"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_NAgIECcbEeWjCvkpqFZBCg" memberEnd="_NAh9QCcbEeWjCvkpqFZBCg _NAjLYCcbEeWjCvkpqFZBCg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NAhWMCcbEeWjCvkpqFZBCg" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NAhWMScbEeWjCvkpqFZBCg" key="nature" value="UML_Nature"/>

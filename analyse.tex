@@ -20,6 +20,11 @@
 \usepackage{fullpage}
 \usepackage{hyperref}
 
+\usepackage[xindy, toc, nonumberlist, acronym]{glossaries}
+\makeglossaries
+\input{lexique}
+\renewcommand*{\acronymname}{Abréviations}
+
 \setcounter{secnumdepth}{3}
 
 \title{Evalens -- Analyse}
@@ -29,89 +34,94 @@
 \maketitle
 \tableofcontents
 
-\chapter{Lexique}
+\glsaddall
+\printglossaries[type=\acronymtype]
 
-\subsection{Doyen}
+% \chapter{Lexique}
 
-\subsection{Gestionnaire de campagne}
-S'occupe de la gestion d'une camapagne d'évaluation.
-Entité pouvant être composée de plusieurs personnes.
+% \subsection{Doyen}
 
-\subsection{Superviseur}
+% \subsection{Gestionnaire de campagne}
+% S'occupe de la gestion d'une campagne d'évaluation.
+% Entité pouvant être composée de plusieurs personnes.
 
-\subsection{Gestionnaire de communication}
-Transversal aux facultés.
+% \subsection{Superviseur}
 
-\subsection{Chargé de communication facultaire}
-Communique différentes informations relatives aux campagnes d'évaluations à la communauté universitaire.
+% \subsection{Gestionnaire de communication}
+% Transversal aux facultés.
 
-\subsection{Gestionnaire pédagogique faculaire}
-Toute personne ayant une responsabilité au niveau faculaire dans le traitement des résultats de campagne, la consultation de ces résultats et la gestion des questionnaires de campagne.
+% \subsection{Chargé de communication facultaire}
+% Communique différentes informations relatives aux campagnes d'évaluations à la communauté universitaire.
 
-\subsection{Commision pédagogique facultaire}
-cd. règlement cadre.
-\subsubsection{Membre}
-\subsubsection{Président}
-Le président siège au conseil des commissions pédagogiques.
+% \subsection{Gestionnaire pédagogique faculaire}
+% Toute personne ayant une responsabilité au niveau faculaire dans le traitement des résultats de campagne, la consultation de ces résultats et la gestion des questionnaires de campagne.
 
-\subsection{Conseil des commissions pédagogiques (CoCoPe)}
-Conférence rassemblant les présidents et vice-présidents de chaque commission pédagogique facultaire, ainsi que le recteur, vice-recteur à l'enseignement et deux conseillers pédagogiques désignés par ces derniers.
-Ce conseil est présidé par le recteur ou le vice-recteur qu'il désigne.
+% \subsection{Commision pédagogique facultaire}
+% cd. règlement cadre.
+% \subsubsection{Membre}
+% \subsubsection{Président}
+% Le président siège au conseil des commissions pédagogiques.
 
-Le CoCoPe a le pouvoir de modifier le règlement cadre et a pour tâche de mettre à jour la banque de questionnaires.
+% \subsection{Conseil des commissions pédagogiques (CoCoPe)}
+% Conférence rassemblant les présidents et vice-présidents de chaque commission pédagogique facultaire, ainsi que le recteur, vice-recteur à l'enseignement et deux conseillers pédagogiques désignés par ces derniers.
+% Ce conseil est présidé par le recteur ou le vice-recteur qu'il désigne.
 
-% \subsection{CoA}
+% Le CoCoPe a le pouvoir de modifier le règlement cadre et a pour tâche de mettre à jour la banque de questionnaires.
 
-\subsection{Unité d'enseignement}
+% % \subsection{CoA}
 
-\subsection{Cours}
+% \subsection{Unité d'enseignement}
 
-\subsection{Étudiant}
-Personne inscrite régulièrement à l'Université Libre de Bruxelles et suivant un certain nombre d'unités d'enseignement.
+% \subsection{Cours}
 
-\subsection{Enseignant}
-Personne dispensant une unité d'enseignement à un ensemble d'étudiants.
-Il peut s'agir d'un professeur ou d'un assitant, titulaire ou non de chacune des unités d'enseignement auxquelles il participe.
+% \subsection{Étudiant}
+% Personne inscrite régulièrement à l'Université Libre de Bruxelles et suivant un certain nombre d'unités d'enseignement.
 
-\subsection{Titulaire}
-Un enseignant est titulaire d'une unité d'enseignement s'il en est l'enseignant principal.
-Ce statut lui donne accès aux évaluations des enseignants non-titulaires pour les unités d'enseignement qu'ils ont en commun.
+% \subsection{Enseignant}
+% Personne dispensant une unité d'enseignement à un ensemble d'étudiants.
+% Il peut s'agir d'un professeur ou d'un assitant, titulaire ou non de chacune des unités d'enseignement auxquelles il participe.
 
-\subsection{Cellule de communication universitaire}
+% \subsection{Titulaire}
+% Un enseignant est titulaire d'une unité d'enseignement s'il en est l'enseignant principal.
+% Ce statut lui donne accès aux évaluations des enseignants non-titulaires pour les unités d'enseignement qu'ils ont en commun.
 
-\subsection{Campagne d'évaluation}
+% \subsection{Cellule de communication universitaire}
+
+% \subsection{Campagne d'évaluation}
 
 
-\subsection{Enquête}
-Processus regroupant la prise d'avis des étudiants, le traitement des résultats ainsi que la consultation de ces derniers.
+% \subsection{Enquête}
+% Processus regroupant la prise d'avis des étudiants, le traitement des résultats ainsi que la consultation de ces derniers.
 
-\subsection{Calendrier}
-Ensemble de dates et de périodes liées à une campagne d'évaluation.
+% \subsection{Calendrier}
+% Ensemble de dates et de périodes liées à une campagne d'évaluation.
 
-\subsection{Période}
-Intervalle de temps ayant une date et une heure de début et de fin.
+% \subsection{Période}
+% Intervalle de temps ayant une date et une heure de début et de fin.
 
-\subsection{Département de support aux activités académiques (DSAA)}
+% \subsection{Département de support aux activités académiques (DSAA)}
 
-\subsection{Directeur administratif facultaire (DAF)}
+% \subsection{Directeur administratif facultaire (DAF)}
 
-\subsection{Programme individuel de cours (PIC)}
-Dans le cadre de l'université~: cours suivis par l'étudiant par année d'étude (pré-Paysage, anciennes enquêtes), ou par année académique (post-paysage).
+% \subsection{Programme individuel de cours (PIC)}
+% Dans le cadre de l'université~: cours suivis par l'étudiant par année d'étude (pré-Paysage, anciennes enquêtes), ou par année académique (post-paysage).
 
-Dans le cadre de la campagne~: cours suivis par l'étudiant lors d'une année académique.
+% Dans le cadre de la campagne~: cours suivis par l'étudiant lors d'une année académique.
 
-\subsection{Questionnaire d'évaluation}
-Un questionnaire reprend toutes les questions d'une unité d'enseignement.
-Il est divisé en sections.
+% \subsection{Questionnaire d'évaluation}
+% Un questionnaire reprend toutes les questions d'une unité d'enseignement.
+% Il est divisé en sections.
 
-\subsection{Registre des réponses}
-Registre individuel par utilisateur reprenant les réponses déjà enregistrées.
+% \subsection{Registre des réponses}
+% Registre individuel par utilisateur reprenant les réponses déjà enregistrées.
 
-\subsection{Registre des connexions}
-Registre des utilisateurs s'étant connectés à l'application.
+% \subsection{Registre des connexions}
+% Registre des utilisateurs s'étant connectés à l'application.
 
-\subsection{Registre des activités}
-Registre de l'activité des utilisateurs dans l'application. (notifications envoyées, etc.)
+% \subsection{Registre des activités}
+% Registre de l'activité des utilisateurs dans l'application. (notifications envoyées, etc.)
+
+% \subsection{NRE}
 
 
 
@@ -355,7 +365,7 @@ DSAA & Traduction & Traduit les données qui lui sont communiquées depuis le fr
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %      GESTION DES ÉTUDIANTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Gestion des étudiants}
+\subsection{Gérer les étudiants}\label{sec:gerer-etud}
 
 
 
@@ -363,7 +373,7 @@ DSAA & Traduction & Traduit les données qui lui sont communiquées depuis le fr
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %      GESTION DES ENSEIGNANTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Gestion des enseignants}
+\subsection{Gérer les enseignants}\label{sec:gerer-enseignant}
 
 
 
@@ -371,7 +381,7 @@ DSAA & Traduction & Traduit les données qui lui sont communiquées depuis le fr
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %      GESTION DES UNITÉS D'ENSEIGNEMENT
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Gestion des unités d'enseignement}
+\subsection{Gérer les unités d'enseignement}\label{sec:gerer-ue}
 
 
 
@@ -380,7 +390,7 @@ DSAA & Traduction & Traduit les données qui lui sont communiquées depuis le fr
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %      GESTION DES QUESTIONNAIRES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Gestion des questionnaires}
+\subsection{Gestion des questionnaires}\label{sec:constituer-quest}
 Lors de chaque campagne, un questionnaire est associé à chaque unité d'enseignement.
 Ce questionnaire peut changer d'une campagne à l'autre, mais il doit être possible de retrouver celui correspondant à une campagne donnée.
 
@@ -429,10 +439,10 @@ Au moins un mois avant le début de la période de prise d'avis, le recteur ou l
 %      GESTION DU CALENDRIER
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Gérer le calendrier}
-Gérer le calendrier est une étape nécessaire à une campagne~; cela permet de définir les périodes de validité de certaines activités ainsi que les dates de planification des tâches, potentiellement par faculté.
-Cette gestion permet de déclarer une période de suspension pour toute période définie en cas de besoin.
+Gérer le calendrier est un processus nécessaire à une campagne~; cela permet de définir les périodes de validité de certaines activités ainsi que les dates de planification des tâches, potentiellement par faculté.
+Ce processus permet de déclarer une période de suspension pour toute période définie en cas de besoin.
 
-\noindent Elle est prise en charge par le gestionnaire de campagne.
+\noindent Il est pris en charge par le gestionnaire de campagne.
 
 \noindent Parmi ces dates et périodes, on trouve~:
 \begin{itemize}
@@ -442,7 +452,7 @@ Cette gestion permet de déclarer une période de suspension pour toute période
 	\item Traitement des résultats~: période durant laquelle la commission pédagogique a accès au traitement des résultats. La commission a aussi l'opportunité de consulter les résultats à partir du début de cette période, dès lors que le traitement est terminé.
 	\item Consultation des résultats par les enseignants~: date à partir de laquelle les enseignants ont accès aux résultats de la campagne.
 	Les enseignants sont notifiés par courriel de cette date par le doyen et le président de commission pédagogique.
-	\item Consultation des résultats par grille~: date à partir de laquelle les résultats par grille sont accessibles par un ensemble de rôle.
+	\item Consultation des résultats par grille~: date à partir de laquelle les résultats par grille sont accessibles par un ensemble de rôles.
 \end{itemize}
 ~\newline{}
 
@@ -594,11 +604,11 @@ Superviseur & Gestionnaire de calendrier & Établissement des dates & N/A & Cale
 %      PRISE DES AVIS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Répondre à l'enquête}
-Répondre à l'enquête est le processus qui permet aux étudiants de donner leur avis sur les unités d'enseignement et les enseignants grâce aux questionnaires préalablement approuvés par le CoCoPe et implémentés lors du processus « constituer les questionnaires ».
+Répondre à l'enquête est le processus qui permet aux étudiants de donner leur avis sur les unités d'enseignement et les enseignants grâce aux questionnaires préalablement approuvés par le CoCoPe et implémentés lors du processus «~\hyperref[sec:constituer-quest]{constituer les questionnaires}~».
 
 Ce processus est accessible uniquement durant la période définie à cet effet dans le calendrier de la campagne, en l'occurence la période «~prise d'avis~».
-Les étudiants ayant accès à l'enquête sont déterminés lors du processus «~gérer les étudiants~».
-Les unités d'enseignement et les enseignants faisant l'objet de l'enquête sont respectivement déterminés lors des processus «~gérer les unités d'enseignement~» et «~gérer les enseignants~».
+Les étudiants ayant accès à l'enquête sont déterminés lors du processus «~\hyperref[sec:gerer-etud]{gérer les étudiants}~».
+Les unités d'enseignement et les enseignants faisant l'objet de l'enquête sont respectivement déterminés lors des processus «~\hyperref[sec:gerer-ue]{gérer les unités d'enseignement}~» et «~\hyperref[sec:gerer-enseignant]{gérer les enseignants}~».
 
 L'étudiant est invité entre autres par courriel à répondre à l'enquête.
 Il est dirigé vers l'application lui proposant sont programme individuel de cours (PIC) après identification.
@@ -699,17 +709,64 @@ Nom & Rôle & Actions & Data In & Data Out \\ \hline
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %      TRAITEMENT DES RÉSULTATS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Traitement des résultats}
-La gestion du traitement des résultats concerne l'émission d'une évaluation des unités d'enseignement et des enseignants sur base des résultats de la prise d'avis.
-Il permet à la commission pédagogique d'émettre un avis pour chaque unité d'enseignement et chaque enseignant soumis à la campagne d'évaluation.
+\subsection{Traiter les résultats}
+Traiter les résultats est un processus permettant d'évaluer les unités d'enseignement et les enseignants ayant été le sujet d'un questionnaire d'évaluation.
+Il est disponible durant une période définie dans le calendrier de campagne.
+Il n'est possible d'évaluer que les UE et les enseignants dont les questionnaires ont atteint le quorum.
+Si le quorum n'est pas atteint, l'évaluation est établie comme étant «~sans objet~».
+Ce processus est pris en charge par la commission pédagogique facultaire.
+Chaque commission évalue les unités d'enseignement dont le mnémonique relève de la faculté en question.
 
-La période de traitement des résultats est définie dans le calendrier de campagne et débute après la fin de la période de prise d'avis.
-À l'issue de la période de prise d'avis, une série de statistiques et d'indicateurs sont mis à disposition de la commission pédagogique afin de les aider à traiter les résultats.
-Le traitement des résultats est composé de deux étapes principales (cf. annexe~\ref{an:mode-emploi})~:
+Ce processus constitué de deux étapes~:
 \begin{itemize}
-	\item un travail préparatoire réalisé par un ou plusieurs membres de la commission pédagogique qui consiste à émettre une évaluation pour les unités d'enseignement et les enseignant ne nécessitant pas une assemblée plénière~;
-	\item une réunion de la commission pédagogique pour émettre une évaluation des unités d'enseignement et des enseignant n'ayant pas été évalués par la première étape.
+	\item un dépouillement préliminaire réalisé par un ou plusieurs membres de la commission pédagogique qui consiste à émettre une évaluation pour les unités d'enseignement et les enseignant ne nécessitant pas une assemblée plénière~;
+	\item La réunion de commission pédagogique faculaire qui délibère des autres cas.
 \end{itemize}
+
+% Dans les deux cas, la commission est amenée à émettre un avis périodique.
+
+Pour chaque unité d'enseignement, la commission pédagogique émet un avis périodique spécifique à chacune des trois dimensions (cf. section questionnaire), ainsi qu'un avis concernant la prestation individuelle de chaque enseignant pour l'UE évaluée.
+Cette évaluation suit l'une de ces cinq appréciations (cf. annexe~\ref{an:regl-cadre})~:
+\begin{itemize}
+	\item Très positive
+	\item Positive
+	\item Positive avec points d'attention
+	\item Problématique
+	\item Sans objet
+\end{itemize}
+Si elle le souhaite, la commission complète l'appréciation d'un commentaire, communiqué uniquement à l'enseignant concerné (confidentiel) ou visible à toute personne éligible à la consultation de l'appréciation (cf. section~\ref{sec:consul-ue-enseign}).
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%      DÉPOUILLEMENT DES RÉSULTATS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Dépouillement des résultats}
+Le dépouillement des résultats constitue un traitement préliminaires des résultats de l'enquête d'évaluation des enseignements.
+Cette étape est gérée par un ou plusieurs membres de la commission pédagogique facultaire dépêchés par le président de cette même commission.
+Leur rôle est d'effectuer un travail préparatoire à la réunion de commission en distinguant les cas triviaux ne nécessitant pas de discussion.
+Ce travail s'effectue à l'aide de la grille des résultats présentant toutes les unités d'enseignement, ainsi que les enseignants associés, soumies à évaluation.
+Pour chacune d'entre elles, un indicateur d'évaluation et de dispersion permet aux membres de la commission d'émettre une première évaluation pour les cas triviaux (défini dans le règlement cadre, cf. annexe~\ref{an:regl-cadre}).
+
+
+
+
+
+% La gestion du traitement des résultats concerne l'émission d'une évaluation des unités d'enseignement et des enseignants sur base des résultats de la prise d'avis.
+% Il permet à la commission pédagogique d'émettre un avis pour chaque unité d'enseignement et chaque enseignant soumis à la campagne d'évaluation.
+
+% La période de traitement des résultats est définie dans le calendrier de campagne et débute après la fin de la période de prise d'avis.
+% À l'issue de la période de prise d'avis, une série de statistiques et d'indicateurs sont mis à disposition de la commission pédagogique afin de les aider à traiter les résultats.
+% Le traitement des résultats est composé de deux étapes principales (cf. annexe~\ref{an:mode-emploi})~:
+% \begin{itemize}
+% 	\item un travail préparatoire réalisé par un ou plusieurs membres de la commission pédagogique qui consiste à émettre une évaluation pour les unités d'enseignement et les enseignant ne nécessitant pas une assemblée plénière~;
+% 	\item une réunion de la commission pédagogique pour émettre une évaluation des unités d'enseignement et des enseignant n'ayant pas été évalués par la première étape.
+% \end{itemize}
 
 Les évaluations émises à l'issue du traitement des résultats sont mises à disposition des gestionnaires pédagogiques facultaires, aux enseignants ainsi qu'aux gestionnaires de campagne.
 
@@ -857,7 +914,7 @@ Gestionnaire pédagogique facultaire & Consultation des résultats par grille & 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %      CONSULTATION PAR COURS/ENSEIGNANT
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Consultation par unité d'enseignement/enseignant}
+\subsection{Consultation par unité d'enseignement/enseignant}\label{sec:consul-ue-enseign}
 
 La consultation de résultats par unité d'enseignement ou par enseignant reprend respectivement les évaluations d'une seule unité d'enseignement et des enseignants associés ou les résultats d'un enseignant et des unités d'enseignement dans lesquelles il est impliqué.
 

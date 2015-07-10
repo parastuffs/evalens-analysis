@@ -466,4 +466,6 @@
   <packagedElement xmi:type="uml:UseCase" xmi:id="_J4kWUCblEeWjCvkpqFZBCg" name="Délibération"/>
   <packagedElement xmi:type="uml:Realization" xmi:id="_WXulsCblEeWjCvkpqFZBCg" client="_J4kWUCblEeWjCvkpqFZBCg" supplier="_nt8MECVPEeW1VIG_-Vg0vQ"/>
   <packagedElement xmi:type="uml:Realization" xmi:id="_X0mzYCblEeWjCvkpqFZBCg" client="_IeOfQCblEeWjCvkpqFZBCg" supplier="_nt8MECVPEeW1VIG_-Vg0vQ"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="__qHvECcVEeWjCvkpqFZBCg" name="Avis de circonstance"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_DlYDsCcWEeWjCvkpqFZBCg" client="__qHvECcVEeWjCvkpqFZBCg" supplier="_nt8MECVPEeW1VIG_-Vg0vQ"/>
 </uml:Model>

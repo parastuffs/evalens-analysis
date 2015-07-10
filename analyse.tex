@@ -64,6 +64,8 @@ Le CoCoPe a le pouvoir de modifier le règlement cadre et a pour tâche de mettr
 
 \subsection{Unité d'enseignement}
 
+\subsection{Cours}
+
 \subsection{Étudiant}
 Personne inscrite régulièrement à l'Université Libre de Bruxelles et suivant un certain nombre d'unités d'enseignement.
 
@@ -93,7 +95,23 @@ Intervalle de temps ayant une date et une heure de début et de fin.
 
 \subsection{Directeur administratif facultaire (DAF)}
 
+\subsection{Programme individuel de cours (PIC)}
+Dans le cadre de l'université~: cours suivis par l'étudiant par année d'étude (pré-Paysage, anciennes enquêtes), ou par année académique (post-paysage).
 
+Dans le cadre de la campagne~: cours suivis par l'étudiant lors d'une année académique.
+
+\subsection{Questionnaire d'évaluation}
+Un questionnaire reprend toutes les questions d'une unité d'enseignement.
+Il est divisé en sections.
+
+\subsection{Registre des réponses}
+Registre individuel par utilisateur reprenant les réponses déjà enregistrées.
+
+\subsection{Registre des connexions}
+Registre des utilisateurs s'étant connectés à l'application.
+
+\subsection{Registre des activités}
+Registre de l'activité des utilisateurs dans l'application. (notifications envoyées, etc.)
 
 
 
@@ -410,8 +428,8 @@ Au moins un mois avant le début de la période de prise d'avis, le recteur ou l
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %      GESTION DU CALENDRIER
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Gestion du calendrier}
-La gestion du calendrier est une étape nécessaire à une campagne~; elle permet de définir les périodes de validité de certaines activités ainsi que les dates de planification des tâches, potentiellement par faculté.
+\subsection{Gérer le calendrier}
+Gérer le calendrier est une étape nécessaire à une campagne~; cela permet de définir les périodes de validité de certaines activités ainsi que les dates de planification des tâches, potentiellement par faculté.
 Cette gestion permet de déclarer une période de suspension pour toute période définie en cas de besoin.
 
 \noindent Elle est prise en charge par le gestionnaire de campagne.
@@ -575,24 +593,29 @@ Superviseur & Gestionnaire de calendrier & Établissement des dates & N/A & Cale
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %      PRISE DES AVIS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Prise des avis}
-La prise des avis est le processus dans lequel les étudiants donnent leur avis sur les unités d'enseignement et les enseignants grâce aux questionnaires préalablement approuvés par la CoCoPe et implémentés par le processus de gestion des questionnaires.
-%La prise d'avis est essentielle au processus d'évaluation des enseignements~; elle requiert des étudiants qu'ils remplissent les questionnaires d'évaluation concernant les unités d'enseignement qu'ils ont suivies lors de la période couverte par la campagne d'évaluation. % Les étudiants ont donc /l'obligation/ de remplir ces questionnaires.
+\subsection{Répondre à l'enquête}
+Répondre à l'enquête permet aux étudiants de donner leur avis sur les unités d'enseignement et les enseignants grâce aux questionnaires préalablement approuvés par le CoCoPe et implémentés lors du processus « constituer les questionnaires »..
 
-La prise d'avis est possible uniquement durant la période définie à cet effet dans le calendrier de campagne.
-Les étudiants, les unités d'enseignement et les enseignants concernés par la prise d'avis sont ceux déterminés respectivement par le processus de gestion des étudiants, de gestion des unités d'enseignement et des enseignants.
+Répondre à l'enquête est possible uniquement durant la période définie à cet effet dans le calendrier de la campagne, en l'occurence la période «~prise d'avis~».
+Les étudiants ayant accès à l'enquête sont déterminés lors du processus «~gérer les étudiants~».
+Les unités d'enseignement et les enseignants faisant l'objet de l'enquête sont respectivement déterminés lors des processus «~gérer les unités d'enseignement~» et «~gérer les enseignants~».
 
-%Les étudiants ont la possibilité de remplir les questionnaires d'évaluation à distance et sont invités à le faire par courriel.
-L'étudiant est invité par courriel à participer à la prise d'avis.
-Il est alors dirigé vers l'application lui proposant sont programme individuel de cours (PIC) où sont repris les unité d'enseignement faisant partie ou non de la campagne d'évaluation.
-Après avoir sélectionné une unité d'enseignement soumise à évaluation, l'étudiant peut choisir les enseignants pour lesquels il donnera sont avis à l'écran suivant qui est constitué du questionnaire d'évaluation.
-Une fois le questionnaire rempli, l'étudiant peut le sauvegarder et est redirigé vers son PIC.
+L'étudiant est invité par courriel à répondre à l'enquête.
+Il est dirigé vers l'application lui proposant sont programme individuel de cours (PIC) après identification.
+Dans ce dernier sont identifiées les unités d'enseignement faisant partie de la campagne d'évaluation ainsi que celles pour lesquelles il a déjà rempli le questionnaire d'évaluation.
+Après avoir choisi une unité d'enseignement soumise à évaluation, l'étudiant sélectionne les enseignants avec qui il a suivi l'enseignement.
+Après validation de sa sélection, il passe à l'étape du questionnaire d'évaluation.
+L'étudiant remplit le questionnaire et a le choix de valider et sauvegarder ses réponses ou de les annuler.
+Dans les deux cas, il est redirigé vers son PIC.
 
-Si la prise d'avis est obligatoire, elle est néanmoins anonyme. Le système d'évaluation est capable de déterminer quels étudiants ont rempli les questionnaires, mais pas leurs réponses.
+En cas de sauvegarde des réponses, devant garantir l'anonymat, parallèlement à ses réponses, on enregistre son passage afin d'éviter des réponses multiples au même questionnaire.
 
-Les réponses entrées par l'étudiant ne sont pas modifiables.
+L'anonymat empêche toute modification des réponses par leur dépositaire une fois qu'elles sont sauvegardées.
 
-~\footnote{Parler du quorum ici~?}
+Le processus se termine à l'issue des réponses aux questionnaires ou peut être interrompu à tout moment.
+Dans les deux cas, l'étudiant est amené à donner facultativement son avis sur le processus des évaluations.
+Une notification lui sera transmise par courriel reprenant le résumé de sa participation à l'enquête.
+
 
 \subsubsection{Processus}
 \paragraph{Élément déclencheur}~\newline{}
@@ -608,37 +631,63 @@ La planification de la prise d'avis est asujettie à l'établissement du calendr
 \begin{tabularx}{\linewidth}{|X|X|} \hline
 Data In & Data Out \\ \hline
 \begin{itemize}
-	\item Questionnaires d'évaluation 
-	\item Invitation à la prise d'avis
-	\item Rappel à la prise d'avis
+	\item Questionnaires d'évaluation
+	\item PIC
+	\item Données de l'étudiant
+	\item Unités d'enseignement de la campagne
+	\item Enseignants de la campagne
+	\item Registre des réponses
+	\item Calendrier de la campagne
 \end{itemize}
-& Réponses aux questionnaires d'évaluation\\ \hline
+&
+\begin{itemize}
+	\item Réponses aux questionnaires d'évaluation
+	\item Registre des réponses
+	\item Registre des présences
+	\item Registre des activités
+\end{itemize}	
+\\ 
+ & \\ \hline
 \end{tabularx}
 
 \paragraph{Data In du processus}~\newline{}
 
 \begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
 Data & Type & Source & Destiné à l'acteur \\ \hline
-Questionnaires d'évaluation & Base de données & Commission pédagogique facultaire & Étudiant \\ 
-& & & \\
-Invitation à la prise d'avis & Courriel & Gestionnaire de communication & Étudiant \\
-& & & \\
-Rappel à la prise d'avis & Courriel & Gestionnaire de communication & Étudiant \\ \hline
+Questionnaires d'évaluation & Base de données & Évaluation des enseignements & Étudiant \\ 
+PIC & Base de données & CIA & Étudiant \\
+Données de l'étudiant & Base de données & CIA & Étudiant \\
+Unités d'enseignement & Base de données & Évaluation des enseignements & Étudiants \\
+Enseignants & Base de données & Évaluation des enseignements & Étudiants \\
+Registre des réponses & Base de données & Évaluation des enseignements & Étudiants \\
+Calendrier de campagne & Base de données & Évaluation des enseignements & Étudiants \\
+
+\hline
 \end{tabularx}
 
 \paragraph{Data Out du processus}~\newline{}
 
-\begin{tabularx}{\linewidth}{|X|X|X|X|} \hline
+\begin{tabularx}{\linewidth}{|X|X|l|X|} \hline
 Data & Type & État & Destination \\ \hline
-Réponses aux questionnaires d'évaluation & Base de données & Complet & Commission pédagogique facultaire \\ \hline
+Réponses aux questionnaires d'évaluation & Base de données & Complet & Commission pédagogique facultaire \\ 
+Registre des réponses & Base de données & Complet & \\
+Registre des présences & Base de données & Complet & \\
+Registre des activités & Base de données & Complet & \\
+\hline
 \end{tabularx}
 
 \paragraph{Acteurs}~\newline{}
 
-\begin{tabularx}{\linewidth}{|X|X|X|X|X|} \hline
+\begin{tabularx}{\linewidth}{|l|X|X|X|X|} \hline
 Nom & Rôle & Actions & Data In & Data Out \\ \hline 
-Étudiant & Prise d'avis & Répond aux questionnaires d'évaluation & Questionnaires d'évaluation & Réponses aux questionnaires d'évaluation \\ \hline
-% À ce niveau, la commission pédagogique facultaire n'est pas un acteur parce qu'elle n'agit pas activement dans le processus de prise d'avis. Elle met à disposition un ensemble de questionnaires et reçoit les réponses sans d'impliquer davantage.
+Étudiant & Interrogé & Répond aux questionnaires d'évaluation & 
+\begin{itemize}
+	\item Questionnaires d'évaluation 
+	\item Enseignants
+	\item Unités d'enseignement
+\end{itemize}
+& Réponses aux questionnaires d'évaluation \\
+ & & & & \\ \hline
 \end{tabularx}
 
 

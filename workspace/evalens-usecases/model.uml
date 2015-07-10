@@ -310,7 +310,7 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_56EawCVOEeW1VIG_-Vg0vQ" name="superviseur" type="_JY3ycCVMEeW1VIG_-Vg0vQ" association="_56B-gCVOEeW1VIG_-Vg0vQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_mSBnsCVPEeW1VIG_-Vg0vQ" name="Prise d'avis"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_nt8MECVPEeW1VIG_-Vg0vQ" name="Traitement des résultats"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_nt8MECVPEeW1VIG_-Vg0vQ" name="Traiter les résultats"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_uRf_sCVPEeW1VIG_-Vg0vQ" name="Étudiant"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_7q5pwCVPEeW1VIG_-Vg0vQ" memberEnd="_7q8tECVPEeW1VIG_-Vg0vQ _7q97MCVPEeW1VIG_-Vg0vQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7q7e8CVPEeW1VIG_-Vg0vQ" source="org.eclipse.papyrus">
@@ -462,4 +462,8 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_tPrFgSYvEeWjCvkpqFZBCg" name="gestion communication" type="_JYXcICVMEeW1VIG_-Vg0vQ" association="_tPm0ECYvEeWjCvkpqFZBCg"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_tPsToCYvEeWjCvkpqFZBCg" name="chargé de com. fac." type="_GqdIgCYJEeWjCvkpqFZBCg" association="_tPm0ECYvEeWjCvkpqFZBCg"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_IeOfQCblEeWjCvkpqFZBCg" name="Dépouillement"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_J4kWUCblEeWjCvkpqFZBCg" name="Délibération"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_WXulsCblEeWjCvkpqFZBCg" client="_J4kWUCblEeWjCvkpqFZBCg" supplier="_nt8MECVPEeW1VIG_-Vg0vQ"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_X0mzYCblEeWjCvkpqFZBCg" client="_IeOfQCblEeWjCvkpqFZBCg" supplier="_nt8MECVPEeW1VIG_-Vg0vQ"/>
 </uml:Model>

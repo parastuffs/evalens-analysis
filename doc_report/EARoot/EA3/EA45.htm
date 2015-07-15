@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Traiter les résultats</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Traiter les résultats", " : "))</script>  : Public   UseCase</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">13/07/2015 09:58:11</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">13/07/2015 15:30:09</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">EvalEns</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{617E555E-FFEF-4937-9728-73D572DD152C}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA36.htm">Enquête</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">Traiter les résultats est un processus permettant d&#8217;évaluer les unités d&#8217;enseignement et les enseignants ayant été le sujet d&#8217;un questionnaire d&#8217;évaluation. Il est disponible durant une période définie dans le calendrier de campagne. Il n&#8217;est possible d&#8217;évaluer que les UE et les enseignants dont les questionnaires ont atteint le quorum. Si le quorum n&#8217;est pas atteint, l&#8217;évaluation&#160; est établie comme étant « sans objet ». Ce processus est pris en charge par la commission pédagogique facultaire. Chaque commission évalue les unités d&#8217;enseignement dont le mnémonique relève de leur faculté.&lt;br/&gt;&lt;br/&gt;Ce processus constitué de deux étapes :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;un dépouillement préliminaire réalisé par un ou plusieurs membres de la commission pédagogique qui consiste à émettre une évaluation pour les unités d&#8217;enseignement et les enseignant ne nécessitant pas une assemblée plénière (section 1.3.3) ;&lt;/li&gt;&lt;li&gt;la réunion de commission pédagogique faculaire qui délibère des autres cas (section 1.3.4).&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Pour chaque unité d&#8217;enseignement, la commission pédagogique émet un avis périodique spécifique à chacune des trois dimensions (cf. section 1.1.9), ainsi qu&#8217;un avis concernant la prestation individuelle de chaque enseignant pour l&#8217;UE évaluée. Cette évaluation suit l&#8217;une de ces cinq appréciations :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Très posive&lt;/li&gt;&lt;li&gt;Positive&lt;/li&gt;&lt;li&gt;Positive avec points d&#39;attention&lt;/li&gt;&lt;li&gt;Problématique&lt;/li&gt;&lt;li&gt;Sans objet&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Si elle le souhaite, la commission complète l&#8217;appréciation d&#8217;un commentaire, communiqué uniquement à l&#8217;enseignant concerné (confidentiel) ou visible à toute personne éligible à la consultation de l&#8217;appréciation.&lt;br/&gt;Afin de faciliter le processus d&#8217;évaluation, un indicateur statistique est calculé sur base des résultats. Il résume les résultats de chaque dimension en une seule indication et donne une appréciation de la dispersion des résultats.&lt;br/&gt;Lorsque l&#8217;avis est « potentiellement défavorable » ou « problématique » pour au moins l&#8217;un des dimensions, l&#8217;enseignant concerné est convoqué auprès du président de la commission pédagogique accompagné d&#8217;un membre étudiant de la commission. Lors de l&#8217;entrevue, le président fait aussi office de secrétaire et communique un exemplaire du procès-verbal au doyen de la faculté.&lt;br/&gt;En cas de deuxième avis « potentiellement défavorable » consécutif, le doyen est associé à la même procédure.&lt;br/&gt;En cas de troisième avis « potentiellement défavorable » consécutif, le dossier est transmis au vice-recteur en charge de l&#8217;enseignement.&lt;br/&gt;Ponctuellement, le doyen de la faculté peut solliciter la consitution d&#8217;un avis de circonstance.&lt;p/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						Commission pédagogique<br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink17" onclick="parent.toggleDiv('detailsDIVLink17','DetailsImageLink17')" />Details:
+							<div id="detailsDIVLink17" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA43.htm">Dépouillement</a></td>
+					<td width="10%" class="TableRow" valign="top">Collaboration</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA42.htm">Délibération</a></td>
+					<td width="10%" class="TableRow" valign="top">Collaboration</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA39.htm">Avis de circonstance</a></td>
+					<td width="10%" class="TableRow" valign="top">Collaboration</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

@@ -1,8 +1,8 @@
 tocTab[tocTab.length] = new Array("0.2.1.1.1.1:1", "", "Administration", "EARoot/EA2/EA1/EA1/EA1/EA1/EA56.htm", "180.png", "70", "0", "", "Use Case diagram0","{49684F7D-12AF-4480-991B-73F193CD7C62}");
 tocTab[tocTab.length] = new Array("0.2.1.1.1.1:2", "", "Attribuer les droits d&#39;accès", "EARoot/EA2/EA1/EA1/EA1/EA1/EA59.htm", "7.png", "E660", "0", "", "UseCase0","{B497FB1A-96EA-4631-8030-D6488398D9E5}");
 tocTab[tocTab.length] = new Array("0.2.1.1.1.1:3", "", "Configurer l&#39;application", "EARoot/EA2/EA1/EA1/EA1/EA1/EA60.htm", "7.png", "E663", "0", "", "UseCase0","{B585E1AD-6F75-4657-B260-8B3C387B028B}");
-tocTab[tocTab.length] = new Array("0.2.1.1.1.1:4", "", "Gerer la banque des questions", "EARoot/EA2/EA1/EA1/EA1/EA1/EA61.htm", "7.png", "E677", "0", "", "UseCase0","{41A139EF-B786-4360-96D1-331AD1165CEC}");
-tocTab[tocTab.length] = new Array("0.2.1.1.1.1:5", "", "Gerer les dimensions", "EARoot/EA2/EA1/EA1/EA1/EA1/EA62.htm", "7.png", "E678", "0", "", "UseCase0","{40ECCEF5-77D9-40c7-A1E5-CB0E03BEBBB1}");
+tocTab[tocTab.length] = new Array("0.2.1.1.1.1:4", "", "Gérer la banque des questionnaires", "EARoot/EA2/EA1/EA1/EA1/EA1/EA61.htm", "7.png", "E677", "0", "", "UseCase0","{41A139EF-B786-4360-96D1-331AD1165CEC}");
+tocTab[tocTab.length] = new Array("0.2.1.1.1.1:5", "", "Gérer les dimensions", "EARoot/EA2/EA1/EA1/EA1/EA1/EA62.htm", "7.png", "E678", "0", "", "UseCase0","{40ECCEF5-77D9-40c7-A1E5-CB0E03BEBBB1}");
 tocTab[tocTab.length] = new Array("0.2.1.1.1.1:6", "", "Gérer les modèles", "EARoot/EA2/EA1/EA1/EA1/EA1/EA63.htm", "7.png", "E741", "0", "", "UseCase0","{55E2DCD6-6326-4d7a-8B84-5BDA8D9F3FBA}");
 tocTab[tocTab.length] = new Array("0.2.1.1.1.1:7", "", "Gérer les objets de campagne", "EARoot/EA2/EA1/EA1/EA1/EA1/EA64.htm", "7.png", "E685", "0", "", "UseCase0","{0E0BB220-01FE-45b4-BB84-C467EE0C70CC}");
 tocTab[tocTab.length] = new Array("0.2.1.1.1.1:8", "", "Gérer les sujets de campagne", "EARoot/EA2/EA1/EA1/EA1/EA1/EA65.htm", "7.png", "E686", "0", "", "UseCase0","{01561412-C632-42de-8417-DD320EFFDBF7}");

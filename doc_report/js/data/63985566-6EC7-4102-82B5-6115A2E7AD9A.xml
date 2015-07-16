@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.2.2.2:1", "", "Use Case", "EARoot/EA2/EA2/EA2/EA135.htm", "180.png", "79", "0", "", "Use Case diagram0","{53382105-6C77-44df-8A7D-941F2DEC4B28}");
-tocTab[tocTab.length] = new Array("0.2.2.2:2", "", "Gestion ", "EARoot/EA2/EA2/EA2/EA140.htm", "7.png", "E634", "0", "", "UseCase0","{E1A1254E-75AF-4784-9E4C-6A4338EDBCFF}");
-tocTab[tocTab.length] = new Array("0.2.2.2:3", "", "Management of the calendar", "EARoot/EA2/EA2/EA2/EA141.htm", "7.png", "E633", "0", "", "UseCase0","{DA507CCB-9322-49c0-A5C0-55AE60098730}");
-tocTab[tocTab.length] = new Array("0.2.2.2.1", "1", "Activities", "EARoot/EA2/EA2/EA2/EA1/EA144.htm", "4.png", "", "", "{12346757-976D-42a3-A1D1-962805D2D5D1}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2.2:1", "", "Use Case", "EARoot/EA2/EA2/EA2/EA134.htm", "180.png", "79", "0", "", "Use Case diagram0","{53382105-6C77-44df-8A7D-941F2DEC4B28}");
+tocTab[tocTab.length] = new Array("0.2.2.2:2", "", "Gestion ", "EARoot/EA2/EA2/EA2/EA139.htm", "7.png", "E634", "0", "", "UseCase0","{E1A1254E-75AF-4784-9E4C-6A4338EDBCFF}");
+tocTab[tocTab.length] = new Array("0.2.2.2:3", "", "Management of the calendar", "EARoot/EA2/EA2/EA2/EA140.htm", "7.png", "E633", "0", "", "UseCase0","{DA507CCB-9322-49c0-A5C0-55AE60098730}");
+tocTab[tocTab.length] = new Array("0.2.2.2.1", "1", "Activities", "EARoot/EA2/EA2/EA2/EA1/EA143.htm", "4.png", "", "", "{12346757-976D-42a3-A1D1-962805D2D5D1}", "Package");

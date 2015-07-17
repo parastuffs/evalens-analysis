@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Traiter les résultats</title>
+<link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Traiter les résultats", " : "))</script>  : Public   UseCase</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">13/07/2015 09:58:11</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">16/07/2015 15:10:06</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Quentin</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{617E555E-FFEF-4937-9728-73D572DD152C}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA85.htm">Enquête</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">Traiter les résultats regroupe les différentes opérations permettant à la commission d&#39;émettre un avis périodique. Les opérations sont les suivantes :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Compilation des résultats&lt;/li&gt;&lt;li&gt;Traduction des indicateurs en appréciation pédagogique&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Ces opérations sont accessibles à partir du début de la période « traitement des résultats » définie dans le calendrier de campagne. Elles sont automatiques et explicites, et de la compétence de la commission pédagogique. Elles concernent l&#39;ensemble des entités pédagogiques du domaine de compétence de la commission pédagogique.&lt;br/&gt;&lt;br/&gt;La compilation des résultats consiste en les calculs suivants :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Quorum (quorum atteint ou non, le taux de participation et la règle appliquée)&lt;/li&gt;&lt;li&gt;Distribution des réponses pour chaque question&lt;/li&gt;&lt;li&gt;Mentions&lt;/li&gt;&lt;li&gt;Indicateurs d&#39;évaluation&lt;/li&gt;&lt;li&gt;Dispersion&lt;/li&gt;&lt;/ul&gt;<br />Ces calculs sont basés sur les formules et règles définies dans « &lt;a href=&quot;javascript:top.guidLink(&#39;{2B480A6F-8202-4b57-B62C-DF6A15D82E70}&#39;)&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;Gérer les formules des calculs&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; », et actives pour la campagne. &lt;br/&gt;À l&#39;issue de la compilation, un rapport reprennant les statistiques sur les résultats des calculs est mis à disposition de la commission.&lt;br/&gt;Pour les quorum non atteints, une appréciation pédagogique est attribuée automatiquement et ne peut être modifiée par la commission. Le qualificatif de celle-ci est déterminée par le processus de gestion « &lt;a href=&quot;javascript:top.guidLink(&#39;{2B480A6F-8202-4b57-B62C-DF6A15D82E70}&#39;)&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;Gérer les formules des calculs&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; ».&lt;br/&gt;&lt;br/&gt;La traduction des indicateurs d&#39;évaluation convertit les indicateurs d&#39;évaluation en avis périodique sur base de la table de conversion définie dans « &lt;a href=&quot;javascript:top.guidLink(&#39;{2B480A6F-8202-4b57-B62C-DF6A15D82E70}&#39;)&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;Gérer les formules des calculs&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; ». Elle peut être réalisée pour une sélection et ou pour les entités ne nécessitant pas une assemblée plénière &lt;br/&gt;&lt;br/&gt;Le traitement des résultats peut s&#39;exécuter dans deux contextes :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Lors du dépouillement préliminaire réalisé par un ou plusieurs membres de la commission pédagogique ;&lt;/li&gt;&lt;li&gt;À la réunion de commission pédagogique facultaire qui délibère des autres cas.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Il est possible d&#39;attribuer un avis périodique à une entité pédagogique.&lt;p/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../../../../EA1/EA2/EA1/EA27.htm">Commission pédagogique</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink45" onclick="parent.toggleDiv('detailsDIVLink45','DetailsImageLink45')" />Details:
+							<div id="detailsDIVLink45" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA92.htm">Dépouillement</a></td>
+					<td width="10%" class="TableRow" valign="top">Collaboration</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA93.htm">Émission des avis périodiques</a></td>
+					<td width="10%" class="TableRow" valign="top">Collaboration</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA91.htm">Consulter la grille des résultats</a></td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA88.htm">Attribuer un avis périodique</a></td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

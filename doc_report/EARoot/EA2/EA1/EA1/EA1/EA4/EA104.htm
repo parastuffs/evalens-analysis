@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Gestion du calendrier</title>
+<title>Envoyer les invitations à la prise d'avis</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gestion du calendrier", " : "))</script>  : Public   Collaboration</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Envoyer les invitations à la prise d&#39;avis", " : "))</script>  : Public   UseCase</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">9/07/2015 09:39:35</td>
+			<td width="85%" class="ObjectDetailsValue">15/07/2015 14:50:51</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">13/07/2015 15:00:02</td>
+			<td class="ObjectDetailsValue">15/07/2015 17:29:35</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -51,7 +51,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue">Moulay</td>
+			<td class="ObjectDetailsValue">Quentin</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
@@ -87,18 +87,23 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{31F9173A-9741-4525-A0A2-E769598466FA}</td>
+			<td class="ObjectDetailsValue">{AFE4ACA6-8F8F-4f83-B281-7C4ADF073A43}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA90.htm">Gestion de campagnes</a></td>
+			<td class="ObjectDetailsValue"><a href="EA97.htm">Gestion de campagnes</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">Le message d&#39;invitation à la prise d&#39;avis est envoyée une fois à chaque étudiant éligible à la date d&#39;invitation à la prise d&#39;avis définie dans le calendrier de campagne.&lt;br/&gt;Le groupe d&#39;étudiants à qui envoyer cette invitation doit être sélectionné parmi un ensemble de critères :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;A suivi des activités d&#39;enseignements lors de cette période.&lt;/li&gt;&lt;li&gt;N&#39;a pas encore reçu l&#39;invitation&lt;/li&gt;&lt;li&gt;etc.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;L&#39;invitation est personnalisée avec le nom de l&#39;étudiant et indique les dates de début et de fin de la période de prise d&#39;avis. Elle permet aussi à l&#39;étudiant d&#39;être dirigé vers l&#39;application de la prise d&#39;avis.&lt;br/&gt;&lt;br/&gt;Les étudiants à qui l&#39;invitation a été envoyée sont consignés dans un registre afin qu&#39;on ne doive plus la leur envoyer.&lt;p/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('LinkedDocument');" id="LinkedDocumentTitle">Linked Document</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
+		<div class="ItemBody" id="LinkedDocumentTable">
+			<iframe src="../../../../../../linkdocs/EAID_AFE4ACA6_8F8F_4f83_B281_7C4ADF073A43.htm" frameborder="0" id="linkDocIFrame"></iframe>
+		</div>
 		<div class="ItemBody" id="LinksTable">
 			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -109,9 +114,9 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA101.htm">Gérer le calendrier</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA106.htm">Envoyer les messages</a></td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
-					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>

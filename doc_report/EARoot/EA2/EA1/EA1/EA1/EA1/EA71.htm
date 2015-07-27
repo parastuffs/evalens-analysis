@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Gérer statistiques des évaluations</title>
+<title>Gérer les sujets des questionnaires</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gérer statistiques des évaluations", " : "))</script>  : Public   UseCase</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gérer les sujets des questionnaires", " : "))</script>  : Public   UseCase</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">13/07/2015 09:40:33</td>
+			<td width="85%" class="ObjectDetailsValue">13/07/2015 09:43:10</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">23/07/2015 11:39:09</td>
+			<td class="ObjectDetailsValue">27/07/2015 16:45:36</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,23 +87,20 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{F847BBD1-CDE5-449d-BF33-3A8D6B6ABB3B}</td>
+			<td class="ObjectDetailsValue">{01561412-C632-42de-8417-DD320EFFDBF7}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
 			<td class="ObjectDetailsValue"><a href="EA59.htm">Administration</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Gérer les statistiques des évaluation demande au superviseur de produire un ensemble de statistiques à partir des données des différentes campagnes d&#39;évaluation.&lt;br/&gt;&lt;br/&gt;Plusieurs composantes peuvent être analysées :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Le nombre de participant&lt;/li&gt;&lt;li&gt;Les avis périodiques&lt;/li&gt;&lt;li&gt;Les entités pédagogiques évaluées&lt;/li&gt;&lt;li&gt;La prise d&#39;avis (durée nécessaire à la complétion des questionnaires, etc.)&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Le superviseur donne ensuite accès à ces statistiques à différents groupes d&#39;utilisateurs de l&#39;application : étudiants, commissions pédagogiques, enseignants, etc.&lt;br/&gt;&lt;br/&gt;Toutes les statistiques sont rassemblées dans une table des statistiques maintenue par le superviseur.&lt;br/&gt;Chaque statistique peut avoir une présentation spécifique gérée par le superviseur.&lt;br/&gt;&lt;br/&gt;&lt;p/&gt;</div>
+	<div class="ObjectDetailsNotes">Gérer les sujets de campagne consiste à maintenir la liste des utilisateurs autorisés à prendre part à la campagne en répondant aux questionnaires. Cette liste est gérée par le superviseur.&lt;br/&gt;Pour chaque campagne, cette liste doit être conservée.&lt;br/&gt;&lt;br/&gt;À ce stade, les seuls utilisateurs à donner leur avis lors de l&#39;enquête sont les étudiants.&lt;p/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('LinkedDocument');" id="LinkedDocumentTitle">Linked Document</li>
 			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
-		<div class="ItemBody" id="LinkedDocumentTable">
-			<iframe src="../../../../../../linkdocs/EAID_F847BBD1_CDE5_449d_BF33_3A8D6B6ABB3B.htm" frameborder="0" id="linkDocIFrame"></iframe>
-		</div>
 		<div class="ItemBody" id="AssociationsFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -133,6 +130,25 @@ function nameClassifier(name, separator)
 							</div>
 						</div>
 					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA74.htm">Gestion des étudiants</a></td>
+					<td width="10%" class="TableRow" valign="top">Collaboration</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 
 			</table>

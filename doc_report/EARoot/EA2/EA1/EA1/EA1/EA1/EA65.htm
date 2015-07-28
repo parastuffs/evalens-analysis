@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Gérer les formules des calculs</title>
+<title>Gérer la banque des questions</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gérer les formules des calculs", " : "))</script>  : Public   UseCase</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gérer la banque des questions", " : "))</script>  : Public   UseCase</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">16/07/2015 16:05:33</td>
+			<td width="85%" class="ObjectDetailsValue">10/07/2015 22:43:20</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">24/07/2015 14:05:04</td>
+			<td class="ObjectDetailsValue">27/07/2015 17:09:17</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -51,7 +51,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue">EvalEns</td>
+			<td class="ObjectDetailsValue">Moulay</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
@@ -87,14 +87,14 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{2B480A6F-8202-4b57-B62C-DF6A15D82E70}</td>
+			<td class="ObjectDetailsValue">{41A139EF-B786-4360-96D1-331AD1165CEC}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA59.htm">Administration</a></td>
+			<td class="ObjectDetailsValue"><a href="EA60.htm">Administration</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Gérer les formules des calculs revient à définir les formules des mentions, indicateurs, dispersion, quorum, etc.&lt;br/&gt;&lt;br/&gt;Toutes les formules ont une période de validité et sont archivées.&lt;br/&gt;&lt;br/&gt;Plusieurs qualificatifs nécessitent une formule et une gestion :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Mention du taux d&#39;accord des réponses : relations entre le nombre de réponses de chacun des cinq types.&lt;/li&gt;&lt;li&gt;Indicateur d&#39;évaluation&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;En sus, d&#39;autres indicateurs sont basés sur une formule :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Quorum : part de la population nécessaire pour que le questionnaire soit exploitable&lt;/li&gt;&lt;li&gt;Dispersion : dispersion des réponses aux questionnaires&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Ce processus permet aussi de préciser les critères d&#39;application des filtres applicables sur les tableaux de consultation des résultats.&lt;br/&gt;Par exemple, pour le filtre « indicateur positif », l&#39;option « non-dispersé 3+ » n&#39;affiche que les résultats respectant le critère : les trois dimensions du dispositif sont chacune « non dispersée » et de valeur « + ou ++ ».&lt;br/&gt;Ces critères sont déterminés et gérés par le superviseur.&lt;br/&gt;&lt;br/&gt;Les formules excates des calculs ainsi que les critères des filtres sont disponibles dans le document « &lt;a href=&quot;javascript:top.guidLink(&#39;{B9E95259-AE47-4020-8DEA-BCE2F6E1D75D}&#39;)&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;calcul des indicateurs&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; ».&lt;p/&gt;</div>
+	<div class="ObjectDetailsNotes">Gérer la banque de questions est une tâche consistant à mettre à jour l&#39;ensemble des questions pouvant être utilisées lors des campagnes d&#39;évaluation. Cette banque est alimentée par le superviseur qui soumet la soumet ensuite à la conférence des commissions pédagogiques pour validation.&lt;br/&gt;&lt;br/&gt;Les questions sont toutes liées avec l&#39;une des dimensions définies dans « &lt;a href=&quot;javascript:top.guidLink(&#39;{40ECCEF5-77D9-40c7-A1E5-CB0E03BEBBB1}&#39;)&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;Gérer les dimensions des questions&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; ». Elles ont aussi un statut dépendant de la décision de la CoCoPé :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Validée&lt;/li&gt;&lt;li&gt;Rejetée&lt;/li&gt;&lt;li&gt;En attente&lt;/li&gt;&lt;li&gt;Prototype&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -110,9 +110,16 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA63.htm">Configurer l'application</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA83.htm">Réaliser le questionnaire</a></td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA73.htm">Gestion de la banque des questions</a></td>
+					<td width="10%" class="TableRow" valign="top">Collaboration</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>

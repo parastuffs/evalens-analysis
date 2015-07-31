@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Gérer les formules des calculs</title>
+<title>Administrer l'application</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gérer les formules des calculs", " : "))</script>  : Public   UseCase</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Administrer l&#39;application", " : "))</script>  : Public   UseCase</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">16/07/2015 16:05:33</td>
+			<td width="85%" class="ObjectDetailsValue">7/07/2015 18:57:58</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">28/07/2015 11:47:23</td>
+			<td class="ObjectDetailsValue">28/07/2015 11:03:25</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -51,7 +51,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue">EvalEns</td>
+			<td class="ObjectDetailsValue">Moulay</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
@@ -87,19 +87,53 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{2B480A6F-8202-4b57-B62C-DF6A15D82E70}</td>
+			<td class="ObjectDetailsValue">{B585E1AD-6F75-4657-B260-8B3C387B028B}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA60.htm">Administration</a></td>
+			<td class="ObjectDetailsValue"><a href="EA63.htm">Administration</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Gérer les formules des calculs revient à implémenter des formules pour une entité déterminée, par exemple les qualificatifs.&lt;br/&gt;Toutes les formules ont une période de validité et sont archivées. Elles doivent aussi être testées et validées avant son intégration.&lt;br/&gt;Une formule peut être&#160; le choix d&#39;une fonction programmée,&#160; ou une expression mathématique ou logique fournie par l&#39;utilisateur.&lt;br/&gt;&lt;p/&gt;</div>
+	<div class="ObjectDetailsNotes">Configurer l&#39;application consiste à ajuster certains paramètres de fonctionnement de l&#39;application.&lt;br/&gt;Le superviseur a ainsi la possibilité de gérer :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;La présentation de l&#39;application (nombre d&#39;éléments par liste par défaut, langue par défaut, etc.)&lt;/li&gt;&lt;li&gt;Les formules des calculs (&lt;a href=&quot;javascript:top.guidLink(&#39;{2B480A6F-8202-4b57-B62C-DF6A15D82E70}&#39;)&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;Gérer les formules des calculs&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;)&lt;/li&gt;&lt;li&gt;Les listes de qualificatifs (&lt;a href=&quot;javascript:top.guidLink(&#39;{4EC470FF-D8EE-4d21-BB27-7369683D3F7C}&#39;)&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;Gérer les listes de qualificatifs&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;)&lt;/li&gt;&lt;li&gt;Les droits d&#39;accès des différents groupes d&#39;utilisateurs (&lt;a href=&quot;javascript:top.guidLink(&#39;{B497FB1A-96EA-4631-8030-D6488398D9E5}&#39;)&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;Attribuer les droits d&#39;accès&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;)&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;&lt;br/&gt;----&lt;br/&gt;Déterminer la campagne par défaut&lt;br/&gt;Suspendre l&#39;accès à l&#39;application&lt;br/&gt;Gérer les messages de l&#39;application ainsi que leur traduction.&lt;br/&gt;Gérer les contacts de l&#39;application (admin, support, ...)&lt;p/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../../../../EA1/EA2/EA1/EA35.htm">Superviseur</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink27" onclick="parent.toggleDiv('detailsDIVLink27','DetailsImageLink27')" />Details:
+							<div id="detailsDIVLink27" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
 		<div class="ItemBody" id="LinksTable">
 			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -110,17 +144,24 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA63.htm">Administrer l'application</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA67.htm">Attribuer les droits d'accès</a></td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA76.htm">Gestion des formules des évaluation des enseignements</a></td>
-					<td width="10%" class="TableRow" valign="top">Collaboration</td>
-					<td width="10%" class="TableRow" valign="top">Realization</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA71.htm">Gérer les listes de qualificatifs</a></td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA69.htm">Gérer les formules des calculs</a></td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 

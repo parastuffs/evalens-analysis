@@ -39,6 +39,14 @@ function nameClassifier(name, separator)
 			<td width="76%" class="TableHeading">Meaning</td>
 		</tr>
 						<tr valign="top">
+				<td width="16%" class="TableRow">acta</td>
+				<td width="8%" class="TableRow">Abbréviation</td>
+				<td width="76%" class="TableRow">Activité d'apprentissage</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Activité d'apprentissage</td>
+				<td width="8%" class="TableRow">Vocabulary</td>
+				<td width="76%" class="TableRow">&nbsp;</td>
+			</tr>			<tr valign="top">
 				<td width="16%" class="TableRow">Avis pédagogique</td>
 				<td width="8%" class="TableRow">Synonyme</td>
 				<td width="76%" class="TableRow">Évaluation pédagogique</td>
@@ -107,6 +115,10 @@ function nameClassifier(name, separator)
 				<td width="8%" class="TableRow">Vocabulary</td>
 				<td width="76%" class="TableRow">&nbsp;</td>
 			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">EvalEns</td>
+				<td width="8%" class="TableRow">Abbréviation</td>
+				<td width="76%" class="TableRow">Évaluation des enseignements</td>
+			</tr>			<tr valign="top">
 				<td width="16%" class="TableRow">Évaluation pédagogique</td>
 				<td width="8%" class="TableRow">Vocabulary</td>
 				<td width="76%" class="TableRow">Appréciation et commentaire émis par un membre de la commission pédagogique facultaire ou la commission elle-même sur base des résultats des questionnaires d'évaluation.</td>
@@ -174,6 +186,186 @@ Une période peut aussi être associée à une unité d'enseignement :
 				<td width="16%" class="TableRow">Registre des réponses</td>
 				<td width="8%" class="TableRow">Vocabulary</td>
 				<td width="76%" class="TableRow">&nbsp;</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">rule-0001</td>
+				<td width="8%" class="TableRow">Règle</td>
+				<td width="76%" class="TableRow">Enseignant de la campagne d'évaluation : enseignant ayant pris part à au moins une entité d'enseignement évaluée lors de la campagne.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">rule-0002</td>
+				<td width="8%" class="TableRow">Règle</td>
+				<td width="76%" class="TableRow">Gestionnaire de communication facultaire de la campagne : gestionnaire de communication facultaire étant responsable de la communication de la campagne pour sa faculté.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">rule-0003</td>
+				<td width="8%" class="TableRow">Règle</td>
+				<td width="76%" class="TableRow">Étudiants éligibles à la prise d'avis.
+
+Tous les étudiants ayant suivi (pas de report/dispense) au moins une unité d'enseignement dans le(s) période(s) concernée(s) par la campagne.
+=&gt; Que se passe-t-il s'il n'a que des dispenses/reports ?
+
+
+(ajouter les détails)
+Erasmus in OK
+Étudiants libres : statut à clarifier.
+Étudiants avec 100 % de dispenses =&gt; avec ou sans ?
+Clarifier « suivre un cours »
+Clarifier « étudiant inscrit »
+Qu'arrive-t-il aux étudiants ayant une inscription autre que standard ? (libre, jury de la communauté française, Erasmus in)</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">rule-0004</td>
+				<td width="8%" class="TableRow">Règle</td>
+				<td width="76%" class="TableRow">Commission pédagogique de l'évaluation : commission pédagogique facultaire étant responsable d'au moins une unité d'enseignement étant évaluée lors de la campagne.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">stat-0001</td>
+				<td width="8%" class="TableRow">Statistique</td>
+				<td width="76%" class="TableRow">Appréciation par année d'étude.
+
+Montre les appréciations pour les entités pédagogiques sélectionnées, groupées par année d'étude.
+Permet de constater l'évolution des appréciations.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">stat-0002</td>
+				<td width="8%" class="TableRow">Statistique</td>
+				<td width="76%" class="TableRow">Appréciation par nombre d'étudiants inscrits.
+
+Montre les appréciations pour les entités pédagogiques sélectionnées, triées par nombre d'étudiants inscrits.
+Permet d'apprécier la corrélation entre le nombre d'étudiants inscrits et l'appréciation de l'entité pédagogique.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">stat-0003</td>
+				<td width="8%" class="TableRow">Statistique</td>
+				<td width="76%" class="TableRow">Appréciation par programme.
+
+Montre les appréciations pour les entités pédagogiques sélectionnées, groupées par programme.
+Permet d'avoir une vue globale des appréciations des entités pédagogiques constituant un programme.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">stat-0004</td>
+				<td width="8%" class="TableRow">Statistique</td>
+				<td width="76%" class="TableRow">Appréciation par statut de l'enseignant.
+
+Montre les appréciations des entités pédagogiques sélectionnées, groupées par statut de l'enseignant (corps scientifique ou enseignant).
+</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">stat-0005</td>
+				<td width="8%" class="TableRow">Statistique</td>
+				<td width="76%" class="TableRow">Appréciation par type d'activité d'apprentissage.
+
+Montre les appréciations pour les entités pédagogiques sélectionnées, groupées par type d'activité d'apprentissage.
+Permet d'avoir une vue globale des appréciations des entités pédagogiques proposant des activités d'apprentissage communes.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">stat-0006</td>
+				<td width="8%" class="TableRow">Statistique</td>
+				<td width="76%" class="TableRow">Appréciation par titulaires et par non-titulaires.
+
+Montre les appréciations des entités pédagogiques sélectionnées, groupées par enseignant titulaire ou non-titulaire.
+Permet de voir rapidement les appréciations de tous les enseignants titulaires ou non-titulaires.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">stat-0007</td>
+				<td width="8%" class="TableRow">Statistique</td>
+				<td width="76%" class="TableRow">Nombre de cours appréciés par la commission par campagne.
+
+Affiche le nombre total d'unités d'enseignement pour lesquelles la commission pédagogique a émis un avis périodique lors de la campgne.
+Permet d'apprécier la quantité de travail accompli par la commission et de le comparer au nombre de cours évalués. (?)</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">stat-0008</td>
+				<td width="8%" class="TableRow">Statistique</td>
+				<td width="76%" class="TableRow">Nombre de cours évalués.
+
+Affiche le nombre total d'unités d'enseignement faisant partie de la campagne, global et par faculté.
+Sert de base à la comparaison avec le nombre d'unités d'enseignement évaluées par la commission pédagogique. Permet aussi de déterminer la proportion d'UE évaluées vis-à-vis du nombre total d'UE dans la faculté ou l'université.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">stat-0009</td>
+				<td width="8%" class="TableRow">Statistique</td>
+				<td width="76%" class="TableRow">Nombre d'étudiants inscrits.
+
+Montre le nombre d'étudiants pouvant prendre part à la campagne d'évaluation, par campagne, par unité d'enseignement et enseignant ou par faculté.
+Permet d'apprécier le nombre d'étudiants ayant été invité à donner leur avis lors de la campagne.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">stat-0010</td>
+				<td width="8%" class="TableRow">Statistique</td>
+				<td width="76%" class="TableRow">Nombre d'enseignements ayant le quorum.
+
+Affiche chronologiquement le nombre d'enseignement ayant atteint le quorum lors de la campagne, durant la période de prise d'avis. La résolution peut être par jour, heure, minute, seconde ou microseconde.
+Permet de déterminer les moments à « plus haute densité d'atteinte de quorum », et d'étudier la corrélation avec les différentes invitations et rappels à la prise d'avis.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">stat-0011</td>
+				<td width="8%" class="TableRow">Statistique</td>
+				<td width="76%" class="TableRow">Nombre d’enseignements ayant le quorum par type d’activité d'apprentissage.
+
+Affiche le nombre d'unités d'enseignement ayant atteint le quorum, groupé par type d'activité d'apprentissage.
+Permet de déterminer rapidement le type d'activité d'apprentissage ayant recueilli suffisamment de réponses.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">stat-0012</td>
+				<td width="8%" class="TableRow">Statistique</td>
+				<td width="76%" class="TableRow">Graphique des appréciations générales de la commission pédagogique.
+
+Graphique montrant les appréciations générales de la commission pédagogique, par enseignant, unité d'enseignement, activité d'apprentissage ou faculté.
+Le graphique peut être sous forme circulaire ou d'histogramme.
+Il permet de visualiser la répartition des appréciations de la commission.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">stat-0013</td>
+				<td width="8%" class="TableRow">Statistique</td>
+				<td width="76%" class="TableRow">Graphique des résultats généraux par dimension.
+
+Graphique montrant les résultats généraux par dimension, groupé par enseignant, unité d'enseignement, activité d'apprentissage ou faculté. Le graphique peut être sous forme circulaire ou d'histogramme.
+Il permet de visualiser la répartition des appréciations pour chacune des dimensions.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">stat-0014</td>
+				<td width="8%" class="TableRow">Statistique</td>
+				<td width="76%" class="TableRow">Graphique des résultats généraux des prestations individuelles des titulaires et des non-titulaires</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">stat-0015</td>
+				<td width="8%" class="TableRow">Statistique</td>
+				<td width="76%" class="TableRow">Graphique des résultats généraux par programme/module.
+
+Graphique montrant les résultats généraux par programme/module, par enseignant, unité d'enseignement, activité d'apprentissage ou faculté. Le graphique peut être sous forme circulaire ou d'histogramme.
+Il permet de visualiser la répartition des résultats pour chaque programme/module.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">stat-0016</td>
+				<td width="8%" class="TableRow">Statistique</td>
+				<td width="76%" class="TableRow">Graphique des résultats généraux par question.
+
+Graphique montrant les résultats généraux par question, pour chaque enseignant, unité d'enseignement, activité d'apprentissage ou faculté. Le graphique peut être sous forme circulaire ou d'histogramme.
+Il permet de visualiser la répartition des résultats pour chacune des questions.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">stat-0017</td>
+				<td width="8%" class="TableRow">Statistique</td>
+				<td width="76%" class="TableRow">Graphique des résultats généraux par statut.
+
+Graphique montrant les résultats généraux par statut, pour chaque enseignant, unité d'enseignement, activité d'apprentissage ou faculté. Le graphique peut être sous forme circulaire ou d'histogramme.
+Il permet de visualiser les résultats des membres du corps scientifique ou enseignant.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">stat-0018</td>
+				<td width="8%" class="TableRow">Statistique</td>
+				<td width="76%" class="TableRow">Graphique des résultats généraux par type d'activité d'apprentissage.
+
+Graphique montrant les résultats généraux par type d'activité d'apprentissage, pour chaque enseignant, unité d'enseignement, activité d'apprentissage ou faculté. Cette statistique nécessite aussi le nombre total d'unités d'enseignement par activité d'apprentissage afin de pouvoir analyser l'évolution de la propotion d'UE évaluées au cours des campagnes. Le graphique peut être sous forme circulaire ou d'histogramme.
+Il permet de visualiser les résultats des types d'activité d'apprentissage.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">stat-0019</td>
+				<td width="8%" class="TableRow">Statistique</td>
+				<td width="76%" class="TableRow">Nombre et pourcentage de cours ayant atteint le quorum.
+
+Montre le nombre et le pourcentage de cours ayant atteint le quorum, par enseignant, unité d'enseignement, activité d'apprentissage ou faculté. Cette statistique nécessite « Nombre de cours évalués » (stat-0008).
+Permet d'analyser l'évolution de l'atteinte du quorum au fil des campagnes.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">stat-0020</td>
+				<td width="8%" class="TableRow">Statistique</td>
+				<td width="76%" class="TableRow">Nombre de titulaires et non-titulaires.
+
+Montre le nombre de titulaires et non-titulaires pour une campagne.
+Permet d'analyser l'évolution de leur nombre.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">stat-0021</td>
+				<td width="8%" class="TableRow">Statistique</td>
+				<td width="76%" class="TableRow">Nombre de titulaires et non-titulaires par cours.
+
+Montre le nombre de titulaires et non-titulaires par unité d'enseignement pour une campagne.
+Permet d'analyser l'évolution de leur nombre.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">stat-0022</td>
+				<td width="8%" class="TableRow">Statistique</td>
+				<td width="76%" class="TableRow">Taux de participation par NRE ou par programme ; chronologique
+
+Affiche chronologiquement le taux de participation groupé par NRE ou par programme lors de la campagne, durant la période de prise d'avis. La résolution peut être par jour, heure, minute, seconde ou microseconde.
+Permet de déterminer les moments d'affluence de l'application, et d'étudier la corrélation avec les différentes invitations et rappels à la prise d'avis.</td>
 			</tr>			<tr valign="top">
 				<td width="16%" class="TableRow">Superviseur</td>
 				<td width="8%" class="TableRow">Vocabulary</td>

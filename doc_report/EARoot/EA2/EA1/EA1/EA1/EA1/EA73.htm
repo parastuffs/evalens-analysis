@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Gestion de la banque des questions</title>
+<title>Gérer les listes de qualificatifs</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gestion de la banque des questions", " : "))</script>  : Public   Collaboration</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gérer les listes de qualificatifs", " : "))</script>  : Public   UseCase</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">27/07/2015 17:08:25</td>
+			<td width="85%" class="ObjectDetailsValue">16/07/2015 16:12:30</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">27/07/2015 17:09:49</td>
+			<td class="ObjectDetailsValue">28/07/2015 11:16:33</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,14 +87,14 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{2984F71D-0F09-4d3c-8923-7C4BA694DC35}</td>
+			<td class="ObjectDetailsValue">{4EC470FF-D8EE-4d21-BB27-7369683D3F7C}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA60.htm">Administration</a></td>
+			<td class="ObjectDetailsValue"><a href="EA65.htm">Administration</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Les question contenues dans la banque peuvent être de trois types :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Globale, concerne l&#39;entièreté d&#39;une dimension.&lt;/li&gt;&lt;li&gt;Générique, indépendante de toute activité d&#39;apprentissage, mais spécifique à une dimension.&lt;/li&gt;&lt;li&gt;Spécifique à une activité d&#39;apprentissage particulière.&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+	<div class="ObjectDetailsNotes">Gérer la liste des qualificatifs consiste à maintenir à jour les différentes mentions, indicateurs et autres qualificatifs possibles.&lt;br/&gt;&lt;br/&gt;Les listes de qualificatifs sont par exemple :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Type de statistiques&lt;/li&gt;&lt;li&gt;Type de message&lt;/li&gt;&lt;li&gt;Réponses possibles aux questionnaires&lt;/li&gt;&lt;li&gt;Filtres à appliquer sur les résultats&lt;/li&gt;&lt;li&gt;etc.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Les qualificatifs suivants nécessitent une gestion :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Mention du taux d&#39;accord des réponses&lt;/li&gt;&lt;li&gt;Indicateur d&#39;évaluation de la dimension&lt;/li&gt;&lt;li&gt;Appréciation des évaluations&lt;/li&gt;&lt;li&gt;Réponses possibles aux questionnaires (échelle de Likert paire)&lt;/li&gt;&lt;li&gt;Options du filtre « indicateur dispositif »&lt;/li&gt;&lt;li&gt;Options du filtre « avis rendu »&lt;/li&gt;&lt;li&gt;Options du filtre « avis rendu dispositif »&lt;/li&gt;&lt;li&gt;Options du filtre « avis rendu enseignant »&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;La liste des activités d&#39;apprentissage est aussi gérée par le superviseur. Cette dernière est définie par le conseil académique (voir &lt;a href=&quot;javascript:top.guidLink(&#39;{C6EB0DEF-6C55-4cc6-891F-EEE7D931DAAA}&#39;)&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;Liste des activités d&#39;apprentissage&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;).&lt;br/&gt;&lt;br/&gt;Le superviseur peut aussi modifier le style associé à chaque qualificatif.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;-----&lt;br/&gt;Gestion de toutes les listes de l&#39;application&lt;br/&gt;#gt; Indicateurs (exhaustif)&lt;br/&gt;#gt; Mentions (exhaustif)&lt;br/&gt;#gt; Types de stat&lt;br/&gt;#gt; Types de message&lt;br/&gt;#gt; Réponses possibles aux questionnaires (exhaustif)&lt;br/&gt;#gt; Filtres&lt;br/&gt;#gt; etc.&lt;br/&gt;&lt;br/&gt;(On ne peut modifier un indicateur ayant fait partie d&#39;un calcul. Il faut en créer un nouveau avec une nouvelle formule. cf diagramme d&#39;activité)&lt;p/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -110,10 +110,17 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA65.htm">Gérer la banque des questions</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA68.htm">Administrer l'application</a></td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA84.htm">Gestion des qualificatifs</a></td>
+					<td width="10%" class="TableRow" valign="top">Collaboration</td>
 					<td width="10%" class="TableRow" valign="top">Realization</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 

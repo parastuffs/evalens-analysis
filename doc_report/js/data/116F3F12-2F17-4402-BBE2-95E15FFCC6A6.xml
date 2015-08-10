@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.2.2.1:1", "", "Mind Mapping Diagram", "EARoot/EA2/EA2/EA1/EA159.htm", "189.png", "74", "0", "", "Analysis diagram0","{64467B44-32A5-47fd-BCF1-104CAF60735E}");
-tocTab[tocTab.length] = new Array("0.2.2.1.1", "1", "Elements", "EARoot/EA2/EA2/EA1/EA1/EA165.htm", "4.png", "", "", "{505DD768-1D6F-418e-8854-0DA4323E69D9}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2.1:1", "", "Mind Mapping Diagram", "EARoot/EA2/EA2/EA1/EA252.htm", "189.png", "74", "0", "", "Analysis diagram0","{64467B44-32A5-47fd-BCF1-104CAF60735E}");
+tocTab[tocTab.length] = new Array("0.2.2.1.1", "1", "Elements", "EARoot/EA2/EA2/EA1/EA1/EA258.htm", "4.png", "", "", "{505DD768-1D6F-418e-8854-0DA4323E69D9}", "Package");

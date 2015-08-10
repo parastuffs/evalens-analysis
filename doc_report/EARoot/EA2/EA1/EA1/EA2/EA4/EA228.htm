@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Gérer le calendrier</title>
+<link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gérer le calendrier", " : "))</script>  : Public   UseCase</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">7/07/2015 18:52:59</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">7/08/2015 14:19:16</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Moulay</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{6357930B-53DB-4acc-A626-69890C5C8661}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA216.htm">Gestion de campagnes</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">Gérer le calendrier permet de définir les périodes de validité des activités de la campagne ainsi que le planning des tâches, potentiellement par faculté. Ce processus permet aussi de déclarer des périodes de suspension pour toute période définie en cas de besoin.&lt;br/&gt;Il est pris en charge par le gestionnaire de campagne.&lt;br/&gt;&lt;br/&gt;Parmi ces dates et périodes, on trouve :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Invitation à la prise d&#8217;avis : date et heure à laquelle le mail d&#8217;invitation à la prise d&#8217;avis est envoyé aux étudiants.&lt;/li&gt;&lt;li&gt;Rappel à la prise d&#8217;avis : date et heure à laquelle le mail de rappel de prise d&#8217;avis est envoyé aux participants qui n&#8217;ont pas rempli certains critères (exemple : participants ayant répondu à moins de 80 % des questions). Ces rappels sont au moins au nombre de deux (&lt;a href=&quot;javascript:top.guidLink(&#39;{69D0A959-7820-4e8c-97D5-086C80178E35}&#39;)&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;règlement cadre&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;).&lt;/li&gt;&lt;li&gt;Prise d&#8217;avis : période durant laquelle les étudiants ont accès aux questionnaires et peuvent les remplir.&lt;/li&gt;&lt;li&gt;Traitement des résultats : période durant laquelle la commission pédagogique a accès au traitement des résultats. La commission a aussi l&#8217;opportunité de consulter les résultats à partir du début de cette période, dès lors que le traitement est terminé. La fin de cette période n&#39;est pas contraignante pour la délibération ; il est encore possible de délibérer une fois la période terminée.&lt;/li&gt;&lt;li&gt;Consultation des résultats par les enseignants : date à partir de laquelle les enseignants ont accès aux résultats de la campagne. Les enseignants sont notifiés par courriel de cette date par le doyen et le président de commission pédagogique.&lt;/li&gt;&lt;li&gt;Consultation des résultats par grille : date à partir de laquelle les résultats par grille sont accessibles par un ensemble de rôles.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;La constitution du calendrier est régie par les règles et contraintes suivantes :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Chaque date et période déclarée doit être liée à une campagne.&lt;/li&gt;&lt;li&gt;La période de prise d&#8217;avis doit être incluse dans la période de la campagne.&lt;/li&gt;&lt;li&gt;La période de prise d&#8217;avis doit durer au moins deux semaines.&lt;/li&gt;&lt;li&gt;La date d&#8217;invitation des prises d&#8217;avis doit être entérieure à la date de début de la période de prise d&#8217;avis.&lt;/li&gt;&lt;li&gt;La date de rappel à la prise d&#8217;avis doit être incluse dans la période de prise d&#8217;avis.&lt;/li&gt;&lt;li&gt;Le traitement des résultats est suspendu tant qu&#8217;une période de prise d&#8217;avis est en cours.&lt;/li&gt;&lt;li&gt;La date de consultation des résultats par les enseignants doit être postérieure à la date de fin de la période de traitement des résultats.&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('LinkedDocument');" id="LinkedDocumentTitle">Linked Document</li>
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+		</ul>
+		<div class="ItemBody" id="LinkedDocumentTable">
+			<iframe src="../../../../../../linkdocs/EAID_6357930B_53DB_4acc_A626_69890C5C8661.htm" frameborder="0" id="linkDocIFrame"></iframe>
+		</div>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../../../../EA1/EA2/EA1/EA37.htm">Superviseur</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink238" onclick="parent.toggleDiv('detailsDIVLink238','DetailsImageLink238')" />Details:
+							<div id="detailsDIVLink238" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Rélisation du questionnaire des évaluations</title>
+<title>Réaliser le questionnaire</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Rélisation du questionnaire des évaluations", " : "))</script>  : Public   Collaboration</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Réaliser le questionnaire", " : "))</script>  : Public   UseCase</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">27/07/2015 17:10:48</td>
+			<td width="85%" class="ObjectDetailsValue">7/07/2015 18:59:50</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">7/08/2015 10:23:59</td>
+			<td class="ObjectDetailsValue">6/08/2015 16:13:43</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -51,7 +51,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue">EvalEns</td>
+			<td class="ObjectDetailsValue">Moulay</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
@@ -87,19 +87,103 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{EE447060-8281-4419-B030-CB678F4CA12E}</td>
+			<td class="ObjectDetailsValue">{1E0924D9-A42D-4d6f-85C1-5F37FC0D7700}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA236.htm">Administration</a></td>
+			<td class="ObjectDetailsValue"><a href="EA237.htm">Administration</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">La réalisation des questionnaires est le processus gérant les formulaires des évaluations des enseignements.&lt;br/&gt;&lt;br/&gt;Dans ce contexte, la description de questionnaire est la suivante :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Intitulé : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Identifiant : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Règle : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Paramètres : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Formule : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Représentation visuelle : standard par défaut&lt;/li&gt;&lt;li&gt;Domaine applicatif : évaluation des enseignements&lt;/li&gt;&lt;li&gt;Propriétés : obligatoire, facultative, valeurs par défaut.&lt;/li&gt;&lt;li&gt;Relations entre les questionnaires : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Statut : validé (*), rejeté, en attente ou prototype&lt;/li&gt;&lt;li&gt;Période de validité : à fournir lors de la création&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;(*) Tout questionnaire ayant un statut « validée » doit respecter la règle rule-0005.&lt;br/&gt;&lt;br/&gt;Pour un questionnaire donné, ce processus fournit aussi les informations suivantes :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Campagnes dans lesquelles il intervient&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+	<div class="ObjectDetailsNotes">Réaliser le questionnaire permet de concevoir un formulaire avec les éléments suivants : &lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;questions ;&lt;/li&gt;&lt;li&gt;groupes de questions ;&lt;/li&gt;&lt;li&gt;formulaires,&lt;/li&gt;&lt;/ul&gt;<br />et de maintenir son historique. Ce processus permet aussi de consulter et filtrer les questionnaires, ainsi que d&#39;y faire une recherche, et ce sur l&#39;ensemble des informations décrivant les questionnaires. Ce processus est du ressort du superviseur.&lt;br/&gt;Le processus garantit la cohérence de chaque questionnaire et respecte la règle rule-0006.&lt;br/&gt;&lt;br/&gt;Chaque questionnaire est décrit par les informations suivantes :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Intitulé (multilingue) : texte ou descriptif du questionnaire&lt;/li&gt;&lt;li&gt;Identifiant : permet d&#39;identifier univoquement un questionnaire&lt;/li&gt;&lt;li&gt;Règle : procédure ou expression qui régit l&#39;utilisation du questionnaire&lt;/li&gt;&lt;li&gt;Paramètres : décrit l&#39;application de la règle spécifiée&lt;/li&gt;&lt;li&gt;Formules : interprétation des résultats du questionnaire&lt;/li&gt;&lt;li&gt;Représentation visuelle : représentation utilisée pour visualiser le questionnaire sur les différents supports. Elle est formée sur base d&#39;un texte et d&#39;une typographie fournis par l&#39;utilisateur ou d&#39;une fonction programmée.&lt;/li&gt;&lt;li&gt;Domaine applicatif : spécifie la(les) application(s) dans la(les)quelle(s) le questionnire peut être utilisé&lt;/li&gt;&lt;li&gt;Propriétés : informations variables spécifique à chaque questionnaire, dépendant du domaine applicatif.&lt;/li&gt;&lt;li&gt;Relations entre les questionnaires : dépendance, précédence, exclusion mutuelle, etc.&lt;/li&gt;&lt;li&gt;Statut : validé, rejeté, en attente, prototype, etc.&lt;/li&gt;&lt;li&gt;Période de validité : période durant laquelle le questionnaire est utilisable.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Pour chaque élément du questionnaire, on peut définir des propriétés supplémentaires.&lt;br/&gt;&lt;br/&gt;Pour un questionnaire donné, ce processus fournit aussi les informations suivantes :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Les questionnaires en relation&lt;/li&gt;&lt;li&gt;Les questions et groupes de questions composant le formulaire&lt;/li&gt;&lt;li&gt;Les questionnaires dont il fait partie&lt;/li&gt;&lt;li&gt;La définition des objets du questionnaire&lt;/li&gt;&lt;li&gt;La définition des sujets du questionnaire&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Pour faciliter la mise à jour, les opérations suivantes sont fournies :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Cloner un questionnaire existant&lt;/li&gt;&lt;li&gt;Définir un questionnaire comme modèle utilisable pour créer de nouveaux formulaires&lt;/li&gt;&lt;li&gt;Périmer un questionnaire à la date du jour&lt;/li&gt;&lt;li&gt;Ordonnancer les questions et les groupes de questions&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('LinkedDocument');" id="LinkedDocumentTitle">Linked Document</li>
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
+		<div class="ItemBody" id="LinkedDocumentTable">
+			<iframe src="../../../../../../linkdocs/EAID_1E0924D9_A42D_4d6f_85C1_5F37FC0D7700.htm" frameborder="0" id="linkDocIFrame"></iframe>
+		</div>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../../../../EA1/EA2/EA1/EA37.htm">Superviseur</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink319" onclick="parent.toggleDiv('detailsDIVLink319','DetailsImageLink319')" />Details:
+							<div id="detailsDIVLink319" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../../../../EA1/EA2/EA23.htm">Traducteur</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink320" onclick="parent.toggleDiv('detailsDIVLink320','DetailsImageLink320')" />Details:
+							<div id="detailsDIVLink320" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../../../../EA1/EA2/EA1/EA29.htm">CoCoPe</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink321" onclick="parent.toggleDiv('detailsDIVLink321','DetailsImageLink321')" />Details:
+							<div id="detailsDIVLink321" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
 		<div class="ItemBody" id="LinksTable">
 			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -110,10 +194,24 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA261.htm">Réaliser le questionnaire</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA246.htm">Gérer les groupes de questions</a></td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
-					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA243.htm">Gérer la banque des questions</a></td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA263.htm">Rélisation du questionnaire des évaluations</a></td>
+					<td width="10%" class="TableRow" valign="top">Collaboration</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 

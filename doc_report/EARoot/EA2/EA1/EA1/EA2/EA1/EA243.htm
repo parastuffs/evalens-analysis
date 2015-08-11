@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Gérer les définitions des objets des questionnaires</title>
+<title>Gérer la banque des questions</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gérer les définitions des objets des questionnaires", " : "))</script>  : Public   UseCase</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gérer la banque des questions", " : "))</script>  : Public   UseCase</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">13/07/2015 09:40:59</td>
+			<td width="85%" class="ObjectDetailsValue">10/07/2015 22:43:20</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">6/08/2015 17:26:11</td>
+			<td class="ObjectDetailsValue">6/08/2015 10:51:45</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -51,7 +51,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue">EvalEns</td>
+			<td class="ObjectDetailsValue">Moulay</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
@@ -87,56 +87,22 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{0E0BB220-01FE-45b4-BB84-C467EE0C70CC}</td>
+			<td class="ObjectDetailsValue">{41A139EF-B786-4360-96D1-331AD1165CEC}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA236.htm">Administration</a></td>
+			<td class="ObjectDetailsValue"><a href="EA237.htm">Administration</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Gérer les définitions des objets des questionnaires permet au superviseur de définir les caractéristiques de sélection des entités pour les questionnaires d&#39;un domaine applicatif, et de maintenir leur historique. Ce processus permet aussi de consulter et filtrer les définitions des objets, ainsi que d&#39;y faire une recherche, et ce sur l&#39;ensemble des informations décrivant celles-ci. Ce processus est du ressort du superviseur.&lt;br/&gt;Le processus garantit la cohérence de chaque définition.&lt;br/&gt;&lt;br/&gt;Les caractéristiques de chaque définition des objets sont les suivantes :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;intitulé : dénomination de la définition&lt;/li&gt;&lt;li&gt;description&lt;/li&gt;&lt;li&gt;identifiant : permet d&#39;identifier univoquement la définition&lt;/li&gt;&lt;li&gt;types : type d&#39;objet défini&lt;/li&gt;&lt;li&gt;règles : procédure ou expression qui régit l&#39;utilisation de la définition&lt;/li&gt;&lt;li&gt;paramètres nécessaires à l&#39;interprétation des règles&lt;/li&gt;&lt;li&gt;exceptions : liste d&#39;objets à exclure ou inclure (spécifiée manuellement ou importée), n&#39;étant pas couverts par la règle&lt;/li&gt;&lt;li&gt;période de validité : période durant laquelle la définition est utilisable.&lt;/li&gt;&lt;li&gt;propriétés :&#160; informations variables spécifique à chaque définition, dépendant du domaine applicatif.&lt;/li&gt;&lt;li&gt;domaine applicatif : spécifie la(les) application(s) dans la(les)quelle(s) la définition peut être utilisée&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Un objet peut être simple (ex : une unité d&#39;enseignement) ou composé (ex : l&#39;association UE/enseignant).@TODO&lt;br/&gt;&lt;br/&gt;Pour une définition donnée, ce processus fournit aussi les informations suivantes :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Les questionnaires en relation&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Pour faciliter la mise à jour, les opérations suivantes sont fournies :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Cloner une définition existante&lt;/li&gt;&lt;li&gt;Définir une définition comme modèle utilisable pour créer de nouvelles définitions&lt;/li&gt;&lt;li&gt;Périmer une définition à la date du jour&lt;/li&gt;&lt;li&gt;Appliquer la définition et exporter les résultats&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+	<div class="ObjectDetailsNotes">Gérer la banque de questions permet de mettre à jour les questions utilisées ou non dans les questionnaires, et de maintenir son historique. Ce processus permet aussi de consulter et filtrer la banque de questions, ainsi que d&#39;y faire une recherche, et ce sur l&#39;ensemble des informations décrivant les questions. Ce processus est du ressort du superviseur.&lt;br/&gt;&lt;br/&gt;Chaque question est décrite par les informations suivantes :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Intitulé (multilingue) : texte ou descriptif de la question&lt;/li&gt;&lt;li&gt;Identifiant : permet d&#39;identifier univoquement une question dans la banque&lt;/li&gt;&lt;li&gt;Règle : procédure ou expression qui régit l&#39;utilisation de la question&lt;/li&gt;&lt;li&gt;Paramètres : décrit l&#39;application de la règle spécifiée&lt;/li&gt;&lt;li&gt;Formule : interprétation du résultat de la réponse&lt;/li&gt;&lt;li&gt;Représentation visuelle : représentation utilisée pour visualiser la question sur les différents supports. Elle est formée sur base d&#39;un texte et d&#39;une typographie fournis par l&#39;utilisateur ou d&#39;une fonction programmée.&lt;/li&gt;&lt;li&gt;Domaine applicatif : spécifie la(les) application(s) dans la(les)quelle(s) la question peut être utilisée&lt;/li&gt;&lt;li&gt;Propriétés : informations variables spécifique à chaque question, dépendant du domaine applicatif.&lt;/li&gt;&lt;li&gt;Relations entre les questions : dépendance, précédence, exclusion mutuelle, etc.&lt;/li&gt;&lt;li&gt;Statut : validée, rejetée, en attente, prototype, etc.&lt;/li&gt;&lt;li&gt;Période de validité : période durant laquelle la question est utilisable.&lt;/li&gt;&lt;li&gt;Réponses possibles : description des réponses possibles&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Pour une question donnée, ce processus fournit aussi les informations suivantes :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Les questions en relation&lt;/li&gt;&lt;li&gt;Les groupes de questions où elle apparaît&lt;/li&gt;&lt;li&gt;Les questionnaires dont elle fait partie&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Pour faciliter la mise à jour, les opérations suivantes sont fournies :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Cloner une question existante&lt;/li&gt;&lt;li&gt;Définir une question comme modèle utilisable pour créer de nouvelles questions&lt;/li&gt;&lt;li&gt;Périmer une question à la date du jour&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('LinkedDocument');" id="LinkedDocumentTitle">Linked Document</li>
-			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
 		<div class="ItemBody" id="LinkedDocumentTable">
-			<iframe src="../../../../../../linkdocs/EAID_0E0BB220_01FE_45b4_BB84_C467EE0C70CC.htm" frameborder="0" id="linkDocIFrame"></iframe>
-		</div>
-		<div class="ItemBody" id="AssociationsFromTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="40%" class="TableHeading">Element</td>
-					<td width="30%" class="TableHeading">Source Role</td>
-					<td width="30%" class="TableHeading">Target Role</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../../../../../EA1/EA2/EA1/EA37.htm">Superviseur</a><br />
-						Actor &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
-					</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink318" onclick="parent.toggleDiv('detailsDIVLink318','DetailsImageLink318')" />Details:
-							<div id="detailsDIVLink318" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
-			</table>
+			<iframe src="../../../../../../linkdocs/EAID_41A139EF_B786_4360_96D1_331AD1165CEC.htm" frameborder="0" id="linkDocIFrame"></iframe>
 		</div>
 		<div class="ItemBody" id="LinksTable">
 			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
@@ -148,16 +114,23 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA252.htm">Gestion des enseignants</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA262.htm">Réaliser le questionnaire</a></td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA252.htm">Gestion de la banque des questions</a></td>
 					<td width="10%" class="TableRow" valign="top">Collaboration</td>
 					<td width="10%" class="TableRow" valign="top">Realization</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA260.htm">Gestion des unités d'enseignement</a></td>
-					<td width="10%" class="TableRow" valign="top">Collaboration</td>
-					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA246.htm">Gérer les groupes de questions</a></td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>

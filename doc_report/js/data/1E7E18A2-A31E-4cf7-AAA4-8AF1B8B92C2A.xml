@@ -1,6 +1,6 @@
 tocTab[tocTab.length] = new Array("0.2.1", "1", "Evaluation des enseignements", "EARoot/EA2/EA1/EA56.htm", "4.png", "", "", "{F965F4F6-65E7-4066-B859-7D810C9F8857}", "Package");
-tocTab[tocTab.length] = new Array("0.2.2", "1", "Management of dissertations", "EARoot/EA2/EA2/EA249.htm", "4.png", "", "", "{B537B070-0D9F-4042-BBEB-A6BF1CB82404}", "Package");
-tocTab[tocTab.length] = new Array("0.2.3", "", "Management of leave", "EARoot/EA2/EA3/EA272.htm", "4.png", "", "", "{EAB39392-C07F-444c-A987-9B52470E6E15}", "Package");
-tocTab[tocTab.length] = new Array("0.2.4", "", "Monitoring of examinations", "EARoot/EA2/EA4/EA273.htm", "4.png", "", "", "{10B7F014-31C1-4f5f-B25F-35579F4478E3}", "Package");
-tocTab[tocTab.length] = new Array("0.2.5", "", "Registration for oral examinations", "EARoot/EA2/EA5/EA274.htm", "4.png", "", "", "{33B3A4B9-8F84-4b26-8046-D778979D266D}", "Package");
-tocTab[tocTab.length] = new Array("0.2.6", "", "Transfer of history data", "EARoot/EA2/EA6/EA275.htm", "4.png", "", "", "{D01474EA-E08E-4dd4-AD0B-28697F4C164D}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2", "1", "Management of dissertations", "EARoot/EA2/EA2/EA317.htm", "4.png", "", "", "{B537B070-0D9F-4042-BBEB-A6BF1CB82404}", "Package");
+tocTab[tocTab.length] = new Array("0.2.3", "", "Management of leave", "EARoot/EA2/EA3/EA340.htm", "4.png", "", "", "{EAB39392-C07F-444c-A987-9B52470E6E15}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4", "", "Monitoring of examinations", "EARoot/EA2/EA4/EA341.htm", "4.png", "", "", "{10B7F014-31C1-4f5f-B25F-35579F4478E3}", "Package");
+tocTab[tocTab.length] = new Array("0.2.5", "", "Registration for oral examinations", "EARoot/EA2/EA5/EA342.htm", "4.png", "", "", "{33B3A4B9-8F84-4b26-8046-D778979D266D}", "Package");
+tocTab[tocTab.length] = new Array("0.2.6", "", "Transfer of history data", "EARoot/EA2/EA6/EA343.htm", "4.png", "", "", "{D01474EA-E08E-4dd4-AD0B-28697F4C164D}", "Package");

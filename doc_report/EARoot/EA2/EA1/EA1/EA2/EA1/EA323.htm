@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Gestion de la banque des questions</title>
+<title>Gestion des qualificatifs des évaluations</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gestion de la banque des questions", " : "))</script>  : Public   Collaboration</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gestion des qualificatifs des évaluations", " : "))</script>  : Public   Collaboration</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">27/07/2015 17:08:25</td>
+			<td width="85%" class="ObjectDetailsValue">28/07/2015 14:19:10</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">6/08/2015 11:25:59</td>
+			<td class="ObjectDetailsValue">7/08/2015 09:54:12</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,14 +87,14 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{2984F71D-0F09-4d3c-8923-7C4BA694DC35}</td>
+			<td class="ObjectDetailsValue">{E9541F3E-46D7-4a63-B8E3-9C722F333AA8}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA308.htm">Administration</a></td>
+			<td class="ObjectDetailsValue"><a href="EA301.htm">Administration</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">La gestion de la banque des questions est le processus gérant les questions des évaluations des enseignements.&lt;br/&gt;&lt;br/&gt;Dans ce contexte, la description des questions est la suivante :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Intitulé : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Identifiant : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Règle : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Paramètres : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Formule : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Représentation visuelle : standard par défaut&lt;/li&gt;&lt;li&gt;Domaine applicatif : évaluation des enseignements&lt;/li&gt;&lt;li&gt;Propriétés : obligatoire, facultative, valeurs par défaut, type(*).&lt;/li&gt;&lt;li&gt;Relations entre les questions : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Statut : validée(**), rejetée, en attente ou prototype&lt;/li&gt;&lt;li&gt;Période de validité : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Réponses possibles : voir « Réponse au questionnaire d&#39;évaluation » (qual-0002)&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;(*) Type : globale, générique (indépendante de toute activité d&#39;apprentissage, mais spécifique à une dimension) ou spécifique à une activité d&#39;apprentissage particulière.&lt;br/&gt;(**) Toute question ayant un statut « validée » doit respecter la règle rule-0005.&lt;br/&gt;&lt;br/&gt;Pour chaque question, il est possible de spécifier l&#39;appartenance à seul un groupe de questions.&lt;p/&gt;</div>
+	<div class="ObjectDetailsNotes">La gestion des qualificatifs des évaluations est le processus consistant à maintenir la liste des qualificatifs utilisés durant l&#39;évaluation des enseignements.&lt;br/&gt;&lt;br/&gt;Dans ce contexte, les caractéristiques des qualificatifs sont les suivantes :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;intitulé : à sélectionner parmi la &lt;a href=&quot;javascript:top.guidLink(&#39;{07BEEEFC-C805-459e-B357-6A59EA00FA43}&#39;)&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;Liste des qualificatifs&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;domaine applicatif : évaluation des enseignements&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Les caractéristiques suivantes restent à définir :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;description&lt;/li&gt;&lt;li&gt;identifiant&lt;/li&gt;&lt;li&gt;période de validité&lt;/li&gt;&lt;li&gt;propriétés&lt;/li&gt;&lt;li&gt;valeurs par défaut&lt;/li&gt;&lt;li&gt;qualificatif par défaut&lt;/li&gt;&lt;li&gt;représentation visuelle&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -110,7 +110,7 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA314.htm">Gérer la banque des questions</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA312.htm">Gérer les listes de qualificatifs</a></td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
 					<td width="10%" class="TableRow" valign="top">Realization</td>
 					<td width="10%" class="TableRow" valign="top">To</td>

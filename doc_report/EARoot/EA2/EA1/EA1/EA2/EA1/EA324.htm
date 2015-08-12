@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Gestion des enseignants</title>
+<title>Gestion des statistiques des évaluations</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gestion des enseignants", " : "))</script>  : Public   Collaboration</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gestion des statistiques des évaluations", " : "))</script>  : Public   Collaboration</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">13/07/2015 09:44:09</td>
+			<td width="85%" class="ObjectDetailsValue">27/07/2015 10:15:00</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">6/08/2015 17:28:52</td>
+			<td class="ObjectDetailsValue">7/08/2015 08:28:57</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,14 +87,14 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{EE9AE0C4-991D-4366-8D05-1BE34690597B}</td>
+			<td class="ObjectDetailsValue">{17A505E9-5FE5-40d5-872A-7D797CB57377}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA308.htm">Administration</a></td>
+			<td class="ObjectDetailsValue"><a href="EA301.htm">Administration</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Gérer les enseignants permet au superviseur de définir les caractéristiques de sélection des enseignants pour les questionnaires des évaluations des enseignements.&lt;br/&gt;&lt;br/&gt;Dans ce contexte, les caractéristiques de la définition sont les suivantes :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Intitulé : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Identifiant : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Règle : Tous les enseignants liés à une unité d&#39;enseignement associée à une campagne sont à inclure par défaut.&lt;/li&gt;&lt;li&gt;Paramètres : à fournir lors de la création&lt;/li&gt;&lt;li&gt;type : enseignant&lt;/li&gt;&lt;li&gt;Domaine applicatif : évaluation des enseignements&lt;/li&gt;&lt;li&gt;Propriétés : @TODO&lt;/li&gt;&lt;li&gt;Période de validité : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Exceptions : liste d&#39;enseignants à exclure (spécifiée manuellement ou importée) sur base du matricule. Liste des enseignants à inclure (spécifiée manuellement ou importée) devant contenir au minimum le nom, le prénom, l&#39;adresse courriel et éventuellement le matricule.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Pour une définition donnée, ce processus fournit aussi les informations suivantes :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Campagnes dans lesquelles elle intervient&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+	<div class="ObjectDetailsNotes">La gestion des statistiques des évaluations est le processus gérant les statistiques des évaluation des enseignements.&lt;br/&gt;&lt;br/&gt;Dans ce contexte, la définition de chaque statistique est la suivante :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Intitulé (multilingue) : à spécifier manuellement ou à choisir dans la &lt;a href=&quot;javascript:top.guidLink(&#39;{653A943F-1837-4e06-9A4E-760C10D9F4A3}&#39;)&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;Liste des statistiques&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;description (multilingue) : par défaut, description de l&#39;intitulé choisi&lt;/li&gt;&lt;li&gt;identifiant : à fournir lors de la création&lt;/li&gt;&lt;li&gt;règles : à sélectionner parmi la &lt;a href=&quot;javascript:top.guidLink(&#39;{653A943F-1837-4e06-9A4E-760C10D9F4A3}&#39;)&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;Liste des statistiques&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;paramètres : voir la description de la règle sélectionnée&lt;/li&gt;&lt;li&gt;période de validité : à fournir lors de la création&lt;/li&gt;&lt;li&gt;propriétés :&#160; à fournir lors de la création&lt;/li&gt;&lt;li&gt;domaine applicatif : évaluation des enseignements&lt;/li&gt;&lt;li&gt;droits d&#39;accès : à fournir lors de la création&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;représentation visuelle : à fournir lors de la création&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -110,9 +110,16 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA315.htm">Gérer les définitions des objets des questionnaires</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA314.htm">Gérer les statistiques</a></td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
 					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../../EA1/EA3/EA1/EA44.htm">Liste des statistiques</a></td>
+					<td width="10%" class="TableRow" valign="top">Object</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>

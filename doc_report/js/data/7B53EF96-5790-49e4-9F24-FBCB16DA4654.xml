@@ -1,4 +1,4 @@
 tocTab[tocTab.length] = new Array("0.1.1.1:1", "", "Descriptif de l&#39;analyse (Mind Map)", "EARoot/EA1/EA1/EA1/EA44.htm", "189.png", "111", "0", "", "Analysis diagram0","{379C717B-F9B5-41be-BF6D-D8BFADA9B05D}");
 tocTab[tocTab.length] = new Array("0.1.1.1:2", "", "Structure des packages", "EARoot/EA1/EA1/EA1/EA46.htm", "176.png", "110", "0", "", "Package diagram0","{C76AC0BD-5B58-49e2-9FDB-E930B3A45F2B}");
 tocTab[tocTab.length] = new Array("0.1.1.1.1", "1", "Cas d&#39;utilisations", "EARoot/EA1/EA1/EA1/EA49.htm", "4.png", "", "", "{7459A7D5-B7FB-4f96-80E9-DACA85ABC729}", "Package");
-tocTab[tocTab.length] = new Array("0.1.1.1.2", "", "Structural", "EARoot/EA1/EA1/EA1/EA2/EA295.htm", "4.png", "", "", "{DD536DD9-6F5A-4d2d-803C-80670BEA6A65}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.1.2", "", "Structural", "EARoot/EA1/EA1/EA1/EA2/EA314.htm", "4.png", "", "", "{DD536DD9-6F5A-4d2d-803C-80670BEA6A65}", "Package");

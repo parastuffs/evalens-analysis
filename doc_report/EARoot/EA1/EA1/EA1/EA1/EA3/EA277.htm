@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>:Identifiant de la ressource</title>
+<title>Sélectionner les UE et l'action</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -33,16 +33,16 @@ function nameClassifier(name, separator)
 <body onload="initPage(this);" class="Content">
 <div class="pageHeader"></div>
 <div class="PageBody">
-	<div id="name_classifier" style="display: none;"><a href="../../../EA3/EA360.htm">Identifiant de la ressource</a></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("", " : "))</script>  : Public   ActionPin</span>
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Sélectionner les UE et l&#39;action", " : "))</script>  : Public   Action</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">12/08/2015 10:16:56</td>
+			<td width="85%" class="ObjectDetailsValue">11/08/2015 10:19:28</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">12/08/2015 10:16:56</td>
+			<td class="ObjectDetailsValue">13/08/2015 17:35:12</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,19 +87,43 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{719A45D2-1002-4972-A6C4-212C57F3D9C3}</td>
+			<td class="ObjectDetailsValue">{8C53AD31-FE70-4a6d-B502-57507CD781F2}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA136.htm">Répondre à l'enquête</a></td>
+			<td class="ObjectDetailsValue"><a href="EA141.htm">Traiter les résultats</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
 			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
-			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
+		<div class="ItemBody" id="FlowToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA276.htm">Nombre d'UE sélectionnées ?</a><br />
+						Decision &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow280" onclick="parent.toggleDiv('detailsDIVLinkFlow280', 'DetailsImageLinkFlow280')" />Details:
+							<div id="detailsDIVLinkFlow280" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
 		<div class="ItemBody" id="FlowFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -108,15 +132,15 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA194.htm">Identifiant prise d'avis</a><br />
-						Object &nbsp;
+						<a href="EA255.htm">Afficher formulaire</a><br />
+						Action &nbsp;
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow277" onclick="parent.toggleDiv('detailsDIVLinkFlow277', 'DetailsImageLinkFlow277')" />Details:
-							<div id="detailsDIVLinkFlow277" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow281" onclick="parent.toggleDiv('detailsDIVLinkFlow281', 'DetailsImageLinkFlow281')" />Details:
+							<div id="detailsDIVLinkFlow281" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -124,50 +148,7 @@ function nameClassifier(name, separator)
 				</tr>
 			</table>
 		</div>
-		<div class="ItemBody" id="CustomPropertiesTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="30%" class="TableHeading">Property</td>
-					<td width="70%" class="TableHeading">Value</td>
-				</tr>
-			<tr>
-				<td width="30%" class="TableRow">isStream:</td>
-				<td width="70%" class="TableRow">False</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">kind:</td>
-				<td width="70%" class="TableRow">input</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">ordering:</td>
-				<td width="70%" class="TableRow">FIFO</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isControlType:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isException:</td>
-				<td width="70%" class="TableRow">False</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isOrdered:</td>
-				<td width="70%" class="TableRow">0</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isUnique:</td>
-				<td width="70%" class="TableRow">1</td>
-			</tr>
-
-
-			</table>
-		</div>	</div>
+	</div>
 <div class="pageFooter"></div>
  
 </body>

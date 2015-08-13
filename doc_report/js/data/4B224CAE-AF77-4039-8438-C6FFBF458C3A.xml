@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.2.1", "1", "Actions", "EARoot/EA2/EA1/EA386.htm", "4.png", "", "", "{AACCD5FC-81F7-48e4-95E2-DB8CC2BFAB09}", "Package");
-tocTab[tocTab.length] = new Array("0.2.2", "1", "Actors", "EARoot/EA2/EA2/EA389.htm", "4.png", "", "", "{4443C834-8528-4979-9924-EF436BE9BF9F}", "Package");
-tocTab[tocTab.length] = new Array("0.2.3", "1", "Objects", "EARoot/EA2/EA3/EA411.htm", "4.png", "", "", "{96721C59-5552-4e25-B258-828EEEBB1D8D}", "Package");
-tocTab[tocTab.length] = new Array("0.2.4", "1", "Use cases", "EARoot/EA2/EA4/EA420.htm", "4.png", "", "", "{E712357E-0C0C-48f5-8603-65ED332C19D9}", "Package");
+tocTab[tocTab.length] = new Array("0.2.1", "1", "Actions", "EARoot/EA2/EA1/EA405.htm", "4.png", "", "", "{AACCD5FC-81F7-48e4-95E2-DB8CC2BFAB09}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2", "1", "Actors", "EARoot/EA2/EA2/EA408.htm", "4.png", "", "", "{4443C834-8528-4979-9924-EF436BE9BF9F}", "Package");
+tocTab[tocTab.length] = new Array("0.2.3", "1", "Objects", "EARoot/EA2/EA3/EA430.htm", "4.png", "", "", "{96721C59-5552-4e25-B258-828EEEBB1D8D}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4", "1", "Use cases", "EARoot/EA2/EA4/EA439.htm", "4.png", "", "", "{E712357E-0C0C-48f5-8603-65ED332C19D9}", "Package");

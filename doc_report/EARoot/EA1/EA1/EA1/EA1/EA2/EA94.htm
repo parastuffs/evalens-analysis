@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Consultation par unités d'enseignement</title>
+<title>Envoyer l'invitation aux traitement des résultats</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Consultation par unités d&#39;enseignement", " : "))</script>  : Public   Collaboration</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Envoyer l&#39;invitation aux traitement des résultats", " : "))</script>  : Public   UseCase</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">13/07/2015 16:30:39</td>
+			<td width="85%" class="ObjectDetailsValue">15/07/2015 15:32:08</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">4/08/2015 11:47:05</td>
+			<td class="ObjectDetailsValue">7/08/2015 14:56:01</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -51,7 +51,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue">Quentin</td>
+			<td class="ObjectDetailsValue">EvalEns</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
@@ -87,19 +87,23 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{A46FEEF8-0E10-4a48-9AB4-F31D8E5BFE93}</td>
+			<td class="ObjectDetailsValue">{B1BCBC99-8012-4812-84B0-BCAC8A9A5EA4}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../EA3/EA137.htm">Enquête</a>, <a href="EA88.htm">Consultation des évaluations</a></td>
+			<td class="ObjectDetailsValue"><a href="EA88.htm">Gestion de campagnes</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">La consultation par unités d&#39;enseignement est un processus permettant de consulter la grille des résultats groupés par UE.&lt;br/&gt;&lt;br/&gt;Dans ce cas :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;L&#39;entité consultée est l&#39;unité d&#39;enseignement&lt;/li&gt;&lt;li&gt;L&#39;identifiant est le NRE&lt;/li&gt;&lt;li&gt;Information additionnelle : mnémonique&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+	<div class="ObjectDetailsNotes">Ce processus permet au gestionnaire de communication de campagne d&#39;envoyer l&#39;invitation au traitement des résultats à la date définie à cet effet dans le calendrier de campagne. La liste des destinataires concernés sont les membres de la commission pédagogique facultaire (rule-0004). Ces derniers reçoivent l&#39;invitation une seule fois.&lt;br/&gt;&lt;br/&gt;L&#39;invitation est basée sur le modèle défini à cet effet dans la &lt;a href=&quot;javascript:top.guidLink(&#39;{DDB4751D-89E3-4b93-99D2-EAD58380765A}&#39;)&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;Liste des modèles&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;.&lt;p/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('LinkedDocument');" id="LinkedDocumentTitle">Linked Document</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
+		<div class="ItemBody" id="LinkedDocumentTable">
+			<iframe src="../../../../../../linkdocs/EAID_B1BCBC99_8012_4812_84B0_BCAC8A9A5EA4.htm" frameborder="0" id="linkDocIFrame"></iframe>
+		</div>
 		<div class="ItemBody" id="LinksTable">
 			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -110,16 +114,9 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA95.htm">Consulter la grille des résultats</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA97.htm">Envoyer les messages</a></td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
-					<td width="10%" class="TableRow" valign="top">Realization</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA96.htm">Consulter la grille des résultats par campagne</a></td>
-					<td width="10%" class="TableRow" valign="top">UseCase</td>
-					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>

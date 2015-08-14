@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Utilisateur</title>
+<title>Charger le profil de l'utilisateur</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Utilisateur", " : "))</script>  : Public   ActivityPartition</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Charger le profil de l&#39;utilisateur", " : "))</script>  : Public   Action</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">12/08/2015 08:09:46</td>
+			<td width="85%" class="ObjectDetailsValue">12/08/2015 08:20:14</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">12/08/2015 08:16:12</td>
+			<td class="ObjectDetailsValue">12/08/2015 15:37:26</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -51,7 +51,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue"></td>
+			<td class="ObjectDetailsValue">EvalEns</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
@@ -87,37 +87,84 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{701AC78F-C2AE-44c6-86B9-05571E4BB09B}</td>
+			<td class="ObjectDetailsValue">{D7424DF4-85CF-4372-893B-AB5F3D88CCD9}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA385.htm">Identification</a></td>
+			<td class="ObjectDetailsValue"><a href="EA415.htm">Identification</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">&lt;ul&gt;<br />&lt;li&gt;Facultés de l&#39;utilisateur&lt;/li&gt;&lt;li&gt;Les commissions de l&#39;utilisateur&lt;/li&gt;&lt;li&gt;Les unités d&#39;enseignement enseignées&lt;/li&gt;&lt;li&gt;Les ressources auquelles l&#39;utilisateur a accès&lt;/li&gt;&lt;li&gt;Information personnelles (nom, prénom, matricule, etc.)&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
+			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 		</ul>
-		<div class="ItemBody" id="CustomPropertiesTable">
+		<div class="ItemBody" id="FlowToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="30%" class="TableHeading">Property</td>
-					<td width="70%" class="TableHeading">Value</td>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
 				</tr>
-			<tr>
-				<td width="30%" class="TableRow">isDimension:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isExternal:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
-
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA440.htm">Charger les paramètres de l'application</a><br />
+						Action &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow490" onclick="parent.toggleDiv('detailsDIVLinkFlow490', 'DetailsImageLinkFlow490')" />Details:
+							<div id="detailsDIVLinkFlow490" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
 			</table>
-		</div>	</div>
+		</div>
+		<div class="ItemBody" id="FlowFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA451.htm">Utilisateur existe centralement ?</a><br />
+						Decision &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">[oui]</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow491" onclick="parent.toggleDiv('detailsDIVLinkFlow491', 'DetailsImageLinkFlow491')" />Details:
+							<div id="detailsDIVLinkFlow491" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA452.htm">Utilisateur existe localement ?</a><br />
+						Decision &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">[oui]</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow492" onclick="parent.toggleDiv('detailsDIVLinkFlow492', 'DetailsImageLinkFlow492')" />Details:
+							<div id="detailsDIVLinkFlow492" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
 <div class="pageFooter"></div>
  
 </body>

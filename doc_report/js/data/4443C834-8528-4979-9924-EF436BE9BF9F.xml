@@ -1,8 +1,8 @@
-tocTab[tocTab.length] = new Array("0.2.2:1", "", "Chargé de communication facultaire", "EARoot/EA2/EA2/EA501.htm", "6.png", "E673", "0", "", "Actor0","{DBBADA09-D374-4299-B288-E307F9111410}");
-tocTab[tocTab.length] = new Array("0.2.2:2", "", "Enseignant", "EARoot/EA2/EA2/EA502.htm", "6.png", "E626", "0", "", "Actor0","{20806E3E-B128-478c-985E-7CF14E641F94}");
-tocTab[tocTab.length] = new Array("0.2.2:3", "", "Etudiant", "EARoot/EA2/EA2/EA503.htm", "6.png", "E659", "0", "", "Actor0","{53FF809C-8A94-4722-B5B0-2924D9C0F064}");
-tocTab[tocTab.length] = new Array("0.2.2:4", "", "«passif» Gestionnaire de communication facultaire/institutionnel", "EARoot/EA2/EA2/EA505.htm", "6.png", "E746", "0", "", "Actor0","{EBBC5177-F7EF-488e-A658-B6F323D4986D}");
-tocTab[tocTab.length] = new Array("0.2.2:5", "", "Participant de l&#39;enquête", "EARoot/EA2/EA2/EA506.htm", "6.png", "E767", "0", "", "Actor0","{54AD0DC0-8CFD-49ba-A562-075F74121BF3}");
-tocTab[tocTab.length] = new Array("0.2.2:6", "", "Traducteur", "EARoot/EA2/EA2/EA507.htm", "6.png", "E650", "0", "", "Actor0","{63102705-3162-4d1d-A988-145B4D6CEB0A}");
-tocTab[tocTab.length] = new Array("0.2.2:7", "", "Utilisateur", "EARoot/EA2/EA2/EA508.htm", "6.png", "E620", "0", "", "Actor0","{76DBE563-C49A-4551-A3D1-0C9F310DDE66}");
-tocTab[tocTab.length] = new Array("0.2.2.1", "1", "EvalEns", "EARoot/EA2/EA2/EA1/EA511.htm", "4.png", "", "", "{C9944A60-4BC0-47dd-9E35-BDF7761C5AED}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2:1", "", "Chargé de communication facultaire", "EARoot/EA2/EA2/EA592.htm", "6.png", "E673", "0", "", "Actor0","{DBBADA09-D374-4299-B288-E307F9111410}");
+tocTab[tocTab.length] = new Array("0.2.2:2", "", "Enseignant", "EARoot/EA2/EA2/EA593.htm", "6.png", "E626", "0", "", "Actor0","{20806E3E-B128-478c-985E-7CF14E641F94}");
+tocTab[tocTab.length] = new Array("0.2.2:3", "", "Etudiant", "EARoot/EA2/EA2/EA594.htm", "6.png", "E659", "0", "", "Actor0","{53FF809C-8A94-4722-B5B0-2924D9C0F064}");
+tocTab[tocTab.length] = new Array("0.2.2:4", "", "«passif» Gestionnaire de communication facultaire/institutionnel", "EARoot/EA2/EA2/EA596.htm", "6.png", "E746", "0", "", "Actor0","{EBBC5177-F7EF-488e-A658-B6F323D4986D}");
+tocTab[tocTab.length] = new Array("0.2.2:5", "", "Participant de l&#39;enquête", "EARoot/EA2/EA2/EA597.htm", "6.png", "E767", "0", "", "Actor0","{54AD0DC0-8CFD-49ba-A562-075F74121BF3}");
+tocTab[tocTab.length] = new Array("0.2.2:6", "", "Traducteur", "EARoot/EA2/EA2/EA598.htm", "6.png", "E650", "0", "", "Actor0","{63102705-3162-4d1d-A988-145B4D6CEB0A}");
+tocTab[tocTab.length] = new Array("0.2.2:7", "", "Utilisateur", "EARoot/EA2/EA2/EA599.htm", "6.png", "E620", "0", "", "Actor0","{76DBE563-C49A-4551-A3D1-0C9F310DDE66}");
+tocTab[tocTab.length] = new Array("0.2.2.1", "1", "EvalEns", "EARoot/EA2/EA2/EA1/EA602.htm", "4.png", "", "", "{C9944A60-4BC0-47dd-9E35-BDF7761C5AED}", "Package");

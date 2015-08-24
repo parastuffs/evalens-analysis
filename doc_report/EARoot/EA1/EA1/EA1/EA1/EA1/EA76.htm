@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Gestion de la banque des questions</title>
+<title>Gestion des enseignants</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gestion de la banque des questions", " : "))</script>  : Public   Collaboration</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gestion des enseignants", " : "))</script>  : Public   Collaboration</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">27/07/2015 17:08:25</td>
+			<td width="85%" class="ObjectDetailsValue">13/07/2015 09:44:09</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">6/08/2015 11:25:59</td>
+			<td class="ObjectDetailsValue">6/08/2015 17:28:52</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,14 +87,14 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{2984F71D-0F09-4d3c-8923-7C4BA694DC35}</td>
+			<td class="ObjectDetailsValue">{EE9AE0C4-991D-4366-8D05-1BE34690597B}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA61.htm">Administration</a></td>
+			<td class="ObjectDetailsValue"><a href="EA60.htm">Administration</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">La gestion de la banque des questions est le processus gérant les questions des évaluations des enseignements.&lt;br/&gt;&lt;br/&gt;Dans ce contexte, la description des questions est la suivante :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Intitulé : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Identifiant : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Règle : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Paramètres : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Formule : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Représentation visuelle : standard par défaut&lt;/li&gt;&lt;li&gt;Domaine applicatif : évaluation des enseignements&lt;/li&gt;&lt;li&gt;Propriétés : obligatoire, facultative, valeurs par défaut, type(*).&lt;/li&gt;&lt;li&gt;Relations entre les questions : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Statut : validée(**), rejetée, en attente ou prototype&lt;/li&gt;&lt;li&gt;Période de validité : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Réponses possibles : voir « Réponse au questionnaire d&#39;évaluation » (qual-0002)&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;(*) Type : globale, générique (indépendante de toute activité d&#39;apprentissage, mais spécifique à une dimension) ou spécifique à une activité d&#39;apprentissage particulière.&lt;br/&gt;(**) Toute question ayant un statut « validée » doit respecter la règle rule-0005.&lt;br/&gt;&lt;br/&gt;Pour chaque question, il est possible de spécifier l&#39;appartenance à seul un groupe de questions.&lt;p/&gt;</div>
+	<div class="ObjectDetailsNotes">Gérer les enseignants permet au superviseur de définir les caractéristiques de sélection des enseignants pour les questionnaires des évaluations des enseignements.&lt;br/&gt;&lt;br/&gt;Dans ce contexte, les caractéristiques de la définition sont les suivantes :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Intitulé : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Identifiant : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Règle : Tous les enseignants liés à une unité d&#39;enseignement associée à une campagne sont à inclure par défaut.&lt;/li&gt;&lt;li&gt;Paramètres : à fournir lors de la création&lt;/li&gt;&lt;li&gt;type : enseignant&lt;/li&gt;&lt;li&gt;Domaine applicatif : évaluation des enseignements&lt;/li&gt;&lt;li&gt;Propriétés : @TODO&lt;/li&gt;&lt;li&gt;Période de validité : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Exceptions : liste d&#39;enseignants à exclure (spécifiée manuellement ou importée) sur base du matricule. Liste des enseignants à inclure (spécifiée manuellement ou importée) devant contenir au minimum le nom, le prénom, l&#39;adresse courriel et éventuellement le matricule.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Pour une définition donnée, ce processus fournit aussi les informations suivantes :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Campagnes dans lesquelles elle intervient&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -110,7 +110,7 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA67.htm">Gérer la banque des questions</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA67.htm">Gérer les définitions des objets des questionnaires</a></td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
 					<td width="10%" class="TableRow" valign="top">Realization</td>
 					<td width="10%" class="TableRow" valign="top">To</td>

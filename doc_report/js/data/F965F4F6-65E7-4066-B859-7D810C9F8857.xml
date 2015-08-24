@@ -1,6 +1,6 @@
 tocTab[tocTab.length] = new Array("0.1.1:1", "", "Descriptif du projet (Mind Map)", "EARoot/EA1/EA1/EA35.htm", "189.png", "105", "0", "", "Analysis diagram0","{CEED3F32-80F6-4ca7-9E99-160095FD78DA}");
 tocTab[tocTab.length] = new Array("0.1.1:2", "", "Structure des packages", "EARoot/EA1/EA1/EA37.htm", "176.png", "107", "0", "", "Package diagram0","{48E4FF0E-BE67-42a8-B92F-DFD3F3275C98}");
 tocTab[tocTab.length] = new Array("0.1.1.1", "1", "Analyse", "EARoot/EA1/EA1/EA1/EA48.htm", "4.png", "", "", "{7B53EF96-5790-49e4-9F24-FBCB16DA4654}", "Package");
-tocTab[tocTab.length] = new Array("0.1.1.2", "1", "Documents", "EARoot/EA1/EA1/EA2/EA493.htm", "4.png", "", "", "{FE88DF2B-B9E6-441f-820E-3D5816F63605}", "Package");
-tocTab[tocTab.length] = new Array("0.1.1.3", "1", "_lib", "EARoot/EA1/EA1/EA3/EA507.htm", "4.png", "", "", "{13153BFA-BE31-456f-A47D-6AA6BC96926B}", "Package");
-tocTab[tocTab.length] = new Array("0.1.1.4", "", "_Mind Mapping", "EARoot/EA1/EA1/EA4/EA581.htm", "4.png", "", "", "{CAF1E07A-0BFF-4e91-BCA8-2313E6A0CE12}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.2", "1", "Documents", "EARoot/EA1/EA1/EA2/EA1033.htm", "4.png", "", "", "{FE88DF2B-B9E6-441f-820E-3D5816F63605}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.3", "1", "_lib", "EARoot/EA1/EA1/EA3/EA1049.htm", "4.png", "", "", "{13153BFA-BE31-456f-A47D-6AA6BC96926B}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.4", "", "_Mind Mapping", "EARoot/EA1/EA1/EA4/EA1123.htm", "4.png", "", "", "{CAF1E07A-0BFF-4e91-BCA8-2313E6A0CE12}", "Package");

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title></title>
+<title>Récupérer l'entité pédagogique, les entités liées et les évaluations</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("", " : "))</script>  : Public   ActivityFinal</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Récupérer l&#39;entité pédagogique, les entités liées et les évaluations", " : "))</script>  : Public   Action</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">17/08/2015 14:41:09</td>
+			<td width="85%" class="ObjectDetailsValue">14/08/2015 15:23:39</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">17/08/2015 14:41:11</td>
+			<td class="ObjectDetailsValue">14/08/2015 16:31:20</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,18 +87,43 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{A6D85400-3504-43f5-BDB0-E9E29AB751F2}</td>
+			<td class="ObjectDetailsValue">{621161D2-CA3D-4adf-95EA-623784FAB08A}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA756.htm">Consulter le tableau de bord</a></td>
+			<td class="ObjectDetailsValue"><a href="EA800.htm">Consulter les résultats par entité pédagogique</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
 			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 		</ul>
+		<div class="ItemBody" id="FlowToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA921.htm">Afficher le formulaire</a><br />
+						Action &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1210" onclick="parent.toggleDiv('detailsDIVLinkFlow1210', 'DetailsImageLinkFlow1210')" />Details:
+							<div id="detailsDIVLinkFlow1210" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
 		<div class="ItemBody" id="FlowFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -107,15 +132,45 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA930.htm">{anonymous}</a><br />
-						Decision &nbsp;
+						<a href="EA943.htm">Sélectionner une entité pédagogique liée</a><br />
+						Action &nbsp;
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1206" onclick="parent.toggleDiv('detailsDIVLinkFlow1206', 'DetailsImageLinkFlow1206')" />Details:
-							<div id="detailsDIVLinkFlow1206" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1211" onclick="parent.toggleDiv('detailsDIVLinkFlow1211', 'DetailsImageLinkFlow1211')" />Details:
+							<div id="detailsDIVLinkFlow1211" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA928.htm">Paramètres cohérents ?</a><br />
+						Decision &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">[oui]</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1212" onclick="parent.toggleDiv('detailsDIVLinkFlow1212', 'DetailsImageLinkFlow1212')" />Details:
+							<div id="detailsDIVLinkFlow1212" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA920.htm">Action choisie ?</a><br />
+						Decision &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">[Consulter l'entité et ses entités liées]</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1213" onclick="parent.toggleDiv('detailsDIVLinkFlow1213', 'DetailsImageLinkFlow1213')" />Details:
+							<div id="detailsDIVLinkFlow1213" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>

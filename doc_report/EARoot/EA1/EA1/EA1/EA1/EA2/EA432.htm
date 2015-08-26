@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>ID gérer le support aux utilisateurs</title>
+<title>Gérer le support aux utilisateurs</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("ID gérer le support aux utilisateurs", " : "))</script>  : Public   Object</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gérer le support aux utilisateurs", " : "))</script>  : Public   UseCase</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">24/08/2015 16:51:31</td>
+			<td width="85%" class="ObjectDetailsValue">28/07/2015 09:56:05</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">24/08/2015 16:51:38</td>
+			<td class="ObjectDetailsValue">7/08/2015 12:51:49</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,40 +87,54 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{E4A86465-36B1-49e4-B731-5C0A4C93C3CC}</td>
+			<td class="ObjectDetailsValue">{AD4FB140-4705-4f0a-8B9C-01AAD35B6147}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA111.htm">Gérer le support aux utilisateurs</a></td>
+			<td class="ObjectDetailsValue"><a href="EA418.htm">Gestion de campagnes</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">Gérer le support aux utilisateurs est le processus par lequel le gestionnaire de support réceptionne les requêtes des utilisateurs et les traite.&lt;br/&gt;Le gestionnaire est notifié par courriel à l&#39;adresse dédiée à cet effet des demandes de support. Ce courriel reprend des informations relatives au contexte et au type de demande, ainsi que le lien vers la demande. Ce dernier permet au gestionnaire de visualiser la demande et de la traiter.&lt;br/&gt;&lt;br/&gt;Chaque demande est définie par les éléments suivants :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Type&lt;/li&gt;&lt;li&gt;Objet&lt;/li&gt;&lt;li&gt;Date&lt;/li&gt;&lt;li&gt;Informations de l&#39;utilisateur : identifiant s&#39;il est identifié, son adresse courriel, son nom, son prénom, son matricule et son statut (étudiant, enseignant, administratif, ...) sinon.&lt;/li&gt;&lt;li&gt;Description de la demande&lt;/li&gt;&lt;li&gt;Identifiant : communiqué dans tout échange pour lier les messages entre eux&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Lors du traitement de la demande, le gestionnaire a accès à l&#39;ensemble des informations utiles au diagnostic et à la formulation de la réponse.&lt;br/&gt;Les informations utiles dépendent du type de demande et du profil de l&#39;utilisateur. &lt;br/&gt;Pour les étudiants, les demandes suivantes sont possibles :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Programme individuel de cours incorrect&lt;/li&gt;&lt;li&gt;Impossible de soumettre les avis&lt;/li&gt;&lt;li&gt;Liste des enseignants incomplète&lt;/li&gt;&lt;li&gt;Problème de visualisation&lt;/li&gt;&lt;li&gt;Problème de langue&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Pour l&#39;ensemble de ces cas, les informations utiles de l&#39;étudiant sont :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Informations personnelles (matricule, nom, prénom, adresse courriel)&lt;/li&gt;&lt;li&gt;Ensemble des inscriptions de l&#39;année académique de la campagne&lt;/li&gt;&lt;li&gt;PIC de chaque inscription&lt;/li&gt;&lt;li&gt;Ensemble des cours des inscriptions actives dans l&#39;année académique de la campagne&lt;/li&gt;&lt;li&gt;Ensemble des unités d&#39;enseignement de son PIC faisant partie des Unités d&#39;&#39;évaluation d&#39;&#39;une campagne, ainsi que les enseignants attachés.&lt;/li&gt;&lt;li&gt;Informations sur une entité d&#39;enseignement&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;&lt;br/&gt;Pour les enseignants, les demandes suivantes sont possibles :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Liste des unités d&#39;enseignement incomplète&lt;/li&gt;&lt;li&gt;Liste des enseignants incomplète&lt;/li&gt;&lt;li&gt;Résultat problématique&lt;/li&gt;&lt;li&gt;Problème de visualisation&lt;/li&gt;&lt;li&gt;Problème de langue&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Pour l&#39;ensemble de ces cas, les informations utiles sont :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Informations personnelles de l&#39;enseignant (matricule, nom, prénom, adresse courriel, statut)&lt;/li&gt;&lt;li&gt;Ensemble des unités d&#39;enseignement auxquelles l&#39;enseignant est attaché&lt;/li&gt;&lt;li&gt;Ensemble des enseignants attachés à ces UE&lt;/li&gt;&lt;li&gt;Information sur une unité d&#39;enseignement&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;&lt;br/&gt;Pour les commissions pédagogiques facultaires, les demandes suivantes sont possibles :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Liste des unités d&#39;enseignement incomplète&lt;/li&gt;&lt;li&gt;Liste des enseignants incomplète&lt;/li&gt;&lt;li&gt;Résultat problématique&lt;/li&gt;&lt;li&gt;Problème de visualisation&lt;/li&gt;&lt;li&gt;Problème de langue&lt;/li&gt;&lt;li&gt;Impossible de soumettre les avis&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Pour l&#39;ensemble de ces cas, les informations utiles sont :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Informations personnelles du demandeur (matricule, nom, prénom, adresse courriel)&lt;/li&gt;&lt;li&gt;Ensemble des unités d&#39;enseignement attachées sous la responsabilité de la commission&lt;/li&gt;&lt;li&gt;Ensemble des enseignants attachés à ces UE&lt;/li&gt;&lt;li&gt;Information sur une unité d&#39;enseignement&lt;/li&gt;&lt;li&gt;Statistiques&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;&lt;br/&gt;À l&#39;issue du diagnostic, le processus permet au gestionnaire d&#39;envoyer un message au demandeur en suivant les étapes suivantes :&lt;br/&gt;&lt;ol&gt;<br />&lt;li&gt;Ajouter d&#39;éventuels destinataires supplémentaires.&lt;/li&gt;&lt;li&gt;Joindre d&#39;éventuels fichiers.&lt;/li&gt;&lt;li&gt;Rédiger la réponse qui peut être basée sur un modèle existant adapté selon les besoins et/ou un texte rédigé manuellement.&lt;/li&gt;&lt;li&gt;Envoyer le message. Cette action action est journalisée. À la fin de l&#39;envoi, un rapport est établi reprenant entre autres l&#39;état de l&#39;envoi.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
+			<li onClick="parent.toggleItem('LinkedDocument');" id="LinkedDocumentTitle">Linked Document</li>
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 		</ul>
-		<div class="ItemBody" id="FlowToTable">
+		<div class="ItemBody" id="LinkedDocumentTable">
+			<iframe src="../../../../../../linkdocs/EAID_AD4FB140_4705_4f0a_8B9C_01AAD35B6147.htm" frameborder="0" id="linkDocIFrame"></iframe>
+		</div>
+		<div class="ItemBody" id="AssociationsFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA638.htm">{anonymous}</a><br />
-						ActionPin &nbsp;
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../../../../EA2/EA2/EA1/EA1635.htm">Gestionnaire de support</a><br />
+						Actor &nbsp;
 					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
 				</tr>
 				<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow480" onclick="parent.toggleDiv('detailsDIVLinkFlow480', 'DetailsImageLinkFlow480')" />Details:
-							<div id="detailsDIVLinkFlow480" class="DetailsDiv" >
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink494" onclick="parent.toggleDiv('detailsDIVLink494','DetailsImageLink494')" />Details:
+							<div id="detailsDIVLink494" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
+
 			</table>
 		</div>
 	</div>

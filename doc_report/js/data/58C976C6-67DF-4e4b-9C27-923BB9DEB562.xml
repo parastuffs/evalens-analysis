@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.1.1.3.1:1", "", "Mettre la campagne à jour dans la session", "EARoot/EA1/EA1/EA3/EA1/EA1150.htm", "104.png", "E1499", "0", "", "Action0","{8823C0A0-ECBA-4fab-95AC-8E894D84411E}");
-tocTab[tocTab.length] = new Array("0.1.1.3.1:2", "", "campagne", "EARoot/EA1/EA1/EA3/EA1/EA1151.htm", "106.png", "E1520", "E1499", "", "ActionPin0","{B677849A-075D-4ea5-92C9-C7270A5F4AF4}");
+tocTab[tocTab.length] = new Array("0.1.1.3.1:1", "", "Mettre la campagne à jour dans la session", "EARoot/EA1/EA1/EA3/EA1/EA1594.htm", "104.png", "E1499", "0", "", "Action0","{8823C0A0-ECBA-4fab-95AC-8E894D84411E}");
+tocTab[tocTab.length] = new Array("0.1.1.3.1:2", "", "campagne", "EARoot/EA1/EA1/EA3/EA1/EA1595.htm", "106.png", "E1520", "E1499", "", "ActionPin0","{B677849A-075D-4ea5-92C9-C7270A5F4AF4}");

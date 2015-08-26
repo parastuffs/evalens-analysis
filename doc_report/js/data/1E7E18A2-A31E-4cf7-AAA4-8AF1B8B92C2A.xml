@@ -1,4 +1,4 @@
 tocTab[tocTab.length] = new Array("0.1:1", "", "Descriptif des projets (Mind Map)", "EARoot/EA1/EA8.htm", "175.png", "104", "0", "", "Logical diagram0","{BAB1B40D-2AA1-4758-9958-AAD2ECBE1B44}");
 tocTab[tocTab.length] = new Array("0.1:2", "", "Structure des projets", "EARoot/EA1/EA10.htm", "176.png", "103", "0", "", "Package diagram0","{65F2C589-5D13-4a7a-AF87-7435CAFA6412}");
 tocTab[tocTab.length] = new Array("0.1.1", "1", "Evaluation des enseignements", "EARoot/EA1/EA1/EA39.htm", "4.png", "", "", "{F965F4F6-65E7-4066-B859-7D810C9F8857}", "Package");
-tocTab[tocTab.length] = new Array("0.1.2", "", "_Mind Mapping", "EARoot/EA1/EA2/EA1164.htm", "4.png", "", "", "{C1E2ECD4-EEC0-4c51-A8F4-42E2912C1553}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2", "", "_Mind Mapping", "EARoot/EA1/EA2/EA1608.htm", "4.png", "", "", "{C1E2ECD4-EEC0-4c51-A8F4-42E2912C1553}", "Package");

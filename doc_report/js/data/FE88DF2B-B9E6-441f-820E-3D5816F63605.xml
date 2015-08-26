@@ -1,8 +1,8 @@
-tocTab[tocTab.length] = new Array("0.1.1.2:1", "", "Documents", "EARoot/EA1/EA1/EA2/EA1071.htm", "188.png", "91", "0", "", "Custom diagram0","{5B7AB5B8-C7BF-42dc-BCDA-1442C88FCD2E}");
-tocTab[tocTab.length] = new Array("0.1.1.2:2", "", "«Document» calcul des indicateurs", "EARoot/EA1/EA1/EA2/EA1075.htm", "82.png", "E749", "0", "", "Artifact0","{B9E95259-AE47-4020-8DEA-BCE2F6E1D75D}");
-tocTab[tocTab.length] = new Array("0.1.1.2:3", "", "«Document» calcul du quorum", "EARoot/EA1/EA1/EA2/EA1076.htm", "82.png", "E1309", "0", "", "Artifact0","{596E745E-694A-4eb6-B0F2-5FC2F9681301}");
-tocTab[tocTab.length] = new Array("0.1.1.2:4", "", "«Document» indicateur", "EARoot/EA1/EA1/EA2/EA1077.htm", "82.png", "E736", "0", "", "Artifact0","{1A9FF1CF-0CCD-405f-BA5E-3D3BDD616161}");
-tocTab[tocTab.length] = new Array("0.1.1.2:5", "", "«Document» Liste des activités d&#39;apprentissage", "EARoot/EA1/EA1/EA2/EA1078.htm", "82.png", "E750", "0", "", "Artifact0","{C6EB0DEF-6C55-4cc6-891F-EEE7D931DAAA}");
-tocTab[tocTab.length] = new Array("0.1.1.2:6", "", "«Document» règlement cadre", "EARoot/EA1/EA1/EA2/EA1079.htm", "82.png", "E737", "0", "", "Artifact0","{69D0A959-7820-4e8c-97D5-086C80178E35}");
-tocTab[tocTab.length] = new Array("0.1.1.2:7", "", "«Document» Liste des contacts de l&#39;application des évaluations de l&#39;enseignement", "EARoot/EA1/EA1/EA2/EA1080.htm", "82.png", "E787", "0", "", "Artifact0","{2E56188C-D1E8-4ab4-BCEC-6471F4961A30}");
-tocTab[tocTab.length] = new Array("0.1.1.2.1", "", "Structural", "EARoot/EA1/EA1/EA2/EA1/EA1082.htm", "4.png", "", "", "{DD536DD9-6F5A-4d2d-803C-80670BEA6A65}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.2:1", "", "Documents", "EARoot/EA1/EA1/EA2/EA1513.htm", "188.png", "91", "0", "", "Custom diagram0","{5B7AB5B8-C7BF-42dc-BCDA-1442C88FCD2E}");
+tocTab[tocTab.length] = new Array("0.1.1.2:2", "", "«Document» calcul des indicateurs", "EARoot/EA1/EA1/EA2/EA1517.htm", "82.png", "E749", "0", "", "Artifact0","{B9E95259-AE47-4020-8DEA-BCE2F6E1D75D}");
+tocTab[tocTab.length] = new Array("0.1.1.2:3", "", "«Document» calcul du quorum", "EARoot/EA1/EA1/EA2/EA1518.htm", "82.png", "E1309", "0", "", "Artifact0","{596E745E-694A-4eb6-B0F2-5FC2F9681301}");
+tocTab[tocTab.length] = new Array("0.1.1.2:4", "", "«Document» indicateur", "EARoot/EA1/EA1/EA2/EA1519.htm", "82.png", "E736", "0", "", "Artifact0","{1A9FF1CF-0CCD-405f-BA5E-3D3BDD616161}");
+tocTab[tocTab.length] = new Array("0.1.1.2:5", "", "«Document» Liste des activités d&#39;apprentissage", "EARoot/EA1/EA1/EA2/EA1520.htm", "82.png", "E750", "0", "", "Artifact0","{C6EB0DEF-6C55-4cc6-891F-EEE7D931DAAA}");
+tocTab[tocTab.length] = new Array("0.1.1.2:6", "", "«Document» règlement cadre", "EARoot/EA1/EA1/EA2/EA1521.htm", "82.png", "E737", "0", "", "Artifact0","{69D0A959-7820-4e8c-97D5-086C80178E35}");
+tocTab[tocTab.length] = new Array("0.1.1.2:7", "", "«Document» Liste des contacts de l&#39;application des évaluations de l&#39;enseignement", "EARoot/EA1/EA1/EA2/EA1522.htm", "82.png", "E787", "0", "", "Artifact0","{2E56188C-D1E8-4ab4-BCEC-6471F4961A30}");
+tocTab[tocTab.length] = new Array("0.1.1.2.1", "", "Structural", "EARoot/EA1/EA1/EA2/EA1/EA1524.htm", "4.png", "", "", "{DD536DD9-6F5A-4d2d-803C-80670BEA6A65}", "Package");

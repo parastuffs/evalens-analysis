@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Cohérent ?</title>
+<title>Gestion de la banque des questions</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Cohérent ?", " : "))</script>  : Public   Decision</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gestion de la banque des questions", " : "))</script>  : Public   Collaboration</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">25/08/2015 14:17:18</td>
+			<td width="85%" class="ObjectDetailsValue">27/07/2015 17:08:25</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">26/08/2015 11:07:00</td>
+			<td class="ObjectDetailsValue">6/08/2015 11:25:59</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,80 +87,36 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{1A60459C-B963-49b4-9669-85D03844AADA}</td>
+			<td class="ObjectDetailsValue">{2984F71D-0F09-4d3c-8923-7C4BA694DC35}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA60.htm">Éditer la liste de distribution</a></td>
+			<td class="ObjectDetailsValue"><a href="EA120.htm">Administration</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">La gestion de la banque des questions est le processus gérant les questions des évaluations des enseignements.&lt;br/&gt;&lt;br/&gt;Dans ce contexte, la description des questions est la suivante :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Intitulé : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Identifiant : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Règle : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Paramètres : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Formule : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Représentation visuelle : standard par défaut&lt;/li&gt;&lt;li&gt;Domaine applicatif : évaluation des enseignements&lt;/li&gt;&lt;li&gt;Propriétés : obligatoire, facultative, valeurs par défaut, type(*).&lt;/li&gt;&lt;li&gt;Relations entre les questions : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Statut : validée(**), rejetée, en attente ou prototype&lt;/li&gt;&lt;li&gt;Période de validité : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Réponses possibles : voir « Réponse au questionnaire d&#39;évaluation » (qual-0002)&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;(*) Type : globale, générique (indépendante de toute activité d&#39;apprentissage, mais spécifique à une dimension) ou spécifique à une activité d&#39;apprentissage particulière.&lt;br/&gt;(**) Toute question ayant un statut « validée » doit respecter la règle rule-0005.&lt;br/&gt;&lt;br/&gt;Pour chaque question, il est possible de spécifier l&#39;appartenance à seul un groupe de questions.&lt;p/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
-			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
-		<div class="ItemBody" id="FlowToTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA141.htm">Mise à jour des critères</a><br />
-						Action &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">[oui]</td>					
+					<td width="30%" class="TableRow" valign="top"><a href="EA126.htm">Gérer la banque des questions</a></td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow59" onclick="parent.toggleDiv('detailsDIVLinkFlow59', 'DetailsImageLinkFlow59')" />Details:
-							<div id="detailsDIVLinkFlow59" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA138.htm">Message d'erreur</a><br />
-						Action &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">[non]</td>					
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow60" onclick="parent.toggleDiv('detailsDIVLinkFlow60', 'DetailsImageLinkFlow60')" />Details:
-							<div id="detailsDIVLinkFlow60" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-			</table>
-		</div>
-		<div class="ItemBody" id="FlowFromTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA147.htm">Vérifier la cohérence des critères</a><br />
-						Action &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow61" onclick="parent.toggleDiv('detailsDIVLinkFlow61', 'DetailsImageLinkFlow61')" />Details:
-							<div id="detailsDIVLinkFlow61" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
+
 			</table>
 		</div>
 	</div>

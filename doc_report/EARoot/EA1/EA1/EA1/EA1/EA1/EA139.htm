@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Message d'erreur</title>
+<title>Gestion des groupes de questions</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Message d&#39;erreur", " : "))</script>  : Public   Action</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gestion des groupes de questions", " : "))</script>  : Public   Collaboration</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">25/08/2015 14:30:18</td>
+			<td width="85%" class="ObjectDetailsValue">24/07/2015 17:00:59</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">25/08/2015 14:30:33</td>
+			<td class="ObjectDetailsValue">6/08/2015 15:51:39</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,65 +87,36 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{5D916C5E-FEBF-4ae0-B877-00884DDDD8E4}</td>
+			<td class="ObjectDetailsValue">{EC52F486-1635-4324-92D6-3B086F64F572}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA60.htm">Éditer la liste de distribution</a></td>
+			<td class="ObjectDetailsValue"><a href="EA120.htm">Administration</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">La gestion des groupes de questions est le processus gérant les dimensions et autres groupes, ainsi que les éventuelles questions à leur associer.&lt;br/&gt;&lt;br/&gt;Dans ce contexte, la description du groupe de questions est la suivante :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Intitulé (multilingue) : à définir parmi les dimensions (qual-0001)&lt;/li&gt;&lt;li&gt;Identifiant : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Règle : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Paramètres : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Formules régissant la gestion du groupe : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Représentation visuelle : standard&lt;/li&gt;&lt;li&gt;Domaine applicatif : évaluation des enseignements&lt;/li&gt;&lt;li&gt;Propriétés : obligatoire, facultatif, valeurs des questions par défaut.&lt;/li&gt;&lt;li&gt;Relations entre les groupes : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Statut : validé(*), rejeté, en attente ou prototype.&lt;/li&gt;&lt;li&gt;Période de validité : à fournir lors de la création&lt;/li&gt;&lt;li&gt;Type de composition : à fournir lors de la création&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;(*) Tout groupe ayant un statut « validé » doit repecter la règle rule-0005 et l&#39;ensemble des questions qui le composent doivent avoir le statut « validé ».&lt;p/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
-			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
-		<div class="ItemBody" id="FlowToTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA160.htm">{anonymous}</a><br />
-						MergeNode &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+					<td width="30%" class="TableRow" valign="top"><a href="EA130.htm">Gérer les groupes de questions</a></td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">=&gt; Spécifique aux évaluations</td>
 				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow66" onclick="parent.toggleDiv('detailsDIVLinkFlow66', 'DetailsImageLinkFlow66')" />Details:
-							<div id="detailsDIVLinkFlow66" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-			</table>
-		</div>
-		<div class="ItemBody" id="FlowFromTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA120.htm">{anonymous}</a><br />
-						MergeNode &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow67" onclick="parent.toggleDiv('detailsDIVLinkFlow67', 'DetailsImageLinkFlow67')" />Details:
-							<div id="detailsDIVLinkFlow67" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
+
 			</table>
 		</div>
 	</div>

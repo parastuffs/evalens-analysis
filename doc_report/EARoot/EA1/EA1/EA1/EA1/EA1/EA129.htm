@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Charger les paramètres</title>
+<title>Gérer les formules des calculs</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Charger les paramètres", " : "))</script>  : Public   Action</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gérer les formules des calculs", " : "))</script>  : Public   UseCase</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">26/08/2015 10:06:02</td>
+			<td width="85%" class="ObjectDetailsValue">16/07/2015 16:05:33</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">26/08/2015 11:46:48</td>
+			<td class="ObjectDetailsValue">11/08/2015 16:34:53</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,41 +87,77 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{646FD77B-65AE-4991-9B96-17A9F4D6A3A4}</td>
+			<td class="ObjectDetailsValue">{2B480A6F-8202-4b57-B62C-DF6A15D82E70}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA60.htm">Éditer la liste de distribution</a></td>
+			<td class="ObjectDetailsValue"><a href="EA120.htm">Administration</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Charge les paramètres à partir de l&#39;objet passé en argument.&lt;br/&gt;S&#39;il l&#39;argument est absent, charge les paramètres par défaut présents dans la session de l&#39;utilisateur.&lt;p/&gt;</div>
+	<div class="ObjectDetailsNotes">Gérer les formules des calculs revient à implémenter des formules pour une entité déterminée, par exemple les qualificatifs.&lt;br/&gt;Toutes les formules ont une période de validité et sont archivées. Elles doivent aussi être testées et validées avant son intégration.&lt;br/&gt;Une formule peut être&#160; le choix d&#39;une fonction programmée,&#160; ou une expression mathématique ou logique fournie par l&#39;utilisateur.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Chaque formule est caractérisée par les éléments suivants :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;intitulé : dénomination de la formule&lt;/li&gt;&lt;li&gt;description&lt;/li&gt;&lt;li&gt;identifiant : permet d&#39;identifier univoquement la formule&lt;/li&gt;&lt;li&gt;domaine applicatif : spécifie la(les) application(s) dans la(les)quelle(s) la formule&#160; peut être utilisée&lt;/li&gt;&lt;li&gt;période de validité : période durant laquelle la formule est utilisable&lt;/li&gt;&lt;li&gt;propriétés : informations variables spécifique à chaque formule, dépendant du domaine applicatif.&lt;/li&gt;&lt;li&gt;expression : fonction programmée ou expression mathématique ou logique&lt;/li&gt;&lt;li&gt;valeurs par défaut à utiliser lorsque la formule est sélectionnée&lt;/li&gt;&lt;li&gt;paramètres nécessaires à l&#39;interprétation de l&#39;expression&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Pour faciliter la mise à jour, les opérations suivantes sont fournies :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Cloner une formule existante&lt;/li&gt;&lt;li&gt;Définir une formule comme modèle utilisable pour créer de nouvelles formules&lt;/li&gt;&lt;li&gt;Périmer une formule à la date du jour&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
-		<div class="ItemBody" id="FlowFromTable">
+		<div class="ItemBody" id="AssociationsFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA152.htm">{anonymous}</a><br />
-						StateNode &nbsp;
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../../../../EA2/EA2/EA1/EA2636.htm">Superviseur</a><br />
+						Actor &nbsp;
 					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
 				</tr>
 				<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow43" onclick="parent.toggleDiv('detailsDIVLinkFlow43', 'DetailsImageLinkFlow43')" />Details:
-							<div id="detailsDIVLinkFlow43" class="DetailsDiv" >
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink6" onclick="parent.toggleDiv('detailsDIVLink6','DetailsImageLink6')" />Details:
+							<div id="detailsDIVLink6" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA123.htm">Administrer l'application</a></td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA138.htm">Gestion des formules des évaluation des enseignements</a></td>
+					<td width="10%" class="TableRow" valign="top">Collaboration</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
 			</table>
 		</div>
 	</div>

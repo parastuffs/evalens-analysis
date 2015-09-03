@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Gestion des qualificatifs des évaluations</title>
+<title>Gérer la banque des questions</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gestion des qualificatifs des évaluations", " : "))</script>  : Public   Collaboration</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gérer la banque des questions", " : "))</script>  : Public   UseCase</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">28/07/2015 14:19:10</td>
+			<td width="85%" class="ObjectDetailsValue">10/07/2015 22:43:20</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">7/08/2015 09:54:12</td>
+			<td class="ObjectDetailsValue">6/08/2015 10:51:45</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -51,7 +51,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue">EvalEns</td>
+			<td class="ObjectDetailsValue">Moulay</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
@@ -87,19 +87,23 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{E9541F3E-46D7-4a63-B8E3-9C722F333AA8}</td>
+			<td class="ObjectDetailsValue">{41A139EF-B786-4360-96D1-331AD1165CEC}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA120.htm">Administration</a></td>
+			<td class="ObjectDetailsValue"><a href="EA134.htm">Administration</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">La gestion des qualificatifs des évaluations est le processus consistant à maintenir la liste des qualificatifs utilisés durant l&#39;évaluation des enseignements.&lt;br/&gt;&lt;br/&gt;Dans ce contexte, les caractéristiques des qualificatifs sont les suivantes :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;intitulé : à sélectionner parmi la &lt;a href=&quot;javascript:top.guidLink(&#39;{07BEEEFC-C805-459e-B357-6A59EA00FA43}&#39;)&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;Liste des qualificatifs&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;domaine applicatif : évaluation des enseignements&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Les caractéristiques suivantes restent à définir :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;description&lt;/li&gt;&lt;li&gt;identifiant&lt;/li&gt;&lt;li&gt;période de validité&lt;/li&gt;&lt;li&gt;propriétés&lt;/li&gt;&lt;li&gt;valeurs par défaut&lt;/li&gt;&lt;li&gt;qualificatif par défaut&lt;/li&gt;&lt;li&gt;représentation visuelle&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+	<div class="ObjectDetailsNotes">Gérer la banque de questions permet de mettre à jour les questions utilisées ou non dans les questionnaires, et de maintenir son historique. Ce processus permet aussi de consulter et filtrer la banque de questions, ainsi que d&#39;y faire une recherche, et ce sur l&#39;ensemble des informations décrivant les questions. Ce processus est du ressort du superviseur.&lt;br/&gt;&lt;br/&gt;Chaque question est décrite par les informations suivantes :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Intitulé (multilingue) : texte ou descriptif de la question&lt;/li&gt;&lt;li&gt;Identifiant : permet d&#39;identifier univoquement une question dans la banque&lt;/li&gt;&lt;li&gt;Règle : procédure ou expression qui régit l&#39;utilisation de la question&lt;/li&gt;&lt;li&gt;Paramètres : décrit l&#39;application de la règle spécifiée&lt;/li&gt;&lt;li&gt;Formule : interprétation du résultat de la réponse&lt;/li&gt;&lt;li&gt;Représentation visuelle : représentation utilisée pour visualiser la question sur les différents supports. Elle est formée sur base d&#39;un texte et d&#39;une typographie fournis par l&#39;utilisateur ou d&#39;une fonction programmée.&lt;/li&gt;&lt;li&gt;Domaine applicatif : spécifie la(les) application(s) dans la(les)quelle(s) la question peut être utilisée&lt;/li&gt;&lt;li&gt;Propriétés : informations variables spécifique à chaque question, dépendant du domaine applicatif.&lt;/li&gt;&lt;li&gt;Relations entre les questions : dépendance, précédence, exclusion mutuelle, etc.&lt;/li&gt;&lt;li&gt;Statut : validée, rejetée, en attente, prototype, etc.&lt;/li&gt;&lt;li&gt;Période de validité : période durant laquelle la question est utilisable.&lt;/li&gt;&lt;li&gt;Réponses possibles : description des réponses possibles&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Pour une question donnée, ce processus fournit aussi les informations suivantes :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Les questions en relation&lt;/li&gt;&lt;li&gt;Les groupes de questions où elle apparaît&lt;/li&gt;&lt;li&gt;Les questionnaires dont elle fait partie&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Pour faciliter la mise à jour, les opérations suivantes sont fournies :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Cloner une question existante&lt;/li&gt;&lt;li&gt;Définir une question comme modèle utilisable pour créer de nouvelles questions&lt;/li&gt;&lt;li&gt;Périmer une question à la date du jour&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('LinkedDocument');" id="LinkedDocumentTitle">Linked Document</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
+		<div class="ItemBody" id="LinkedDocumentTable">
+			<iframe src="../../../../../../linkdocs/EAID_41A139EF_B786_4360_96D1_331AD1165CEC.htm" frameborder="0" id="linkDocIFrame"></iframe>
+		</div>
 		<div class="ItemBody" id="LinksTable">
 			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -110,10 +114,24 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA132.htm">Gérer les listes de qualificatifs</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA163.htm">Réaliser le questionnaire</a></td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA153.htm">Gestion de la banque des questions</a></td>
+					<td width="10%" class="TableRow" valign="top">Collaboration</td>
 					<td width="10%" class="TableRow" valign="top">Realization</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA148.htm">Gérer les groupes de questions</a></td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 

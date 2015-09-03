@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Gérer les droits d'accès</title>
+<title>Gérer les listes de qualificatifs</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gérer les droits d&#39;accès", " : "))</script>  : Public   Activity</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gérer les listes de qualificatifs", " : "))</script>  : Public   UseCase</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">27/08/2015 17:00:36</td>
+			<td width="85%" class="ObjectDetailsValue">16/07/2015 16:12:30</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">27/08/2015 17:00:36</td>
+			<td class="ObjectDetailsValue">11/08/2015 16:35:03</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,32 +87,46 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{5CB3A2E4-0098-4e05-8D75-8C24B011E8F0}</td>
+			<td class="ObjectDetailsValue">{4EC470FF-D8EE-4d21-BB27-7369683D3F7C}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"></td>
+			<td class="ObjectDetailsValue"><a href="EA134.htm">Administration</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">Gérer la liste des qualificatifs consiste à maintenir à jour les différents discriminants utilisés dans l&#39;application, et de maintenir leur historique. Ce processus permet aussi de les consulter et les filtrer, ainsi que d&#39;y faire une recherche, et ce sur l&#39;ensemble des informations décrivant celles-ci.&lt;br/&gt;Le processus garantit la cohérence de chaque qualificatif (rule-0007).&lt;br/&gt;&lt;br/&gt;Chaque qualificatif est caractérisé par les éléments suivants :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;intitulé (multilingue) : dénomination du qualificatif&lt;/li&gt;&lt;li&gt;description (multilingue)&lt;/li&gt;&lt;li&gt;identifiant : permet d&#39;identifier univoquement le qualificatif&lt;/li&gt;&lt;li&gt;domaine applicatif : spécifie la(les) application(s) dans la(les)quelle(s) le qualificatif&#160; peut être utilisé&lt;/li&gt;&lt;li&gt;période de validité : période durant laquelle le qualificatif est utilisable&lt;/li&gt;&lt;li&gt;propriétés : informations variables spécifique à chaque qualificatif, dépendant du domaine applicatif.&lt;/li&gt;&lt;li&gt;valeurs par défaut à utiliser lorsque le qualificatif est sélectionné&lt;/li&gt;&lt;li&gt;ordre d&#39;apparition&lt;/li&gt;&lt;li&gt;qualificatif par défaut : qualificatif à sélectionner par défaut&lt;/li&gt;&lt;li&gt;représentation visuelle : représentation utilisée pour visualiser le qualificatif sur les différents supports.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Pour faciliter la mise à jour, les opérations suivantes sont fournies :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Cloner un qualificatif existant&lt;/li&gt;&lt;li&gt;Définir un qualificatif comme modèle utilisable pour créer de nouveaux qualificatif&lt;/li&gt;&lt;li&gt;Périmer un qualificatif à la date du jour&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
-		<div class="ItemBody" id="CustomPropertiesTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="30%" class="TableHeading">Property</td>
-					<td width="70%" class="TableHeading">Value</td>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
-			<tr>
-				<td width="30%" class="TableRow">isReadOnly:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA137.htm">Administrer l'application</a></td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA160.htm">Gestion des qualificatifs des évaluations</a></td>
+					<td width="10%" class="TableRow" valign="top">Collaboration</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
 
 			</table>
-		</div>	</div>
+		</div>
+	</div>
 <div class="pageFooter"></div>
  
 </body>

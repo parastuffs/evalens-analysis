@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>:Type d'objet</title>
+<title>Charger le contexte</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -33,16 +33,16 @@ function nameClassifier(name, separator)
 <body onload="initPage(this);" class="Content">
 <div class="pageHeader"></div>
 <div class="PageBody">
-	<div id="name_classifier" style="display: none;"><a href="EA1508.htm">Type d'objet</a></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("", " : "))</script>  : Public   ActionPin</span>
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Charger le contexte", " : "))</script>  : Public   Action</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">19/08/2015 13:52:26</td>
+			<td width="85%" class="ObjectDetailsValue">18/08/2015 11:35:53</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">19/08/2015 13:52:26</td>
+			<td class="ObjectDetailsValue">24/08/2015 09:38:39</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,19 +87,43 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{1A78D46E-5074-4df2-B53E-C97F412FA6BF}</td>
+			<td class="ObjectDetailsValue">{3CF2D742-7894-4be2-AF87-03C985CEB565}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"></td>
+			<td class="ObjectDetailsValue"><a href="EA1429.htm">Envoyer les messages</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
 			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
-			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
+		<div class="ItemBody" id="FlowToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA1525.htm">{anonymous}</a><br />
+						MergeNode &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow2239" onclick="parent.toggleDiv('detailsDIVLinkFlow2239', 'DetailsImageLinkFlow2239')" />Details:
+							<div id="detailsDIVLinkFlow2239" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
 		<div class="ItemBody" id="FlowFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -108,15 +132,30 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA1501.htm">type période d'enseignement</a><br />
-						ActionPin &nbsp;
+						<a href="EA1535.htm">{anonymous}</a><br />
+						Decision &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">[contexte]</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow2240" onclick="parent.toggleDiv('detailsDIVLinkFlow2240', 'DetailsImageLinkFlow2240')" />Details:
+							<div id="detailsDIVLinkFlow2240" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA1502.htm">Contexte sélectionné</a><br />
+						Object &nbsp;
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow2338" onclick="parent.toggleDiv('detailsDIVLinkFlow2338', 'DetailsImageLinkFlow2338')" />Details:
-							<div id="detailsDIVLinkFlow2338" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow2241" onclick="parent.toggleDiv('detailsDIVLinkFlow2241', 'DetailsImageLinkFlow2241')" />Details:
+							<div id="detailsDIVLinkFlow2241" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -124,50 +163,7 @@ function nameClassifier(name, separator)
 				</tr>
 			</table>
 		</div>
-		<div class="ItemBody" id="CustomPropertiesTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="30%" class="TableHeading">Property</td>
-					<td width="70%" class="TableHeading">Value</td>
-				</tr>
-			<tr>
-				<td width="30%" class="TableRow">isStream:</td>
-				<td width="70%" class="TableRow">False</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">kind:</td>
-				<td width="70%" class="TableRow">input</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">ordering:</td>
-				<td width="70%" class="TableRow">FIFO</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isControlType:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isException:</td>
-				<td width="70%" class="TableRow">False</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isOrdered:</td>
-				<td width="70%" class="TableRow">0</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isUnique:</td>
-				<td width="70%" class="TableRow">1</td>
-			</tr>
-
-
-			</table>
-		</div>	</div>
+	</div>
 <div class="pageFooter"></div>
  
 </body>

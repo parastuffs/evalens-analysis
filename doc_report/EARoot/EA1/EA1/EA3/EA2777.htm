@@ -1,0 +1,695 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Session de l'utilisateur</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Session de l&#39;utilisateur", " : "))</script>  : Public  &lt;&lt;session&gt;&gt; Object</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">12/08/2015 15:44:35</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">12/08/2015 15:49:03</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">EvalEns</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{84FCC833-66D3-483e-A152-186CF61919B0}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA2731.htm">Ressource access</a>, <a href="../EA1/EA1/EA4/EA2435.htm">Consulter la grille des résultats</a>, <a href="../EA1/EA1/EA4/EA2439.htm">Consulter les détails d'une entité d'enseignement</a>, <a href="../EA1/EA1/EA4/EA2441.htm">Consulter les résultats par entité pédagogique</a>, <a href="../EA1/EA1/EA4/EA2437.htm">Consulter le tableau de bord</a>, <a href="../EA1/EA1/EA4/EA2445.htm">Présenter le tableau de bord</a>, <a href="../EA1/EA1/EA4/EA2443.htm">Établir un avis de circonstance</a>, <a href="../EA1/EA1/EA2/EA1433.htm">Gérer la campagne</a>, <a href="../EA1/EA1/EA2/EA1437.htm">Gérer le support aux utilisateurs</a>, <a href="../EA1/EA1/EA2/EA1417.htm">Éditer une période</a>, <a href="../EA1/EA1/EA2/EA1415.htm">Éditer une demande de support</a>, <a href="EA2729.htm">Éditer la collection d'éléments</a>, <a href="../EA1/EA1/EA1/EA118.htm">Gérer les listes de distribution</a>, <a href="../EA1/EA1/EA2/EA1419.htm">Éditer une publication</a>, <a href="../EA1/EA1/EA1/EA100.htm">Gérer la banque de questions</a>, <a href="../EA1/EA1/EA1/EA96.htm">Éditer une question</a>, <a href="../EA1/EA1/EA1/EA116.htm">Gérer les groupes de questions</a>, <a href="../EA1/EA1/EA1/EA78.htm">Éditer un groupe de questions</a>, <a href="../EA1/EA1/EA1/EA130.htm">Réaliser le questionnaire</a>, <a href="../EA1/EA1/EA1/EA84.htm">Éditer un questionnaire</a>, <a href="../EA1/EA1/EA1/EA108.htm">Gérer les définitions des objets des questionnaires</a>, <a href="../EA1/EA1/EA1/EA120.htm">Gérer les listes de qualificatifs</a>, <a href="../EA1/EA1/EA1/EA82.htm">Éditer un qualificatif</a>, <a href="../EA1/EA1/EA1/EA124.htm">Gérer les modèles</a>, <a href="EA2735.htm">Spécifier les propriétés</a></td>
+		</tr>
+	</table>
+	
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
+			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
+		</ul>
+		<div class="ItemBody" id="FlowToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA4/EA2621.htm">Tableau de bord par défaut</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4079" onclick="parent.toggleDiv('detailsDIVLinkFlow4079', 'DetailsImageLinkFlow4079')" />Details:
+							<div id="detailsDIVLinkFlow4079" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA2769.htm">Chercher le profil de l'utilisateur</a><br />
+						Action &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4080" onclick="parent.toggleDiv('detailsDIVLinkFlow4080', 'DetailsImageLinkFlow4080')" />Details:
+							<div id="detailsDIVLinkFlow4080" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA2801.htm">historique</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4081" onclick="parent.toggleDiv('detailsDIVLinkFlow4081', 'DetailsImageLinkFlow4081')" />Details:
+							<div id="detailsDIVLinkFlow4081" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA2790.htm">Profil utilisateur</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4082" onclick="parent.toggleDiv('detailsDIVLinkFlow4082', 'DetailsImageLinkFlow4082')" />Details:
+							<div id="detailsDIVLinkFlow4082" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA4/EA2545.htm">UE enseignées</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4083" onclick="parent.toggleDiv('detailsDIVLinkFlow4083', 'DetailsImageLinkFlow4083')" />Details:
+							<div id="detailsDIVLinkFlow4083" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA4/EA2544.htm">commission de l'utilisateur</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4084" onclick="parent.toggleDiv('detailsDIVLinkFlow4084', 'DetailsImageLinkFlow4084')" />Details:
+							<div id="detailsDIVLinkFlow4084" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA4/EA2462.htm">campagne</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4085" onclick="parent.toggleDiv('detailsDIVLinkFlow4085', 'DetailsImageLinkFlow4085')" />Details:
+							<div id="detailsDIVLinkFlow4085" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA4/EA2591.htm">Campagne</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4086" onclick="parent.toggleDiv('detailsDIVLinkFlow4086', 'DetailsImageLinkFlow4086')" />Details:
+							<div id="detailsDIVLinkFlow4086" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA4/EA2603.htm">historique</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4087" onclick="parent.toggleDiv('detailsDIVLinkFlow4087', 'DetailsImageLinkFlow4087')" />Details:
+							<div id="detailsDIVLinkFlow4087" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA4/EA2619.htm">campagne</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4088" onclick="parent.toggleDiv('detailsDIVLinkFlow4088', 'DetailsImageLinkFlow4088')" />Details:
+							<div id="detailsDIVLinkFlow4088" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA4/EA2706.htm">filtre</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4089" onclick="parent.toggleDiv('detailsDIVLinkFlow4089', 'DetailsImageLinkFlow4089')" />Details:
+							<div id="detailsDIVLinkFlow4089" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA2/EA1717.htm">campagne [in]</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4090" onclick="parent.toggleDiv('detailsDIVLinkFlow4090', 'DetailsImageLinkFlow4090')" />Details:
+							<div id="detailsDIVLinkFlow4090" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA1/EA460.htm">Paramètres par défaut</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4091" onclick="parent.toggleDiv('detailsDIVLinkFlow4091', 'DetailsImageLinkFlow4091')" />Details:
+							<div id="detailsDIVLinkFlow4091" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA2/EA1877.htm">Données par défaut</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4092" onclick="parent.toggleDiv('detailsDIVLinkFlow4092', 'DetailsImageLinkFlow4092')" />Details:
+							<div id="detailsDIVLinkFlow4092" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA1/EA456.htm">Données par défaut</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4093" onclick="parent.toggleDiv('detailsDIVLinkFlow4093', 'DetailsImageLinkFlow4093')" />Details:
+							<div id="detailsDIVLinkFlow4093" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA1/EA1094.htm">Paramètres par défaut</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4094" onclick="parent.toggleDiv('detailsDIVLinkFlow4094', 'DetailsImageLinkFlow4094')" />Details:
+							<div id="detailsDIVLinkFlow4094" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA1/EA496.htm">Paramètres par défaut</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4095" onclick="parent.toggleDiv('detailsDIVLinkFlow4095', 'DetailsImageLinkFlow4095')" />Details:
+							<div id="detailsDIVLinkFlow4095" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA1/EA226.htm">Paramètres par défaut</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4096" onclick="parent.toggleDiv('detailsDIVLinkFlow4096', 'DetailsImageLinkFlow4096')" />Details:
+							<div id="detailsDIVLinkFlow4096" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA2/EA2064.htm">Demande par défaut</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4097" onclick="parent.toggleDiv('detailsDIVLinkFlow4097', 'DetailsImageLinkFlow4097')" />Details:
+							<div id="detailsDIVLinkFlow4097" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA2/EA2013.htm">[in][Session utilisateur] Campagne</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4098" onclick="parent.toggleDiv('detailsDIVLinkFlow4098', 'DetailsImageLinkFlow4098')" />Details:
+							<div id="detailsDIVLinkFlow4098" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA2/EA2016.htm">filtres par défaut</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4099" onclick="parent.toggleDiv('detailsDIVLinkFlow4099', 'DetailsImageLinkFlow4099')" />Details:
+							<div id="detailsDIVLinkFlow4099" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA2/EA2085.htm">Type par défaut</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4100" onclick="parent.toggleDiv('detailsDIVLinkFlow4100', 'DetailsImageLinkFlow4100')" />Details:
+							<div id="detailsDIVLinkFlow4100" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA2/EA2113.htm">Données par défaut</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4101" onclick="parent.toggleDiv('detailsDIVLinkFlow4101', 'DetailsImageLinkFlow4101')" />Details:
+							<div id="detailsDIVLinkFlow4101" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA2876.htm">Paramètres par défaut</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4102" onclick="parent.toggleDiv('detailsDIVLinkFlow4102', 'DetailsImageLinkFlow4102')" />Details:
+							<div id="detailsDIVLinkFlow4102" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA1/EA271.htm">Paramètres par défaut</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4103" onclick="parent.toggleDiv('detailsDIVLinkFlow4103', 'DetailsImageLinkFlow4103')" />Details:
+							<div id="detailsDIVLinkFlow4103" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA1/EA297.htm">Données pas défaut</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4104" onclick="parent.toggleDiv('detailsDIVLinkFlow4104', 'DetailsImageLinkFlow4104')" />Details:
+							<div id="detailsDIVLinkFlow4104" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA1/EA359.htm">Paramètres par défaut</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4105" onclick="parent.toggleDiv('detailsDIVLinkFlow4105', 'DetailsImageLinkFlow4105')" />Details:
+							<div id="detailsDIVLinkFlow4105" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA1/EA373.htm">Données par défaut</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4106" onclick="parent.toggleDiv('detailsDIVLinkFlow4106', 'DetailsImageLinkFlow4106')" />Details:
+							<div id="detailsDIVLinkFlow4106" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA1/EA558.htm">Données par défaut</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4107" onclick="parent.toggleDiv('detailsDIVLinkFlow4107', 'DetailsImageLinkFlow4107')" />Details:
+							<div id="detailsDIVLinkFlow4107" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA1/EA608.htm">Paramètres par défaut</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4108" onclick="parent.toggleDiv('detailsDIVLinkFlow4108', 'DetailsImageLinkFlow4108')" />Details:
+							<div id="detailsDIVLinkFlow4108" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA2925.htm">Données par défaut</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4109" onclick="parent.toggleDiv('detailsDIVLinkFlow4109', 'DetailsImageLinkFlow4109')" />Details:
+							<div id="detailsDIVLinkFlow4109" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="ItemBody" id="FlowFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA2802.htm">ID ressource</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4110" onclick="parent.toggleDiv('detailsDIVLinkFlow4110', 'DetailsImageLinkFlow4110')" />Details:
+							<div id="detailsDIVLinkFlow4110" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA2800.htm">Paramètres ressource</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4111" onclick="parent.toggleDiv('detailsDIVLinkFlow4111', 'DetailsImageLinkFlow4111')" />Details:
+							<div id="detailsDIVLinkFlow4111" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA2794.htm">Paramètres app</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4112" onclick="parent.toggleDiv('detailsDIVLinkFlow4112', 'DetailsImageLinkFlow4112')" />Details:
+							<div id="detailsDIVLinkFlow4112" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA2799.htm">Profil utilisateur</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4113" onclick="parent.toggleDiv('detailsDIVLinkFlow4113', 'DetailsImageLinkFlow4113')" />Details:
+							<div id="detailsDIVLinkFlow4113" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="./EA1/EA2930.htm">campagne</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4114" onclick="parent.toggleDiv('detailsDIVLinkFlow4114', 'DetailsImageLinkFlow4114')" />Details:
+							<div id="detailsDIVLinkFlow4114" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA4/EA2660.htm">campagne</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">update</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4115" onclick="parent.toggleDiv('detailsDIVLinkFlow4115', 'DetailsImageLinkFlow4115')" />Details:
+							<div id="detailsDIVLinkFlow4115" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../EA1/EA1/EA4/EA2712.htm">filtre</a><br />
+						ActionPin &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">update</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow4116" onclick="parent.toggleDiv('detailsDIVLinkFlow4116', 'DetailsImageLinkFlow4116')" />Details:
+							<div id="detailsDIVLinkFlow4116" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

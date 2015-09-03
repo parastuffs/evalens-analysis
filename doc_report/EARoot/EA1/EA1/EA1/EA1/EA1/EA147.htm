@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Gérer les formules des calculs</title>
+<title>Gérer les définitions des sujets des questionnaires</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gérer les formules des calculs", " : "))</script>  : Public   UseCase</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gérer les définitions des sujets des questionnaires", " : "))</script>  : Public   UseCase</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">16/07/2015 16:05:33</td>
+			<td width="85%" class="ObjectDetailsValue">13/07/2015 09:43:10</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">11/08/2015 16:34:53</td>
+			<td class="ObjectDetailsValue">3/09/2015 16:09:04</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,20 +87,24 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{2B480A6F-8202-4b57-B62C-DF6A15D82E70}</td>
+			<td class="ObjectDetailsValue">{01561412-C632-42de-8417-DD320EFFDBF7}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
 			<td class="ObjectDetailsValue"><a href="EA134.htm">Administration</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Gérer les formules des calculs revient à implémenter des formules pour une entité déterminée, par exemple les qualificatifs.&lt;br/&gt;Toutes les formules ont une période de validité et sont archivées. Elles doivent aussi être testées et validées avant son intégration.&lt;br/&gt;Une formule peut être&#160; le choix d&#39;une fonction programmée,&#160; ou une expression mathématique ou logique fournie par l&#39;utilisateur.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Chaque formule est caractérisée par les éléments suivants :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;intitulé : dénomination de la formule&lt;/li&gt;&lt;li&gt;description&lt;/li&gt;&lt;li&gt;identifiant : permet d&#39;identifier univoquement la formule&lt;/li&gt;&lt;li&gt;domaine applicatif : spécifie la(les) application(s) dans la(les)quelle(s) la formule&#160; peut être utilisée&lt;/li&gt;&lt;li&gt;période de validité : période durant laquelle la formule est utilisable&lt;/li&gt;&lt;li&gt;propriétés : informations variables spécifique à chaque formule, dépendant du domaine applicatif.&lt;/li&gt;&lt;li&gt;expression : fonction programmée ou expression mathématique ou logique&lt;/li&gt;&lt;li&gt;valeurs par défaut à utiliser lorsque la formule est sélectionnée&lt;/li&gt;&lt;li&gt;paramètres nécessaires à l&#39;interprétation de l&#39;expression&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Pour faciliter la mise à jour, les opérations suivantes sont fournies :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Cloner une formule existante&lt;/li&gt;&lt;li&gt;Définir une formule comme modèle utilisable pour créer de nouvelles formules&lt;/li&gt;&lt;li&gt;Périmer une formule à la date du jour&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+	<div class="ObjectDetailsNotes">Gérer les définitions des sujets des questionnaires permet au superviseur de définir les caractéristiques d&#39;une population cible dans un domaine applicatif, et de maintenir leur historique. Ce processus permet aussi de consulter et filtrer les définitions des sujets, ainsi que d&#39;y faire une recherche, et ce sur l&#39;ensemble des informations décrivant celles-ci. Ce processus est du ressort du superviseur.&lt;br/&gt;Le processus garantit la cohérence de chaque définition.&lt;br/&gt;&lt;br/&gt;Les caractéristiques de chaque définition des sujets sont les suivantes :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;intitulé : dénomination de la définition&lt;/li&gt;&lt;li&gt;description&lt;/li&gt;&lt;li&gt;identifiant : permet d&#39;identifier univoquement la définition&lt;/li&gt;&lt;li&gt;types : type de sujet défini&lt;/li&gt;&lt;li&gt;règles : procédure ou expression qui régit l&#39;utilisation de la définition&lt;/li&gt;&lt;li&gt;paramètres nécessaires à l&#39;interprétation des règles&lt;/li&gt;&lt;li&gt;exceptions : liste de sujets à exclure ou inclure (spécifiée manuellement ou importée), n&#39;étant pas couverts par la règle&lt;/li&gt;&lt;li&gt;période de validité : période durant laquelle la définition est utilisable.&lt;/li&gt;&lt;li&gt;propriétés :&#160; informations variables spécifique à chaque définition, dépendant du domaine applicatif.&lt;/li&gt;&lt;li&gt;domaine applicatif : spécifie la(les) application(s) dans la(les)quelle(s) la définition peut être utilisée&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Pour une définition donnée, ce processus fournit aussi les informations suivantes :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Les questionnaires en relation&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Pour faciliter la mise à jour, les opérations suivantes sont fournies :&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Cloner une définition existante&lt;/li&gt;&lt;li&gt;Définir une définition comme modèle utilisable pour créer de nouvelles définitions&lt;/li&gt;&lt;li&gt;Périmer une définition à la date du jour&lt;/li&gt;&lt;li&gt;Appliquer la définition et exporter les résultats&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('LinkedDocument');" id="LinkedDocumentTitle">Linked Document</li>
 			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
+		<div class="ItemBody" id="LinkedDocumentTable">
+			<iframe src="../../../../../../linkdocs/EAID_01561412_C632_42de_8417_DD320EFFDBF7.htm" frameborder="0" id="linkDocIFrame"></iframe>
+		</div>
 		<div class="ItemBody" id="AssociationsFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -110,7 +114,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../../../../EA2/EA2/EA1/EA2962.htm">Superviseur</a><br />
+						<a href="../../../../../EA2/EA2/EA1/EA2963.htm">Superviseur</a><br />
 						Actor &nbsp;
 					</td>
 					<td width="30%" class="TableRow" valign="top">
@@ -124,8 +128,8 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink8" onclick="parent.toggleDiv('detailsDIVLink8','DetailsImageLink8')" />Details:
-							<div id="detailsDIVLink8" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink7" onclick="parent.toggleDiv('detailsDIVLink7','DetailsImageLink7')" />Details:
+							<div id="detailsDIVLink7" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -144,14 +148,7 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA137.htm">Administrer l'application</a></td>
-					<td width="10%" class="TableRow" valign="top">UseCase</td>
-					<td width="10%" class="TableRow" valign="top">Dependency</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA156.htm">Gestion des formules des évaluation des enseignements</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA156.htm">Gestion des étudiants</a></td>
 					<td width="10%" class="TableRow" valign="top">Collaboration</td>
 					<td width="10%" class="TableRow" valign="top">Realization</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
